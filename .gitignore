@@ -1,0 +1,9 @@
+*.db
+*.db-wal
+*.db-shm
+.env
+secrets/
+data/raw/
+data/exports/
+__pycache__/
+.venv/
