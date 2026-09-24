@@ -1,0 +1,29 @@
+source_priority:
+  - government_registry
+  - certification_registry
+  - supplier_website
+  - b2b_marketplace
+  - trade_portal
+  - price_index
+  - industry_news
+
+verification:
+  organic_requires:
+    - certification_body
+    - certificate_or_registry_reference
+    - supplier_identity_match
+  wholesale_requires_one_of:
+    - moq
+    - pallet_quantity
+    - bulk_packaging
+    - industrial_product_description
+  reject_if:
+    - retail_only
+    - fresh_only
+    - no_product_evidence
+    - organic_claim_without_verification
+
+status_rules:
+  unseen_after_days: 14
+  first_action: needs_recheck
+  confirmed_inactive_requires_second_check: true
