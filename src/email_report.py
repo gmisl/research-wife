@@ -9,10 +9,12 @@ from pathlib import Path
 from collections import defaultdict
 
 from .stats import calculate_weekly_stats
+from .report import load_candidate_price_signals
 
 
-def build_email(connection: sqlite3.Connection) -> str:
+def build_email(connection: sqlite3.Connection, candidate_path: Path = Path('data/initial_candidates.json')) -> str:
     stats = calculate_weekly_stats(connection)
+    candidate_prices = load_candidate_price_signals(candidate_path)
     suppliers = connection.execute("SELECT COUNT(*) FROM suppliers WHERE status <> 'rejected'").fetchone()[0]
     verified_suppliers = connection.execute("SELECT COUNT(*) FROM suppliers WHERE status = 'active'").fetchone()[0]
     unverified_leads = connection.execute("SELECT COUNT(*) FROM suppliers WHERE status = 'unverified'").fetchone()[0]
@@ -23,6 +25,12 @@ def build_email(connection: sqlite3.Connection) -> str:
         country = row.country_code or 'EU'
         lines.append(f'<tr><td>{escape(row.week_start)}</td><td>{escape(country)}</td><td>{escape(row.category_name)}</td><td>€{row.avg_price_eur:.2f}</td><td>{change}</td><td>{row.sample_count}</td></tr>')
     table = ''.join(lines) or '<tr><td colspan="6">No comparable wholesale prices collected yet.</td></tr>'
+    lead_price_table = ''.join(
+        f'<tr><td>{escape(row["date"])}</td><td>{escape(row["country_code"])}</td>'
+        f'<td>{escape(row["legal_name"])}</td><td>{escape(row["description"])}</td>'
+        f'<td>€{row["price"]:.2f} {escape(row["unit"])}</td></tr>'
+        for row in candidate_prices
+    ) or '<tr><td colspan="5">No published candidate price signals.</td></tr>'
     weeks = sorted({row.week_start for row in stats})
     series = defaultdict(list)
     for row in stats:
@@ -51,6 +59,9 @@ def build_email(connection: sqlite3.Connection) -> str:
 <h3>Price movement</h3>{chart}
 <table cellpadding="8" cellspacing="0" border="1" style="border-collapse:collapse">
 <tr><th>Week</th><th>Country</th><th>Product</th><th>Average</th><th>Change</th><th>Samples</th></tr>{table}</table>
+<h3>Published candidate price signals (excluded from verified statistics)</h3>
+<table cellpadding="8" cellspacing="0" border="1" style="border-collapse:collapse">
+<tr><th>Date</th><th>Country</th><th>Supplier</th><th>Product</th><th>Price</th></tr>{lead_price_table}</table>
 <p style="color:#667">Delivery costs are not added. Retail and unverified organic records are excluded from price statistics.</p>
 </body></html>'''
 
