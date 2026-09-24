@@ -15,7 +15,6 @@ def main() -> None:
     parser.add_argument('--input', default='data/initial_candidates.json')
     args = parser.parse_args()
     candidates = json.loads(Path(args.input).read_text(encoding='utf-8'))
-    now = datetime.now(timezone.utc).isoformat()
     with sqlite3.connect(args.database) as db:
         for item in candidates:
             db.execute(
@@ -39,7 +38,9 @@ def main() -> None:
             if not product_id:
                 db.execute(
                     "INSERT INTO products(product_family,category_code,category_name,frozen,form) VALUES(?,?,?,?,?)",
-                    (item['product_family'],item['category_code'],item['product_description'],1,'block'),
+                    (item['product_family'],item['category_code'],item['product_description'],
+                     int(bool(item.get('frozen_evidence'))),
+                     'block' if 'block' in item['category_code'] else ('bulk' if 'bulk' in item['category_code'] else 'other')),
                 )
                 product_id = (db.execute('SELECT last_insert_rowid()').fetchone()[0],)
             db.execute(
@@ -47,8 +48,17 @@ def main() -> None:
                 (supplier_id,product_id,product_description,pallet_weight_kg,wholesale_evidence,
                  availability_status,first_seen_at,last_seen_at)
                 VALUES(?,?,?,?,?,?,?,?)""",
-                (supplier_id,product_id[0],item['product_description'],570,1,'unverified',item['checked_at'],item['checked_at']),
+                (supplier_id,product_id[0],item['product_description'],item.get('pallet_weight_kg'),
+                 int(bool(item.get('wholesale_evidence'))),'unverified',item['checked_at'],item['checked_at']),
             )
+            body = item.get('organic_certification_body')
+            if body:
+                db.execute(
+                    """INSERT OR IGNORE INTO certifications
+                    (supplier_id,certification_scheme,certification_body,certificate_number,status,verified_at)
+                    VALUES(?,?,?,?,?,?)""",
+                    (supplier_id,'EU organic',body,item.get('certificate_number'),'unverified',None),
+                )
             for url in item['sources']:
                 db.execute(
                     "INSERT OR IGNORE INTO evidence_sources(url,canonical_url,domain,source_type,country_code,retrieved_at,reliability_score) VALUES(?,?,?,?,?,?,?)",
@@ -61,11 +71,14 @@ def main() -> None:
                 )
             if item.get('price',{}).get('price_status') == 'published':
                 price = item['price']
+                price_eur = price.get('price_eur')
+                if price_eur is None and price.get('currency') == 'EUR':
+                    price_eur = price.get('value')
                 db.execute(
                     """INSERT INTO prices
                     (supplier_id,product_id,price_status,price_value,price_currency,price_eur,price_unit,price_date,is_wholesale,vat_status,notes)
                     VALUES(?,?,?,?,?,?,?,?,?,?,?)""",
-                    (supplier_id,product_id[0],'published',price['value'],price['currency'],price['value'],price['unit'],item['checked_at'],1,'excluded',item.get('notes')),
+                    (supplier_id,product_id[0],'published',price['value'],price['currency'],price_eur,price['unit'],item['checked_at'],1,'excluded',item.get('notes')),
                 )
         db.commit()
     print(f'Imported {len(candidates)} candidates into {args.database}')

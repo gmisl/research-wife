@@ -14,6 +14,8 @@ from .stats import calculate_weekly_stats
 def build_email(connection: sqlite3.Connection) -> str:
     stats = calculate_weekly_stats(connection)
     suppliers = connection.execute("SELECT COUNT(*) FROM suppliers WHERE status <> 'rejected'").fetchone()[0]
+    verified_suppliers = connection.execute("SELECT COUNT(*) FROM suppliers WHERE status = 'active'").fetchone()[0]
+    unverified_leads = connection.execute("SELECT COUNT(*) FROM suppliers WHERE status = 'unverified'").fetchone()[0]
     new_suppliers = connection.execute("SELECT COUNT(*) FROM suppliers WHERE status = 'new'").fetchone()[0]
     lines = []
     for row in stats[-10:]:
@@ -45,7 +47,7 @@ def build_email(connection: sqlite3.Connection) -> str:
         chart = '<p>No chart data yet.</p>'
     return f'''<!doctype html><html><body style="font-family:Arial,sans-serif;color:#17212b">
 <h2>Organic EU Meat Research — Weekly Update</h2>
-<p>Verified/recorded suppliers: <b>{suppliers}</b> · New candidates: <b>{new_suppliers}</b></p>
+<p>Verified suppliers: <b>{verified_suppliers}</b> · Recorded suppliers/leads: <b>{suppliers}</b> · Unverified leads: <b>{unverified_leads}</b> · New candidates: <b>{new_suppliers}</b></p>
 <h3>Price movement</h3>{chart}
 <table cellpadding="8" cellspacing="0" border="1" style="border-collapse:collapse">
 <tr><th>Week</th><th>Country</th><th>Product</th><th>Average</th><th>Change</th><th>Samples</th></tr>{table}</table>
