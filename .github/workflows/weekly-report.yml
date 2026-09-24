@@ -38,6 +38,7 @@ jobs:
           python -m src.import_candidates --database data/research-wife.db --input data/initial_candidates.json
           python -m src.report --database data/research-wife.db --output data/exports/dashboard.html
           python -m src.email_report --database data/research-wife.db --output data/exports/weekly-email.html
+          cp data/exports/dashboard.html data/exports/index.html
 
       - name: Send email when SMTP secrets are configured
         env:
