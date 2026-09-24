@@ -1,0 +1,59 @@
+{
+  "run_date": "2026-09-22",
+  "scope": "EU organic frozen minced beef and chicken suppliers",
+  "method": "Official-site-first web research; Gemini cloud browser tested as supplementary discovery tool",
+  "gemini_result": "Broad 27-country request did not return usable results; no supplier was accepted from Gemini alone.",
+  "accepted_as_verified": [],
+  "candidate_count_added": 2,
+  "candidate_count_existing": 1,
+  "sources_checked": [
+    {
+      "name": "ActiMeat organic cooked minced beef",
+      "country": "FR",
+      "outcome": "unverified candidate",
+      "reason": "Strong pallet and price evidence, but certificate body/number still needs independent verification; product is cooked and must be separated from raw-minced statistics.",
+      "url": "https://store.actimeat.com/en/produit/cooked-organic-beef-25-fat/"
+    },
+    {
+      "name": "Alcass / Amica Natura organic frozen ground beef",
+      "country": "IT",
+      "outcome": "unverified lead",
+      "reason": "Official organic frozen food-service product evidence; no public multi-pallet MOQ or certificate number found.",
+      "url": "https://www.amicanatura.it/prodotti/macinato-bovino-bio-amica-natura-vassoio-da-400-g-2/?lang=en"
+    },
+    {
+      "name": "WestfalenLand / WestFood-IceHouse",
+      "country": "DE",
+      "outcome": "unverified lead",
+      "reason": "Industrial business-to-business processor with Bio minced meat and frozen range; exact organic frozen minced block SKU, pallet conditions and certificate still need verification.",
+      "url": "https://www.westfalenland.de/produktvielfalt"
+    },
+    {
+      "name": "Biofino",
+      "country": "DE",
+      "outcome": "not accepted",
+      "reason": "Official organic poultry evidence found, but no qualifying pure frozen minced chicken bulk product was located; available poultry mince evidence concerns a turkey/chicken mix and lacks pallet/MOQ proof.",
+      "url": "https://www.biopolar.de/en/frozen-food/poultry-mince/"
+    },
+    {
+      "name": "Bauckhof / Bio-Hoflieferant",
+      "country": "DE",
+      "outcome": "not accepted",
+      "reason": "Pure frozen organic chicken mince and DE-ÖKO-022 evidence are visible, but the offer is consumer-sized 2 x 250 g packaging with no industrial or pallet evidence.",
+      "url": "https://www.bio-hoflieferant.de/products/haehnchenhack"
+    },
+    {
+      "name": "Bio Rind & Fleisch EZG GmbH",
+      "country": "DE",
+      "outcome": "lead only",
+      "reason": "Official site confirms organic beef and wholesale activity, but no frozen minced beef product evidence was found on the public pages.",
+      "url": "https://biorind.de/"
+    }
+  ],
+  "next_actions": [
+    "Search independent EU organic certification registries for the two strongest leads.",
+    "Locate product catalogues/specifications for bulk or pallet packaging.",
+    "Expand country-by-country searches using local-language query matrix.",
+    "Add only independently verified products to price and trend aggregates."
+  ]
+}

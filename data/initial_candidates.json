@@ -1,0 +1,35 @@
+[
+  {
+    "legal_name": "ActiMeat",
+    "country_code": "FR",
+    "supplier_type": "processor",
+    "priority_class": "primary",
+    "product_family": "beef",
+    "category_code": "frozen_minced_beef_blocks",
+    "product_description": "Cooked organic minced beef, 25% fat, 8 mm, IQF frozen, 10 kg bags",
+    "organic_status": "official audited organic/AB handling stated; certificate body/number not public",
+    "frozen_evidence": "IQF deep-frozen",
+    "wholesale_evidence": "300 kg half-pallet; 570 kg pallet",
+    "price": {
+      "value": 9.0,
+      "currency": "EUR",
+      "unit": "EUR/kg",
+      "price_condition": "HT/ex VAT; pallet quantity",
+      "price_status": "published"
+    },
+    "official_contact": {
+      "website": "https://www.actimeat.com/",
+      "email": "store@actimeat.com",
+      "phone": "+33 4 92 87 57 60",
+      "address": "F11 - ZI Saint Maurice, 04100 Manosque, France"
+    },
+    "status": "unverified",
+    "missing_fields": ["organic certification body", "certificate number", "confirmation that cooked product meets buyer's raw-minced requirement"],
+    "checked_at": "2026-09-22",
+    "sources": [
+      "https://store.actimeat.com/en/produit/cooked-organic-beef-25-fat/",
+      "https://www.actimeat.com/contact-en/"
+    ],
+    "notes": "Strong industrial/pallet and price evidence. Official quality pages confirm audited organic/AB handling, but certificate body/number is not public. Keep as a candidate and separate cooked product from raw minced beef statistics."
+  }
+]

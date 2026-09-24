@@ -1,0 +1,58 @@
+[
+  {
+    "legal_name": "Alcass S.p.A. / Amica Natura",
+    "country_code": "IT",
+    "supplier_type": "producer",
+    "priority_class": "primary",
+    "product_family": "beef",
+    "candidate_category": "frozen_minced_beef",
+    "evidence_summary": "Official product page states organic frozen IQF ground beef for food service; 1 kg bags, 5 kg cartons; official address, phone and email published.",
+    "official_contact": {
+      "website": "https://www.amicanatura.it/",
+      "email": "info@amicanatura.it",
+      "phone": "+39 030 6872 108",
+      "address": "Via Caselle 2, 25081 Bedizzole (BS), Italy"
+    },
+    "status": "unverified",
+    "certification_body": "BioAgricert",
+    "missing_fields": [
+      "multiple-pallet/MOQ evidence",
+      "certificate number or public certificate lookup result",
+      "confirmation that supply is suitable for industrial wholesale rather than food-service cartons only"
+    ],
+    "checked_at": "2026-09-22",
+    "sources": [
+      "https://www.amicanatura.it/prodotti/macinato-bovino-bio-amica-natura-vassoio-da-400-g-2/?lang=en"
+    ],
+    "notes": "Keep as a high-quality producer lead. Do not include in verified supplier counts or price statistics until pallet/MOQ and independent certification evidence are found."
+  },
+  {
+    "legal_name": "Westfalenland Fleischwaren GmbH / WestFood-IceHouse",
+    "country_code": "DE",
+    "supplier_type": "processor",
+    "priority_class": "primary",
+    "product_family": "beef",
+    "candidate_category": "frozen_minced_beef_blocks",
+    "evidence_summary": "Official site identifies a German meat processor serving business customers and industry partners, with frozen-food expertise, Bio minced meat and frozen premium Bio burger products. Exact organic frozen minced block SKU and pallet conditions are not yet public.",
+    "official_contact": {
+      "website": "https://www.westfalenland.de/en/",
+      "email": "info@westfalenland.de",
+      "phone": "+49 251 20836-0",
+      "address": "Hessenweg 2, D-48157 Münster, Germany"
+    },
+    "status": "unverified",
+    "missing_fields": [
+      "exact frozen organic minced beef block SKU",
+      "packaging and multiple-pallet/MOQ evidence",
+      "organic certification body and certificate number",
+      "public wholesale price"
+    ],
+    "checked_at": "2026-09-22",
+    "sources": [
+      "https://www.westfalenland.de/en/",
+      "https://www.westfalenland.de/produktvielfalt",
+      "https://www.westfalenland.de/fileadmin/user_upload/Westfalenland/pdfs/Westfood_Produkt_PDFs/produktdatenblatt_tk-hackfleisch-vom-rind_westfood.pdf"
+    ],
+    "notes": "Strong industrial producer lead, but current evidence is insufficient for the requested product-level verification."
+  }
+]
