@@ -1,0 +1,86 @@
+[
+  {
+    "legal_name": "ActiMeat",
+    "country_code": "FR",
+    "supplier_type": "processor",
+    "priority_class": "primary",
+    "product_family": "beef",
+    "category_code": "frozen_minced_beef_blocks",
+    "product_description": "Cooked organic minced beef, 25% fat, 8 mm, IQF frozen, 10 kg bags",
+    "organic_status": "official audited organic/AB handling stated; certificate body/number not public",
+    "frozen_evidence": "IQF deep-frozen",
+    "wholesale_evidence": "300 kg half-pallet; 570 kg pallet",
+    "price": {
+      "value": 9.0,
+      "currency": "EUR",
+      "unit": "EUR/kg",
+      "price_condition": "HT/ex VAT; pallet quantity",
+      "price_status": "published"
+    },
+    "official_contact": {
+      "website": "https://www.actimeat.com/",
+      "email": "store@actimeat.com",
+      "phone": "+33 4 92 87 57 60",
+      "address": "F11 - ZI Saint Maurice, 04100 Manosque, France"
+    },
+    "status": "unverified",
+    "missing_fields": ["organic certification body", "certificate number", "confirmation that cooked product meets buyer's raw-minced requirement"],
+    "checked_at": "2026-09-22",
+    "sources": [
+      "https://store.actimeat.com/en/produit/cooked-organic-beef-25-fat/",
+      "https://www.actimeat.com/contact-en/"
+    ],
+    "notes": "Strong industrial/pallet and price evidence. Official quality pages confirm audited organic/AB handling, but certificate body/number is not public. Keep as a candidate and separate cooked product from raw minced beef statistics."
+  },
+  {
+    "legal_name": "Alcass S.p.A. / Amica Natura",
+    "country_code": "IT",
+    "supplier_type": "producer",
+    "priority_class": "primary",
+    "product_family": "beef",
+    "category_code": "frozen_minced_beef",
+    "product_description": "Organic frozen IQF ground beef for food service; 1 kg bags and 5 kg cartons",
+    "organic_status": "BioAgricert certification stated; certificate number not public",
+    "organic_certification_body": "BioAgricert",
+    "frozen_evidence": "Official product page states frozen IQF ground beef",
+    "wholesale_evidence": "Official site identifies food service, industry and private-label channels; pallet MOQ not public",
+    "official_contact": {
+      "website": "https://www.amicanatura.it/",
+      "email": "info@amicanatura.it",
+      "phone": "+39 030 6872 108",
+      "address": "Via Caselle 2, 25081 Bedizzole (BS), Italy"
+    },
+    "status": "unverified",
+    "checked_at": "2026-09-24",
+    "sources": [
+      "https://www.amicanatura.it/prodotti/macinato-bovino-bio-amica-natura-vassoio-da-400-g-2/?lang=en",
+      "https://www.amicanatura.it/certificazioni/"
+    ],
+    "notes": "High-priority producer lead. Exclude from verified supplier counts and price statistics until pallet/MOQ and certificate number are verified."
+  },
+  {
+    "legal_name": "Gröna gårdar",
+    "country_code": "SE",
+    "supplier_type": "producer_processor",
+    "priority_class": "primary",
+    "product_family": "beef",
+    "category_code": "frozen_minced_beef",
+    "product_description": "Organic grass-fed beef mince, fresh-frozen, vacuum packed; 5 kg, 10 kg, 20 kg and 30 kg box options",
+    "organic_status": "KRAV-certified raw material stated; independent certificate lookup pending",
+    "organic_certification_body": "KRAV",
+    "frozen_evidence": "Official product page states fresh-frozen product and -18°C storage",
+    "wholesale_evidence": "Bulk box options up to 30 kg; multi-pallet industrial MOQ not public",
+    "official_contact": {
+      "website": "https://gronagardar.se/",
+      "email": "",
+      "phone": "",
+      "address": "Sweden; exact office address not shown on product page"
+    },
+    "status": "unverified",
+    "checked_at": "2026-09-24",
+    "sources": [
+      "https://gronagardar.se/en/products/notfarsbox?variant=56325368021332"
+    ],
+    "notes": "Promising frozen organic bulk comparison lead, but not yet verified as multi-pallet industrial wholesale."
+  }
+]
