@@ -16,7 +16,7 @@ ALLOWED_CATEGORIES = {
     'frozen_minced_beef_blocks', 'minced_beef', 'industrial_minced',
     'minced_block', 'bulk_minced_beef', 'frozen_minced_chicken',
     'frozen_minced_chicken_blocks', 'industrial_minced_chicken',
-    'bulk_minced_chicken',
+    'bulk_minced_chicken', 'minced_chicken',
 }
 
 
@@ -70,8 +70,10 @@ def build_dashboard(connection: sqlite3.Connection, candidate_path: Path = Path(
     )) for row in suppliers]
     verified_count = sum(row['status'] == 'active' for row in supplier_rows)
     lead_count = sum(row['status'] == 'unverified' for row in supplier_rows)
+    price_country_count = len({row['country_code'] for row in candidate_prices if row.get('country_code')})
     payload = json.dumps({'stats': stats, 'suppliers': supplier_rows,
                           'verifiedCount': verified_count, 'leadCount': lead_count,
+                          'priceCountryCount': price_country_count,
                           'candidatePrices': candidate_prices}, ensure_ascii=False)
     return f'''<!doctype html>
 <html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
@@ -90,7 +92,8 @@ table{{border-collapse:collapse;width:100%;background:white}} th,td{{padding:9px
 <div class="cards"><div class="card"><b id="supplierCount">0</b><br><span class="muted">Suppliers / leads</span></div>
 <div class="card"><b id="verifiedCount">0</b><br><span class="muted">Verified suppliers</span></div>
 <div class="card"><b id="leadCount">0</b><br><span class="muted">Unverified leads</span></div>
-<div class="card"><b id="countryCount">0</b><br><span class="muted">Countries</span></div>
+<div class="card"><b id="countryCount">0</b><br><span class="muted">Supplier countries</span></div>
+<div class="card"><b id="priceCountryCount">0</b><br><span class="muted">Price countries</span></div>
 <div class="card"><b id="referencePriceCount">0</b><br><span class="muted">Price references</span></div>
 <div class="card"><b id="priceCount">0</b><br><span class="muted">Comparable prices</span></div></div>
 <div class="controls"><label>Product <select id="productFilter"><option value="all">All</option></select></label>
@@ -109,6 +112,7 @@ document.querySelector('#supplierCount').textContent=DATA.suppliers.length;
 document.querySelector('#verifiedCount').textContent=DATA.verifiedCount;
 document.querySelector('#leadCount').textContent=DATA.leadCount;
 document.querySelector('#countryCount').textContent=new Set(DATA.suppliers.map(x=>x.country_code)).size;
+document.querySelector('#priceCountryCount').textContent=DATA.priceCountryCount;
 document.querySelector('#referencePriceCount').textContent=DATA.candidatePrices.length;
 document.querySelector('#priceCount').textContent=DATA.stats.reduce((a,x)=>a+x.sample_count,0);
 let chart, candidateChart;
