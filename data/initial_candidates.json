@@ -1255,5 +1255,309 @@
       "channel": "market_reference"
     },
     "notes": "Slovenia organic bulk price reference; 5 kg pack is useful for industrial comparison but not a pallet quote."
+  },
+  {
+    "legal_name": "Ekofarma Babiny",
+    "country_code": "CZ",
+    "supplier_type": "producer",
+    "priority_class": "secondary",
+    "product_family": "beef",
+    "category_code": "minced_beef",
+    "product_description": "Organic minced beef, 500 g, Czech farm product",
+    "organic_status": "BIO product stated",
+    "frozen_evidence": "Fresh/chilled status not stated",
+    "wholesale_evidence": "Farm product; no pallet MOQ shown",
+    "official_contact": {
+      "website": "https://www.ekofarma-babiny.cz/hovezi-ostatni/hovezi-mlete-bio-polotovar_strana-1",
+      "email": "",
+      "phone": "",
+      "address": "Czech Republic"
+    },
+    "status": "unverified",
+    "checked_at": "2026-09-26",
+    "sources": [
+      "https://www.ekofarma-babiny.cz/hovezi-ostatni/hovezi-mlete-bio-polotovar_strana-1",
+      "https://www.ecb.europa.eu/stats/shared/pdf/eurofxref.pdf"
+    ],
+    "price": {
+      "value": 21.2,
+      "currency": "EUR",
+      "unit": "EUR/kg",
+      "original_value": 258,
+      "original_currency": "CZK",
+      "fx_rate": "ECB 2026-09-25: EUR 1 = CZK 24.345",
+      "price_condition": "258 CZK per 500 g; converted using ECB reference rate",
+      "price_status": "published",
+      "channel": "market_reference"
+    },
+    "notes": "Czech organic price coverage; original CZK retained."
+  },
+  {
+    "legal_name": "Don Carne GmbH",
+    "country_code": "DE",
+    "supplier_type": "distributor",
+    "priority_class": "secondary",
+    "product_family": "beef",
+    "category_code": "frozen_minced_beef",
+    "product_description": "Certified organic German minced beef, approximately 500 g, shock-frozen",
+    "organic_status": "Bio certified stated",
+    "frozen_evidence": "Official product page states shock-frozen delivery",
+    "wholesale_evidence": "Retail pack; no pallet MOQ shown",
+    "official_contact": {
+      "website": "https://doncarne.de/p/deutsches-bio-rinderhackfleisch/4001785",
+      "email": "",
+      "phone": "",
+      "address": "Germany"
+    },
+    "status": "unverified",
+    "checked_at": "2026-09-26",
+    "sources": [
+      "https://doncarne.de/p/deutsches-bio-rinderhackfleisch/4001785"
+    ],
+    "price": {
+      "value": 39.98,
+      "currency": "EUR",
+      "unit": "EUR/kg",
+      "price_condition": "19.99 EUR per approx. 500 g pack; currently unavailable",
+      "price_status": "published",
+      "channel": "market_reference"
+    },
+    "notes": "Germany organic frozen price coverage; availability was unavailable when crawled."
+  },
+  {
+    "legal_name": "Lemming Nygaard",
+    "country_code": "DK",
+    "supplier_type": "producer",
+    "priority_class": "secondary",
+    "product_family": "beef",
+    "category_code": "minced_beef",
+    "product_description": "Organic minced/cut beef price list, per kg",
+    "organic_status": "Organic number 1104780 stated",
+    "frozen_evidence": "Fresh/chilled status not stated",
+    "wholesale_evidence": "Farm price list; no pallet MOQ shown",
+    "official_contact": {
+      "website": "https://www.lemmingnygaard.dk/priser-paa-koed/prisliste/",
+      "email": "",
+      "phone": "",
+      "address": "Denmark"
+    },
+    "status": "unverified",
+    "checked_at": "2026-09-26",
+    "sources": [
+      "https://www.lemmingnygaard.dk/priser-paa-koed/prisliste/",
+      "https://www.ecb.europa.eu/stats/shared/pdf/eurofxref.pdf"
+    ],
+    "price": {
+      "value": 16.05,
+      "currency": "EUR",
+      "unit": "EUR/kg",
+      "original_value": 120,
+      "original_currency": "DKK",
+      "fx_rate": "ECB 2026-09-25: EUR 1 = DKK 7.4755",
+      "price_condition": "120 DKK/kg; converted using ECB reference rate",
+      "price_status": "published",
+      "channel": "market_reference"
+    },
+    "notes": "Denmark organic price coverage; original DKK retained."
+  },
+  {
+    "legal_name": "Alcampo organic beef benchmark",
+    "country_code": "ES",
+    "supplier_type": "distributor_retailer",
+    "priority_class": "secondary",
+    "product_family": "beef",
+    "category_code": "minced_beef",
+    "product_description": "Organic minced veal/beef preparation, 300 g",
+    "organic_status": "Organic product listed; retailer reference",
+    "frozen_evidence": "Fresh/chilled status not stated",
+    "wholesale_evidence": "Retail reference; no pallet MOQ shown",
+    "official_contact": {
+      "website": "https://www.compraonline.alcampo.es/categories/campa%C3%B1as/alcampo-cultivamos-lo-bueno/cultivamos-lo-bueno-ecol%C3%B3gico/carne-ecol%C3%B3gica/OCCLB91",
+      "email": "",
+      "phone": "",
+      "address": "Spain"
+    },
+    "status": "unverified",
+    "checked_at": "2026-09-26",
+    "sources": [
+      "https://www.compraonline.alcampo.es/categories/campa%C3%B1as/alcampo-cultivamos-lo-bueno/cultivamos-lo-bueno-ecol%C3%B3gico/carne-ecol%C3%B3gica/OCCLB91"
+    ],
+    "price": {
+      "value": 19.83,
+      "currency": "EUR",
+      "unit": "EUR/kg",
+      "price_condition": "5.95 EUR per 300 g pack",
+      "price_status": "published",
+      "channel": "market_reference"
+    },
+    "notes": "Spain organic price coverage; retail reference."
+  },
+  {
+    "legal_name": "Leontzini Premium Meat",
+    "country_code": "GR",
+    "supplier_type": "retailer",
+    "priority_class": "secondary",
+    "product_family": "beef",
+    "category_code": "minced_beef",
+    "product_description": "Beef mince, 4 kg pack price reference",
+    "organic_status": "Organic status not established; country benchmark only",
+    "frozen_evidence": "Fresh/chilled status not stated",
+    "wholesale_evidence": "4 kg pack is a bulk signal but not a confirmed wholesale quote",
+    "official_contact": {
+      "website": "https://lpm.gr/product-category/%CF%89%CE%BC%CE%AC/%CE%BC%CE%BF%CF%83%CF%87%CE%B1%CF%81%CE%AF%CF%83%CE%B9%CE%B1-%CF%84%CE%B5%CE%BC%CE%AC%CF%87%CE%B9%CE%B1/",
+      "email": "",
+      "phone": "",
+      "address": "Greece"
+    },
+    "status": "unverified",
+    "checked_at": "2026-09-26",
+    "sources": [
+      "https://lpm.gr/product-category/%CF%89%CE%BC%CE%AC/%CE%BC%οσ%CF%87%CE%B1%CF%81%CE%AF%CF%83%CE%B9%CE%B1-%CF%84%CE%B5%CE%BC%CE%AC%CF%87%CE%B9%CE%B1/"
+    ],
+    "price": {
+      "value": 13.32,
+      "currency": "EUR",
+      "unit": "EUR/kg",
+      "price_condition": "53.28 EUR per 4 kg pack",
+      "price_status": "published",
+      "channel": "country_market_benchmark"
+    },
+    "notes": "Greece minimum price coverage; conventional benchmark, not organic."
+  },
+  {
+    "legal_name": "Valdicastro",
+    "country_code": "IT",
+    "supplier_type": "producer",
+    "priority_class": "secondary",
+    "product_family": "beef",
+    "category_code": "minced_beef",
+    "product_description": "Certified organic grass-fed minced beef, 500 g",
+    "organic_status": "Organic certification images and Suolo e Salute stated",
+    "frozen_evidence": "Fresh/chilled status not stated",
+    "wholesale_evidence": "Farm producer; no pallet MOQ shown",
+    "official_contact": {
+      "website": "https://shop.valdicastro.it/products/macinato-di-bovino-biologico",
+      "email": "",
+      "phone": "",
+      "address": "Marche, Italy"
+    },
+    "status": "unverified",
+    "checked_at": "2026-09-26",
+    "sources": [
+      "https://shop.valdicastro.it/products/macinato-di-bovino-biologico"
+    ],
+    "price": {
+      "value": 24,
+      "currency": "EUR",
+      "unit": "EUR/kg",
+      "price_condition": "published price/kg",
+      "price_status": "published",
+      "channel": "market_reference"
+    },
+    "notes": "Italy organic price coverage with explicit organic certification evidence."
+  },
+  {
+    "legal_name": "Rupūs Miltai cooperative",
+    "country_code": "LT",
+    "supplier_type": "cooperative_retailer",
+    "priority_class": "secondary",
+    "product_family": "beef",
+    "category_code": "minced_beef",
+    "product_description": "Organic dry-aged Lithuanian minced beef, 1 kg minimum order",
+    "organic_status": "Organic cooperative/farm product stated",
+    "frozen_evidence": "Fresh/chilled status not stated",
+    "wholesale_evidence": "Minimum 1 kg order; no pallet MOQ shown",
+    "official_contact": {
+      "website": "https://wolt.com/lt/ltu/kaunas/venue/rupus-miltai/ekologiska-brandinta-smulkinta-malta-lietuviska-jautiena-itemid-6470a5e9716d83b933177916",
+      "email": "",
+      "phone": "",
+      "address": "Lithuania"
+    },
+    "status": "unverified",
+    "checked_at": "2026-09-26",
+    "sources": [
+      "https://wolt.com/lt/ltu/kaunas/venue/rupus-miltai/ekologiska-brandinta-smulkinta-malta-lietuviska-jautiena-itemid-6470a5e9716d83b933177916"
+    ],
+    "price": {
+      "value": 19,
+      "currency": "EUR",
+      "unit": "EUR/kg",
+      "price_condition": "published Wolt price/kg",
+      "price_status": "published",
+      "channel": "market_reference"
+    },
+    "notes": "Lithuania organic price coverage; marketplace/farm cooperative reference."
+  },
+  {
+    "legal_name": "Juchowo Farm / Taste Store",
+    "country_code": "PL",
+    "supplier_type": "producer_retailer",
+    "priority_class": "secondary",
+    "product_family": "beef",
+    "category_code": "minced_beef",
+    "product_description": "Organic beef mince, 280 g preserved pack",
+    "organic_status": "Organic BIO product stated",
+    "frozen_evidence": "Shelf-stable prepared product; not frozen",
+    "wholesale_evidence": "Retail pack; no pallet MOQ shown",
+    "official_contact": {
+      "website": "https://e-superfood.pl/Mielonka-wolowa-BIO-Juchowo",
+      "email": "",
+      "phone": "",
+      "address": "Poland"
+    },
+    "status": "unverified",
+    "checked_at": "2026-09-26",
+    "sources": [
+      "https://e-superfood.pl/Mielonka-wolowa-BIO-Juchowo",
+      "https://www.ecb.europa.eu/stats/shared/pdf/eurofxref.pdf"
+    ],
+    "price": {
+      "value": 23.7,
+      "currency": "EUR",
+      "unit": "EUR/kg",
+      "original_value": 103.57,
+      "original_currency": "PLN",
+      "fx_rate": "ECB 2026-09-25: EUR 1 = PLN 4.3718",
+      "price_condition": "29 PLN per 280 g; converted using ECB reference rate",
+      "price_status": "published",
+      "channel": "market_reference"
+    },
+    "notes": "Poland organic price coverage; preserved minced product, not a frozen industrial block."
+  },
+  {
+    "legal_name": "Magdakullan",
+    "country_code": "SE",
+    "supplier_type": "producer",
+    "priority_class": "secondary",
+    "product_family": "beef",
+    "category_code": "minced_beef",
+    "product_description": "Organic beef mince, including 10 kg box option",
+    "organic_status": "Organic feed and farm claim stated; certifier not captured",
+    "frozen_evidence": "Fresh/chilled status not stated",
+    "wholesale_evidence": "10 kg box price is a useful bulk signal; pallet MOQ not shown",
+    "official_contact": {
+      "website": "https://www.magdakullan.se/vart-kott/",
+      "email": "",
+      "phone": "",
+      "address": "Sweden"
+    },
+    "status": "unverified",
+    "checked_at": "2026-09-26",
+    "sources": [
+      "https://www.magdakullan.se/vart-kott/",
+      "https://www.ecb.europa.eu/stats/shared/pdf/eurofxref.pdf"
+    ],
+    "price": {
+      "value": 15.68,
+      "currency": "EUR",
+      "unit": "EUR/kg",
+      "original_value": 177,
+      "original_currency": "SEK",
+      "fx_rate": "ECB 2026-09-25: EUR 1 = SEK 11.2900",
+      "price_condition": "177 SEK/kg for 10 kg box; converted using ECB reference rate",
+      "price_status": "published",
+      "channel": "market_reference"
+    },
+    "notes": "Sweden organic bulk price coverage; farm price list."
   }
 ]
