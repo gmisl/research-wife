@@ -682,5 +682,123 @@
       "https://www.euroser.fr/en/specialization-p17.html"
     ],
     "notes": "Secondary broker lead; do not count as producer."
+  },
+  {
+    "legal_name": "Packlhof GmbH",
+    "country_code": "DE",
+    "supplier_type": "producer",
+    "priority_class": "secondary",
+    "product_family": "beef",
+    "category_code": "frozen_minced_beef",
+    "product_description": "Organic frozen minced beef, 2.5 kg bag; German producer; EU organic and Bioland reference",
+    "organic_status": "EU organic product with control body DE-ÖKO-006 and Bioland reference",
+    "organic_certification_body": "DE-ÖKO-006",
+    "frozen_evidence": "Product page states Rinderhackfleisch tiefgefroren and storage at -18°C",
+    "wholesale_evidence": "No wholesale/MOQ published; retain as producer lead and market-price follow-up",
+    "official_contact": {
+      "website": "https://www.bio123.de/produkt/packlhof/rinder-hackfleisch-tk-25-kg",
+      "email": "",
+      "phone": "",
+      "address": "Am Mühlbach 3, 82547 Eurasburg, Germany"
+    },
+    "status": "unverified",
+    "checked_at": "2026-09-26",
+    "sources": [
+      "https://www.bio123.de/produkt/packlhof/rinder-hackfleisch-tk-25-kg"
+    ],
+    "notes": "Strong organic and frozen product evidence; B2B contact and current price still needed."
+  },
+  {
+    "legal_name": "LFW Ludwigsluster Fleisch- und Wurstspezialitäten GmbH & Co. KG",
+    "country_code": "DE",
+    "supplier_type": "producer",
+    "priority_class": "secondary",
+    "product_family": "beef",
+    "category_code": "frozen_minced_beef",
+    "product_description": "Organic frozen minced beef, 250 g pack; German producer",
+    "organic_status": "EU organic product with control body DE-ÖKO-001",
+    "organic_certification_body": "DE-ÖKO-001",
+    "frozen_evidence": "Product page states Bio Rinder-Hackfleisch, gewolft, tiefgefroren",
+    "wholesale_evidence": "No wholesale/MOQ published; retain as producer lead",
+    "official_contact": {
+      "website": "https://www.bio123.de/produkt/biolust/bio-rinder-hackfleisch-tiefgefroren",
+      "email": "",
+      "phone": "",
+      "address": "Bauernallee 9, 19288 Ludwigslust, Germany"
+    },
+    "status": "unverified",
+    "checked_at": "2026-09-26",
+    "sources": [
+      "https://www.bio123.de/produkt/biolust/bio-rinder-hackfleisch-tiefgefroren"
+    ],
+    "notes": "Organic and frozen product evidence is strong; direct B2B contact and price still needed."
+  },
+  {
+    "legal_name": "De Woeste Grond",
+    "country_code": "NL",
+    "supplier_type": "producer",
+    "priority_class": "secondary",
+    "product_family": "beef",
+    "category_code": "frozen_minced_beef",
+    "product_description": "Organic grass-fed minced beef package, 3 kg total; 10 x approximately 300 g packs; frozen delivery",
+    "organic_status": "Product page states 100% organic grass-fed beef",
+    "frozen_evidence": "Product instructions say remove from freezer; site states meat is deep-frozen for delivery",
+    "wholesale_evidence": "3 kg package; no pallet/MOQ published",
+    "price": {
+      "value": 17.28,
+      "currency": "EUR",
+      "price_eur": 17.28,
+      "unit": "EUR/kg",
+      "price_status": "published",
+      "channel": "market_reference",
+      "vat_status": "included",
+      "pack_weight_kg": 3
+    },
+    "official_contact": {
+      "website": "https://www.dewoestegrond.nl/en/gehakt-pakket-85341704.html",
+      "email": "[email protected]",
+      "phone": "+31 599 727050",
+      "address": "Netherlands"
+    },
+    "status": "unverified",
+    "checked_at": "2026-09-26",
+    "sources": [
+      "https://www.dewoestegrond.nl/en/gehakt-pakket-85341704.html"
+    ],
+    "notes": "Useful current organic frozen price reference; not yet an industrial multi-pallet offer."
+  },
+  {
+    "legal_name": "Delaney Organic Farm",
+    "country_code": "IE",
+    "supplier_type": "producer",
+    "priority_class": "secondary",
+    "product_family": "beef",
+    "category_code": "frozen_minced_beef",
+    "product_description": "Organic Irish beef box, 10 kg or 20 kg, freezer-ready; includes minced beef",
+    "organic_status": "Farm states regenerative organic farming and Irish organic beef",
+    "frozen_evidence": "Freezer-ready vacuum-packed boxes; delivery in insulated boxes; exact frozen state at dispatch to confirm",
+    "wholesale_evidence": "10 kg and 20 kg boxes; no pallet/MOQ published",
+    "price": {
+      "value": 15,
+      "currency": "EUR",
+      "price_eur": 15,
+      "unit": "EUR/kg",
+      "price_status": "published",
+      "channel": "market_reference",
+      "vat_status": "unknown",
+      "pack_weight_kg": 10
+    },
+    "official_contact": {
+      "website": "https://delaneyorganicfarm.com/",
+      "email": "mike@delaneyorganicfarm.com",
+      "phone": "",
+      "address": "Ireland"
+    },
+    "status": "unverified",
+    "checked_at": "2026-09-26",
+    "sources": [
+      "https://delaneyorganicfarm.com/"
+    ],
+    "notes": "Good organic producer and price lead; exact minced-beef pack composition and frozen dispatch need confirmation."
   }
 ]
