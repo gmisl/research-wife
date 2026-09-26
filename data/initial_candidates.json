@@ -218,8 +218,8 @@
     "supplier_type": "producer_processor",
     "priority_class": "primary",
     "product_family": "beef",
-    "category_code": "frozen_minced_beef_blocks",
-    "product_description": "Organic producer claim and AT-BIO reference reported; public operator lookup not captured",
+    "category_code": "minced_beef",
+    "product_description": "100% Austrian organic minced beef, fresh 300 g cup",
     "organic_status": "Deep-frozen catering claim reported; exact current SKU not independently confirmed",
     "frozen_evidence": "Gastronomy/catering supply reported; pallet MOQ not public",
     "wholesale_evidence": "Gastronomy/catering supply reported; pallet MOQ not public",
@@ -236,12 +236,21 @@
       "certificate verification URL",
       "wholesale quote"
     ],
-    "checked_at": "2026-09-24",
+    "checked_at": "2026-09-26",
     "sources": [
       "https://biofleisch.biz/kontakt/",
-      "https://biofleisch.biz/"
+      "https://biofleisch.biz/",
+      "https://biofleisch.biz/shop/bio-rinder-faschiertes-e300g/"
     ],
-    "notes": "Producer lead; public evidence is insufficient for verified status."
+    "notes": "Producer lead; public evidence is insufficient for verified status. Added Austria price coverage from official product page; fresh retail pack.",
+    "price": {
+      "value": 25.97,
+      "currency": "EUR",
+      "unit": "EUR/kg",
+      "price_condition": "7.79 EUR per 300 g cup",
+      "price_status": "published",
+      "channel": "market_reference"
+    }
   },
   {
     "legal_name": "Biopark s.r.o.",
