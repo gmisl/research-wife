@@ -1559,5 +1559,159 @@
       "channel": "market_reference"
     },
     "notes": "Sweden organic bulk price coverage; farm price list."
+  },
+  {
+    "legal_name": "besserfleisch",
+    "country_code": "DE",
+    "supplier_type": "producer",
+    "priority_class": "secondary",
+    "product_family": "beef",
+    "category_code": "frozen_minced_beef",
+    "product_description": "Organic pasture-raised minced beef, 6 kg pack, 15 x 400 g, shock-frozen",
+    "organic_status": "Bio-control numbers DE-ÖKO-009 and DE-ÖKO-037 shown on official site",
+    "frozen_evidence": "Shock-frozen stated",
+    "wholesale_evidence": "6 kg pack; not multi-pallet but useful bulk lead",
+    "official_contact": {
+      "website": "https://besserfleisch.de/shop/rindfleisch/hackfleisch-aus-weidehaltung/",
+      "email": "info@besserfleisch.de",
+      "phone": "01512 0198906",
+      "address": "Germany"
+    },
+    "status": "unverified",
+    "checked_at": "2026-09-26",
+    "sources": [
+      "https://besserfleisch.de/shop/rindfleisch/hackfleisch-aus-weidehaltung/"
+    ],
+    "price": {
+      "value": 28.67,
+      "currency": "EUR",
+      "unit": "EUR/kg",
+      "price_condition": "172 EUR for 6 kg; source says price includes shipping, shipping not separated",
+      "price_status": "published",
+      "channel": "market_reference"
+    },
+    "notes": "Strong organic/frozen evidence. Price is a delivered consumer pack and must not be treated as ex-works wholesale."
+  },
+  {
+    "legal_name": "Bodenburg Bio Fleisch Großhandel",
+    "country_code": "DE",
+    "supplier_type": "wholesaler",
+    "priority_class": "primary",
+    "product_family": "beef",
+    "category_code": "bulk_minced_beef",
+    "product_description": "Certified organic beef wholesale for retailers, gastronomy and international trade; minced format to confirm",
+    "organic_status": "Organic control number D-BY-1-10027-H / DE-ÖKO-001 stated",
+    "frozen_evidence": "Frozen status of minced SKU not public",
+    "wholesale_evidence": "Official site explicitly serves wholesale, gastronomy, exporters and retailers",
+    "official_contact": {
+      "website": "https://bodenburg.de/bio-fleisch-grosshandel/",
+      "email": "info@bodenburg.de",
+      "phone": "+49 8856 4034",
+      "address": "Schönmühl 3, D-82377 Penzberg, Germany"
+    },
+    "status": "unverified",
+    "checked_at": "2026-09-26",
+    "sources": [
+      "https://bodenburg.de/bio-fleisch-grosshandel/"
+    ],
+    "organic_certification_body": "DE-ÖKO",
+    "certificate_number": "DE-ÖKO-001",
+    "notes": "High-priority wholesale lead. Ask specifically for frozen organic minced beef blocks, pack size, MOQ and price."
+  },
+  {
+    "legal_name": "MK Fleisch GmbH",
+    "country_code": "DE",
+    "supplier_type": "processor",
+    "priority_class": "secondary",
+    "product_family": "beef",
+    "category_code": "frozen_minced_beef_blocks",
+    "product_description": "Frozen beef and processing meat available as polyblock, nacked block, cartons or loose; 50/50 to 98/02 trimming options",
+    "organic_status": "Organic status not established; candidate for organic availability enquiry",
+    "frozen_evidence": "Official site states fresh and deep-frozen formats",
+    "wholesale_evidence": "Official site serves industry/producers and wholesalers; block and loose formats",
+    "official_contact": {
+      "website": "https://en.mk-fleisch.com/beef-meat/",
+      "email": "info@mk-fleisch.com",
+      "phone": "+49 30 3300 604 00",
+      "address": "Nordhellesteig 7, D-13507 Berlin, Germany"
+    },
+    "status": "unverified",
+    "checked_at": "2026-09-26",
+    "sources": [
+      "https://en.mk-fleisch.com/beef-meat/"
+    ],
+    "notes": "Strong industrial format lead, but organic supply must be confirmed before inclusion in organic statistics."
+  },
+  {
+    "legal_name": "PromptMeat International",
+    "country_code": "BG",
+    "supplier_type": "wholesaler",
+    "priority_class": "secondary",
+    "product_family": "beef",
+    "category_code": "frozen_minced_beef",
+    "product_description": "Frozen beef wholesale and export supply; minced specification to confirm",
+    "organic_status": "Organic status not established; candidate for certified-organic enquiry",
+    "frozen_evidence": "Official site states frozen meat wholesale",
+    "wholesale_evidence": "Wholesale supplier representing producers/distributors; quote required",
+    "official_contact": {
+      "website": "https://promptmeat.com/",
+      "email": "info@promptmeat.com",
+      "phone": "+359 88 410 9713",
+      "address": "Plovdiv, Bulgaria"
+    },
+    "status": "unverified",
+    "checked_at": "2026-09-26",
+    "sources": [
+      "https://promptmeat.com/"
+    ],
+    "notes": "Useful Bulgarian wholesale lead; request organic certificate, minced beef block SKU, MOQ and price."
+  },
+  {
+    "legal_name": "Food Service Company",
+    "country_code": "PL",
+    "supplier_type": "producer_processor",
+    "priority_class": "secondary",
+    "product_family": "beef",
+    "category_code": "frozen_minced_beef",
+    "product_description": "Industrial minced meat producer with beef production and frozen beef storage",
+    "organic_status": "Organic status not established; candidate for certified-organic production enquiry",
+    "frozen_evidence": "Official site states frozen beef storage",
+    "wholesale_evidence": "Meat-industry producer; two plants, 250 t/week beef cutting and 7,000 t storage",
+    "official_contact": {
+      "website": "https://www.foodservice.pl/en/index.html",
+      "email": "",
+      "phone": "+48 46 814 4098",
+      "address": "Rawa Mazowiecka, Poland"
+    },
+    "status": "unverified",
+    "checked_at": "2026-09-26",
+    "sources": [
+      "https://www.foodservice.pl/en/index.html"
+    ],
+    "notes": "Strong industrial capability lead; keep separate until organic raw material and exact minced SKU are confirmed."
+  },
+  {
+    "legal_name": "Zakład Przemysłu Mięsnego BIERNACKI",
+    "country_code": "PL",
+    "supplier_type": "producer_processor",
+    "priority_class": "secondary",
+    "product_family": "beef",
+    "category_code": "frozen_minced_beef",
+    "product_description": "Frozen minced beef for individual and HoReCa customers; export producer",
+    "organic_status": "Organic status not established; certification shown is food safety, not organic",
+    "frozen_evidence": "Official site states frozen products",
+    "wholesale_evidence": "European producer/exporter supplying HoReCa; quote required",
+    "official_contact": {
+      "website": "https://www.zmb.pl/en/portfolio/minced-beef/",
+      "email": "",
+      "phone": "",
+      "address": "Poland"
+    },
+    "status": "unverified",
+    "checked_at": "2026-09-26",
+    "sources": [
+      "https://www.zmb.pl/en/portfolio/minced-beef/"
+    ],
+    "notes": "High-volume minced-beef lead with HACCP, IFS and BRC evidence; organic availability must be confirmed."
   }
 ]
