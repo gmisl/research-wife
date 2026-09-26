@@ -36,7 +36,7 @@ jobs:
         run: |
           python -m src.bootstrap --database data/research-wife.db --schema schema.sql
           python -m src.import_candidates --database data/research-wife.db --input data/initial_candidates.json
-          python -m src.archive_snapshot --database data/research-wife.db --output data/history/weekly_price_snapshots.json
+          python -m src.archive_snapshot --database data/research-wife.db --output data/history/weekly_price_snapshots.json --candidates data/initial_candidates.json
           python -m src.report --database data/research-wife.db --output data/exports/dashboard.html
           python -m src.email_report --database data/research-wife.db --output data/exports/weekly-email.html
           cp data/exports/dashboard.html data/exports/index.html
@@ -45,7 +45,7 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add data/history/weekly_price_snapshots.json
+          git add data/history/weekly_price_snapshots.json data/history/price_observations.json
           git diff --cached --quiet || git commit -m "Archive weekly price snapshot"
           git push
 
