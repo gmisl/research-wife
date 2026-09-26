@@ -28,7 +28,7 @@ def build_email(connection: sqlite3.Connection, candidate_path: Path = Path('dat
     lead_price_table = ''.join(
         f'<tr><td>{escape(row["date"])}</td><td>{escape(row["country_code"])}</td>'
         f'<td>{escape(row["legal_name"])}</td><td>{escape(row["description"])}</td>'
-        f'<td>€{row["price"]:.2f} {escape(row["unit"])}</td></tr>'
+        f'<td><a href="{escape(row["website"], quote=True)}" target="_blank" rel="noopener">Cena / avots</a><br>€{row["price"]:.2f} {escape(row["unit"])}</td></tr>'
         for row in candidate_prices
     ) or '<tr><td colspan="6">No published candidate price signals.</td></tr>'
     weeks = sorted({row.week_start for row in stats})
@@ -56,13 +56,13 @@ def build_email(connection: sqlite3.Connection, candidate_path: Path = Path('dat
     return f'''<!doctype html><html><body style="font-family:Arial,sans-serif;color:#17212b">
 <h2>Organic EU Meat Research — Weekly Update</h2>
 <p>Verified suppliers: <b>{verified_suppliers}</b> · Recorded suppliers/leads: <b>{suppliers}</b> · Unverified leads: <b>{unverified_leads}</b> · New candidates: <b>{new_suppliers}</b></p>
-<h3>Price movement</h3>{chart}
+<h3>Cenu izmaiņas</h3>{chart}
 <table cellpadding="8" cellspacing="0" border="1" style="border-collapse:collapse">
-<tr><th>Week</th><th>Country</th><th>Product</th><th>Average</th><th>Change</th><th>Samples</th></tr>{table}</table>
-<h3>Published price signals (wholesale and market reference)</h3>
-<p>Price coverage: <b>{len({row['country_code'] for row in candidate_prices if row.get('country_code')})}/27 EU countries</b>. Company website links are intentionally omitted from this email; source links remain in the dashboard/data.</p>
+<tr><th>Nedēļa</th><th>Valsts</th><th>Produkts</th><th>Vidējā cena</th><th>Izmaiņas</th><th>Paraugi</th></tr>{table}</table>
+<h3>Publicētās cenas</h3>
+<p>Price coverage: <b>{len({row['country_code'] for row in candidate_prices if row.get('country_code')})}/27 EU countries</b>. Katrai cenai pievienota saite uz vietu, kur cena atrasta.</p>
 <table cellpadding="8" cellspacing="0" border="1" style="border-collapse:collapse">
-<tr><th>Date</th><th>Country</th><th>Supplier/source</th><th>Product</th><th>Channel</th><th>Price</th></tr>{lead_price_table}</table>
+<tr><th>Datums</th><th>Valsts</th><th>Piegādātājs/avots</th><th>Produkts</th><th>Kanāls</th><th>Cena</th></tr>{lead_price_table}</table>
 <p style="color:#667">Delivery costs are not added. Retail and unverified organic records are excluded from price statistics.</p>
 </body></html>'''
 
