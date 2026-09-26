@@ -9,16 +9,31 @@ from dataclasses import asdict
 from pathlib import Path
 
 from .stats import calculate_weekly_stats
+from .report import load_candidate_price_signals
 
 
 def main() -> None:
     parser = argparse.ArgumentParser()
     parser.add_argument("--database", default="data/research-wife.db")
     parser.add_argument("--output", default="data/history/weekly_price_snapshots.json")
+    parser.add_argument("--candidates", default="data/initial_candidates.json")
     args = parser.parse_args()
 
     output = Path(args.output)
     output.parent.mkdir(parents=True, exist_ok=True)
+    observations_path = output.parent / "price_observations.json"
+    try:
+        observations = json.loads(observations_path.read_text(encoding="utf-8"))
+    except (OSError, json.JSONDecodeError):
+        observations = []
+    if not isinstance(observations, list):
+        observations = []
+    current_observations = load_candidate_price_signals(Path(args.candidates))
+    observation_keys = {(row.get("legal_name"), row.get("country_code"), row.get("date"), row.get("price"), row.get("unit"), row.get("website")) for row in observations}
+    observations.extend(row for row in current_observations
+                        if (row.get("legal_name"), row.get("country_code"), row.get("date"), row.get("price"), row.get("unit"), row.get("website")) not in observation_keys)
+    observations.sort(key=lambda row: (row.get("date", ""), row.get("country_code", ""), row.get("legal_name", "")))
+    observations_path.write_text(json.dumps(observations, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
     try:
         history = json.loads(output.read_text(encoding="utf-8"))
     except (OSError, json.JSONDecodeError):
