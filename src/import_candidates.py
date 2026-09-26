@@ -77,8 +77,8 @@ def main() -> None:
                     price_eur = price.get('value')
                 db.execute(
                     """INSERT INTO prices
-                    (supplier_id,product_id,price_status,price_value,price_currency,price_eur,price_unit,price_date,is_wholesale,vat_status,notes)
-                    VALUES(?,?,?,?,?,?,?,?,?,?,?)""",
+                    (supplier_id,product_id,price_status,price_value,price_currency,price_eur,price_unit,price_date,is_wholesale,vat_status,incoterm,delivery_cost_included,pack_weight_kg,moq_kg,moq_pallets,notes)
+                    VALUES(?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?)""",
                     (supplier_id,product_id[0],price.get('price_status', 'published'),price['value'],price['currency'],price_eur,
                      price['unit'],item['checked_at'],int(bool(item.get('wholesale_evidence'))),
                      price.get('vat_status', 'unknown'),price.get('incoterm'),price.get('delivery_cost_included'),
