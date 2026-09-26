@@ -91,6 +91,7 @@ table{{border-collapse:collapse;width:100%;background:white}} th,td{{padding:9px
 <div class="card"><b id="verifiedCount">0</b><br><span class="muted">Verified suppliers</span></div>
 <div class="card"><b id="leadCount">0</b><br><span class="muted">Unverified leads</span></div>
 <div class="card"><b id="countryCount">0</b><br><span class="muted">Countries</span></div>
+<div class="card"><b id="referencePriceCount">0</b><br><span class="muted">Price references</span></div>
 <div class="card"><b id="priceCount">0</b><br><span class="muted">Comparable prices</span></div></div>
 <div class="controls"><label>Product <select id="productFilter"><option value="all">All</option></select></label>
 <label>Country <select id="countryFilter"><option value="all">All</option></select></label></div>
