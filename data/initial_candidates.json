@@ -159,25 +159,26 @@
     "product_description": "De Groene Weg is identified by Vion as an organic-meat subsidiary; operator/certificate lookup not captured",
     "organic_status": "Vion food-service materials mention fresh/frozen meat, but not an organic frozen minced block SKU",
     "frozen_evidence": "Food-service/export network confirmed; pallet MOQ not public",
-    "wholesale_evidence": {
+    "wholesale_evidence": "Food-service/export network confirmed; pallet MOQ not public",
+    "official_contact": {
       "website": "https://www.vionfoodgroup.com/en/brands/de-groene-weg",
       "email": "",
       "phone": "+31 544 473 260",
       "address": "Den Sliem 1, 7141 JE Groenlo, Netherlands"
     },
-    "official_contact": [
+    "status": "unverified",
+    "missing_fields": [
       "organic operator number",
       "exact frozen minced block SKU",
       "multi-pallet/MOQ confirmation",
       "wholesale quote"
     ],
-    "status": "unverified",
-    "missing_fields": [
+    "checked_at": "2026-09-24",
+    "sources": [
       "https://www.vionfoodgroup.com/en/brands/de-groene-weg",
       "https://www.vionfoodgroup.com/en/products/minced-meat"
     ],
-    "checked_at": "2026-09-24",
-    "sources": "High-priority producer lead; no price imported."
+    "notes": "High-priority producer lead; no price imported."
   },
   {
     "legal_name": "SA Union des Eleveurs Bio (UNEBIO)",
@@ -189,26 +190,27 @@
     "product_description": "Official site confirms the organic bovine supply chain; exact operator number not captured",
     "organic_status": "Frozen minced claim comes from partner evidence; current official product proof is incomplete",
     "frozen_evidence": "Cooperative/food-service capability reported; direct pallet MOQ not public",
-    "wholesale_evidence": {
+    "wholesale_evidence": "Cooperative/food-service capability reported; direct pallet MOQ not public",
+    "official_contact": {
       "website": "https://www.unebio.fr/",
       "email": "",
       "phone": "",
       "address": "France"
     },
-    "official_contact": [
+    "status": "unverified",
+    "missing_fields": [
       "exact frozen minced block SKU",
       "direct official B2B contact",
       "organic operator number",
       "multi-pallet/MOQ confirmation",
       "wholesale quote"
     ],
-    "status": "unverified",
-    "missing_fields": [
+    "checked_at": "2026-09-24",
+    "sources": [
       "https://www.unebio.fr/nos-filieres/la-filiere-bovine/",
       "https://www.unebio.fr/"
     ],
-    "checked_at": "2026-09-24",
-    "sources": "High-priority cooperative lead; partner claims remain unverified."
+    "notes": "High-priority cooperative lead; partner claims remain unverified."
   },
   {
     "legal_name": "Sonnberg Biofleisch GmbH",
@@ -220,25 +222,26 @@
     "product_description": "Organic producer claim and AT-BIO reference reported; public operator lookup not captured",
     "organic_status": "Deep-frozen catering claim reported; exact current SKU not independently confirmed",
     "frozen_evidence": "Gastronomy/catering supply reported; pallet MOQ not public",
-    "wholesale_evidence": {
+    "wholesale_evidence": "Gastronomy/catering supply reported; pallet MOQ not public",
+    "official_contact": {
       "website": "https://biofleisch.biz/",
       "email": "verkauf@biofleisch.biz",
       "phone": "+43 7956 797091",
       "address": "Austria"
     },
-    "official_contact": [
+    "status": "unverified",
+    "missing_fields": [
       "official frozen product page",
       "multi-pallet/MOQ confirmation",
       "certificate verification URL",
       "wholesale quote"
     ],
-    "status": "unverified",
-    "missing_fields": [
+    "checked_at": "2026-09-24",
+    "sources": [
       "https://biofleisch.biz/kontakt/",
       "https://biofleisch.biz/"
     ],
-    "checked_at": "2026-09-24",
-    "sources": "Producer lead; public evidence is insufficient for verified status."
+    "notes": "Producer lead; public evidence is insufficient for verified status."
   },
   {
     "legal_name": "Biopark s.r.o.",
@@ -312,26 +315,27 @@
     "product_description": "Organic chicken concept exists at group level; site-specific operator/certificate not captured",
     "organic_status": "Frozen poultry mince is cited by Gemini, but exact official SKU is not public",
     "frozen_evidence": "Official group serves food service and has industrial processing; pallet MOQ not public",
-    "wholesale_evidence": {
+    "wholesale_evidence": "Official group serves food service and has industrial processing; pallet MOQ not public",
+    "official_contact": {
       "website": "https://www.plukon.com/",
       "email": "",
       "phone": "",
       "address": "Poland / EU group"
     },
-    "official_contact": [
+    "status": "unverified",
+    "missing_fields": [
       "exact organic frozen minced-chicken SKU",
       "site-specific certificate/operator number",
       "direct Polish B2B contact",
       "multi-pallet/MOQ confirmation",
       "wholesale quote"
     ],
-    "status": "unverified",
-    "missing_fields": [
+    "checked_at": "2026-09-24",
+    "sources": [
       "https://www.plukon.com/products/chicken-products/",
       "https://www.plukon.com/"
     ],
-    "checked_at": "2026-09-24",
-    "sources": "High-priority industrial lead, but product verification remains incomplete."
+    "notes": "High-priority industrial lead, but product verification remains incomplete."
   },
   {
     "legal_name": "Freiländer Bio Geflügel GmbH",
@@ -343,25 +347,26 @@
     "product_description": "Official site shows EU organic certification mark; operator number needs confirmation",
     "organic_status": "Cited product listing says poultry mince is deep-frozen; official trade page confirms organic poultry processing",
     "frozen_evidence": "Official trade page offers partner supply and processed products; multi-pallet MOQ not public",
-    "wholesale_evidence": {
+    "wholesale_evidence": "Official trade page offers partner supply and processed products; multi-pallet MOQ not public",
+    "official_contact": {
       "website": "https://www.freilaender.de/fuer-partner/fuer-den-handel/",
       "email": "info@freilaender.de",
       "phone": "+49 8133 9962-0",
       "address": "Gewerbering 5, 85777 Fahrenzhausen, Germany"
     },
-    "official_contact": [
+    "status": "unverified",
+    "missing_fields": [
       "current official frozen minced SKU",
       "multi-pallet/MOQ confirmation",
       "certificate/operator lookup",
       "wholesale quote"
     ],
-    "status": "unverified",
-    "missing_fields": [
+    "checked_at": "2026-09-24",
+    "sources": [
       "https://www.freilaender.de/fuer-partner/fuer-den-handel/",
       "https://www.bio123.de/produkt/freilander-bio-geflugel/geflugelhackfleisch-aus-pute-und-huhn-zum-braten-tiefgefroren"
     ],
-    "checked_at": "2026-09-24",
-    "sources": "Strong chicken lead, but not yet confirmed as several-pallet industrial block supply."
+    "notes": "Strong chicken lead, but not yet confirmed as several-pallet industrial block supply."
   },
   {
     "legal_name": "Bodin Bio",
@@ -673,6 +678,9 @@
       "wholesale quote"
     ],
     "checked_at": "2026-09-24",
-    "sources": "Secondary broker lead; do not count as producer."
+    "sources": [
+      "https://www.euroser.fr/en/specialization-p17.html"
+    ],
+    "notes": "Secondary broker lead; do not count as producer."
   }
 ]
