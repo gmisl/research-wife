@@ -1,0 +1,40 @@
+{
+  "review_date": "2026-09-24",
+  "source_documents": [
+    "EU Organic Frozen Meat Suppliers.docx",
+    "EU Organic Meat Supplier Database(2).docx"
+  ],
+  "scope": "Gemini research intake for certified organic frozen minced beef and chicken in EU wholesale/industrial supply",
+  "results": {
+    "new_candidates_imported": 19,
+    "initial_candidate_total_after_import": 22,
+    "promoted_to_verified": 0,
+    "wholesale_prices_imported_from_gemini_reports": 0,
+    "retail_or_estimated_prices_excluded": true
+  },
+  "screening_decision": "All new records remain unverified until product-level frozen minced format, several-pallet/MOQ evidence and organic certificate/operator verification are available.",
+  "priority_outreach": [
+    "Good Herdsmen Ltd / ABP Food Group (IE)",
+    "Friland A/S / Danish Crown (DK)",
+    "UNEBIO (FR)",
+    "Vion Food Group / De Groene Weg (NL)",
+    "Biogreco (GR)",
+    "Freiländer Bio Geflügel GmbH (DE)",
+    "Plukon Food Group (PL)"
+  ],
+  "quality_findings": [
+    "Several report rows are labelled verified without public proof of an exact frozen minced block SKU and several-pallet terms.",
+    "The reports are internally inconsistent about chicken verification.",
+    "The cited Tamminen 2 kg beef page is a regular Rotukarja product and does not prove organic beef; it was not imported as an organic candidate.",
+    "Retail prices, conventional commodity benchmarks and estimated wholesale ranges were excluded from price statistics.",
+    "Distributors and brokers are retained as secondary leads and are not mixed with producer counts."
+  ],
+  "next_verification_fields": [
+    "Exact frozen minced beef/chicken SKU",
+    "Block, bulk or pallet pack format",
+    "Minimum order quantity or several-pallet evidence",
+    "Organic control body and operator/certificate number with lookup URL",
+    "Official B2B contact",
+    "Direct wholesale quote in EUR/kg or EUR/tonne"
+  ]
+}
