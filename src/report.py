@@ -53,8 +53,22 @@ def load_candidate_price_signals(path: Path) -> list[dict]:
     return signals
 
 
+def load_historical_stats(path: Path = Path('data/history/weekly_price_snapshots.json')) -> list[dict]:
+    """Load committed weekly snapshots so charts survive fresh CI runners."""
+    if not path.exists():
+        return []
+    try:
+        rows = json.loads(path.read_text(encoding='utf-8'))
+    except (OSError, json.JSONDecodeError):
+        return []
+    return rows if isinstance(rows, list) else []
+
+
 def build_dashboard(connection: sqlite3.Connection, candidate_path: Path = Path('data/initial_candidates.json')) -> str:
-    stats = [asdict(x) for x in calculate_weekly_stats(connection)]
+    current_stats = [asdict(x) for x in calculate_weekly_stats(connection)]
+    historical = load_historical_stats()
+    known_keys = {(x.get('week_start'), x.get('country_code'), x.get('product_id')) for x in historical}
+    stats = historical + [x for x in current_stats if (x.get('week_start'), x.get('country_code'), x.get('product_id')) not in known_keys]
     candidate_prices = load_candidate_price_signals(candidate_path)
     suppliers = connection.execute(
         """
@@ -71,13 +85,20 @@ def build_dashboard(connection: sqlite3.Connection, candidate_path: Path = Path(
     verified_count = sum(row['status'] == 'active' for row in supplier_rows)
     lead_count = sum(row['status'] == 'unverified' for row in supplier_rows)
     price_country_count = len({row['country_code'] for row in candidate_prices if row.get('country_code')})
+    supplier_country_counts = {}
+    for row in supplier_rows:
+        supplier_country_counts[row['country_code']] = supplier_country_counts.get(row['country_code'], 0) + 1
+    countries_at_target = sum(count >= 5 for count in supplier_country_counts.values())
     payload = json.dumps({'stats': stats, 'suppliers': supplier_rows,
                           'verifiedCount': verified_count, 'leadCount': lead_count,
                           'priceCountryCount': price_country_count,
-                          'candidatePrices': candidate_prices}, ensure_ascii=False)
+                          'candidatePrices': candidate_prices,
+                          'supplierCountryCounts': supplier_country_counts,
+                          'countriesAtTarget': countries_at_target,
+                          'supplierTargetPerCountry': 5}, ensure_ascii=False)
     return f'''<!doctype html>
 <html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
-<title>Organic EU Meat Research</title>
+<title>Organic EU Meat Research — cenas</title>
 <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.4/dist/chart.umd.min.js"></script>
 <style>
 body{{font-family:system-ui,sans-serif;margin:0;background:#f5f7f9;color:#17212b}}
@@ -95,11 +116,13 @@ table{{border-collapse:collapse;width:100%;background:white}} th,td{{padding:9px
 <div class="card"><b id="countryCount">0</b><br><span class="muted">Supplier countries</span></div>
 <div class="card"><b id="priceCountryCount">0</b><br><span class="muted">Price countries</span></div>
 <div class="card"><b id="referencePriceCount">0</b><br><span class="muted">Price references</span></div>
+<div class="card"><b id="countriesAtTarget">0/27</b><br><span class="muted">Countries with 5+ suppliers</span></div>
 <div class="card"><b id="priceCount">0</b><br><span class="muted">Comparable prices</span></div></div>
 <div class="controls"><label>Product <select id="productFilter"><option value="all">All</option></select></label>
 <label>Country <select id="countryFilter"><option value="all">All</option></select></label></div>
 <section class="chart"><canvas id="priceChart"></canvas></section>
-<section class="chart"><canvas id="candidatePriceChart"></canvas><p class="muted">Published price signals are shown separately by channel; only strict verified wholesale rows enter the trend statistics.</p></section>
+<section class="chart"><canvas id="candidatePriceChart"></canvas><p class="muted">Publicētās cenas tiek rādītas atsevišķi pēc kanāla; tikai stingri verificētas vairumtirdzniecības cenas nonāk trendu statistikā.</p></section>
+<section><h2>Cenas un avoti</h2><div style="overflow:auto"><table><thead><tr><th>Datums</th><th>Valsts</th><th>Piegādātājs</th><th>Produkts</th><th>Cena</th><th>Avots</th></tr></thead><tbody id="candidatePriceTable"></tbody></table></div></section>
 <h2>Suppliers and leads</h2><div style="overflow:auto"><table><thead><tr><th>Company</th><th>Country</th><th>Type</th><th>Priority</th><th>Status</th><th>Verified</th></tr></thead><tbody id="supplierTable"></tbody></table></div>
 </main><script>
 const DATA={payload};
@@ -114,6 +137,7 @@ document.querySelector('#leadCount').textContent=DATA.leadCount;
 document.querySelector('#countryCount').textContent=new Set(DATA.suppliers.map(x=>x.country_code)).size;
 document.querySelector('#priceCountryCount').textContent=DATA.priceCountryCount;
 document.querySelector('#referencePriceCount').textContent=DATA.candidatePrices.length;
+document.querySelector('#countriesAtTarget').textContent=`${DATA.countriesAtTarget}/27`;
 document.querySelector('#priceCount').textContent=DATA.stats.reduce((a,x)=>a+x.sample_count,0);
 let chart, candidateChart;
 function render(){{const selectedProduct=product.value, selectedCountry=country.value;
@@ -123,6 +147,7 @@ function render(){{const selectedProduct=product.value, selectedCountry=country.
  if(chart)chart.destroy(); chart=new Chart(document.querySelector('#priceChart'),{{type:'line',data:{{labels,datasets}},options:{{responsive:true,maintainAspectRatio:false,plugins:{{title:{{display:true,text:'Average wholesale price (EUR/kg or normalized source unit)'}}}}}}}}); document.querySelector('.chart').style.height='380px';
  const leadRows=DATA.candidatePrices.filter(x=>selectedCountry==='all'||x.country_code===selectedCountry);
  if(candidateChart)candidateChart.destroy(); candidateChart=new Chart(document.querySelector('#candidatePriceChart'),{{type:'bar',data:{{labels:leadRows.map(x=>`${{x.legal_name}} (${{x.country_code}})`),datasets:[{{label:'Published price signal',data:leadRows.map(x=>x.price),backgroundColor:leadRows.map(x=>x.is_wholesale?'#2563eb':'#f59e0b')}}]}},options:{{responsive:true,maintainAspectRatio:false,plugins:{{title:{{display:true,text:'Published price signals — wholesale and market reference'}}}},scales:{{y:{{title:{{display:true,text:'Price'}}}}}}}}}}); 
+ document.querySelector('#candidatePriceTable').innerHTML=leadRows.map(x=>`<tr><td>${x.date||'—'}</td><td>${x.country_code}</td><td>${x.legal_name}</td><td>${x.description}</td><td>€${Number(x.price).toFixed(2)} ${x.unit}</td><td><a href="${x.website}" target="_blank" rel="noopener">Atvērt avotu</a></td></tr>`).join('')||'<tr><td colspan="6" class="muted">Nav publicētu cenu.</td></tr>';
  document.querySelector('#supplierTable').innerHTML=DATA.suppliers.filter(x=>selectedCountry==='all'||x.country_code===selectedCountry).map(x=>`<tr><td>${{x.website?`<a href="${{x.website}}" target="_blank">${{x.legal_name}}</a>`:x.legal_name}}</td><td>${{x.country_code}}</td><td>${{x.supplier_type}}</td><td><span class="tag">${{x.priority_class}}</span></td><td>${{x.status}}</td><td>${{x.last_verified_at||'—'}}</td></tr>`).join('')||'<tr><td colspan="6" class="muted">No suppliers or leads yet.</td></tr>';
 }}
 product.onchange=country.onchange=render; render();
