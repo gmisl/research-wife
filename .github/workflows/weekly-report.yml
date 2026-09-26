@@ -36,6 +36,7 @@ jobs:
         run: |
           python -m src.bootstrap --database data/research-wife.db --schema schema.sql
           python -m src.import_candidates --database data/research-wife.db --input data/initial_candidates.json
+          python -m src.wayback_prices --input data/initial_candidates.json --output data/history/price_observations.json
           python -m src.archive_snapshot --database data/research-wife.db --output data/history/weekly_price_snapshots.json --candidates data/initial_candidates.json
           python -m src.report --database data/research-wife.db --output data/exports/dashboard.html
           python -m src.email_report --database data/research-wife.db --output data/exports/weekly-email.html
