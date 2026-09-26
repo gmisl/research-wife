@@ -1032,7 +1032,7 @@
   {
     "legal_name": "LPKS GreenBeef.Lv",
     "country_code": "LV",
-    "supplier_type": "cooperative_producer",
+    "supplier_type": "cooperative",
     "priority_class": "secondary",
     "product_family": "beef",
     "category_code": "frozen_minced_beef",
