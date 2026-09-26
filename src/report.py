@@ -53,6 +53,16 @@ def load_candidate_price_signals(path: Path) -> list[dict]:
     return signals
 
 
+def load_historical_candidate_price_signals(path: Path = Path('data/history/price_observations.json')) -> list[dict]:
+    if not path.exists():
+        return []
+    try:
+        rows = json.loads(path.read_text(encoding='utf-8'))
+    except (OSError, json.JSONDecodeError):
+        return []
+    return rows if isinstance(rows, list) else []
+
+
 def load_historical_stats(path: Path = Path('data/history/weekly_price_snapshots.json')) -> list[dict]:
     """Load committed weekly snapshots so charts survive fresh CI runners."""
     if not path.exists():
@@ -69,7 +79,15 @@ def build_dashboard(connection: sqlite3.Connection, candidate_path: Path = Path(
     historical = load_historical_stats()
     known_keys = {(x.get('week_start'), x.get('country_code'), x.get('product_id')) for x in historical}
     stats = historical + [x for x in current_stats if (x.get('week_start'), x.get('country_code'), x.get('product_id')) not in known_keys]
-    candidate_prices = load_candidate_price_signals(candidate_path)
+    current_candidate_prices = load_candidate_price_signals(candidate_path)
+    historical_candidate_prices = load_historical_candidate_price_signals()
+    candidate_prices = []
+    seen_price_keys = set()
+    for row in historical_candidate_prices + current_candidate_prices:
+        key = (row.get('legal_name'), row.get('country_code'), row.get('date'), row.get('price'), row.get('unit'), row.get('website'))
+        if key not in seen_price_keys:
+            seen_price_keys.add(key)
+            candidate_prices.append(row)
     suppliers = connection.execute(
         """
         SELECT s.legal_name, s.country_code, s.supplier_type, s.priority_class,
