@@ -86,7 +86,7 @@ select{{padding:8px;border:1px solid #ccd3da;border-radius:6px}} .chart{{backgro
 table{{border-collapse:collapse;width:100%;background:white}} th,td{{padding:9px;border-bottom:1px solid #e8ecef;text-align:left}} th{{background:#eef2f5}}
 .muted{{color:#697681}} .tag{{padding:3px 7px;border-radius:10px;background:#e8f2eb}}
 </style></head><body><main>
-<h1>Organic EU Meat Research</h1><p class="muted">Weekly wholesale snapshot. Delivery costs are not added.</p>
+<h1>Organic EU Meat Research</h1><p class="muted">Weekly organic meat price snapshot. Delivery costs are not added.</p>
 <div class="cards"><div class="card"><b id="supplierCount">0</b><br><span class="muted">Suppliers / leads</span></div>
 <div class="card"><b id="verifiedCount">0</b><br><span class="muted">Verified suppliers</span></div>
 <div class="card"><b id="leadCount">0</b><br><span class="muted">Unverified leads</span></div>
@@ -108,6 +108,7 @@ document.querySelector('#supplierCount').textContent=DATA.suppliers.length;
 document.querySelector('#verifiedCount').textContent=DATA.verifiedCount;
 document.querySelector('#leadCount').textContent=DATA.leadCount;
 document.querySelector('#countryCount').textContent=new Set(DATA.suppliers.map(x=>x.country_code)).size;
+document.querySelector('#referencePriceCount').textContent=DATA.candidatePrices.length;
 document.querySelector('#priceCount').textContent=DATA.stats.reduce((a,x)=>a+x.sample_count,0);
 let chart, candidateChart;
 function render(){{const selectedProduct=product.value, selectedCountry=country.value;
