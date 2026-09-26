@@ -137,7 +137,7 @@ document.querySelector('#leadCount').textContent=DATA.leadCount;
 document.querySelector('#countryCount').textContent=new Set(DATA.suppliers.map(x=>x.country_code)).size;
 document.querySelector('#priceCountryCount').textContent=DATA.priceCountryCount;
 document.querySelector('#referencePriceCount').textContent=DATA.candidatePrices.length;
-document.querySelector('#countriesAtTarget').textContent=`${DATA.countriesAtTarget}/27`;
+document.querySelector('#countriesAtTarget').textContent=DATA.countriesAtTarget+'/27';
 document.querySelector('#priceCount').textContent=DATA.stats.reduce((a,x)=>a+x.sample_count,0);
 let chart, candidateChart;
 function render(){{const selectedProduct=product.value, selectedCountry=country.value;
