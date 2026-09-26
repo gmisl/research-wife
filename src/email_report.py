@@ -37,7 +37,7 @@ def build_email(connection: sqlite3.Connection, candidate_path: Path = Path('dat
     table = ''.join(lines) or '<tr><td colspan="6">No comparable wholesale prices collected yet.</td></tr>'
     lead_price_table = ''.join(
         f'<tr><td>{escape(row["date"])}</td><td>{escape(row["country_code"])}</td>'
-        f'<td><a href="{escape(row["website"], quote=True)}" target="_blank" rel="noopener">{escape(row["legal_name"])}</a></td><td>{escape(row["description"])}</td>'
+        f'<td><a href="{escape(row.get("archive_url") or row["website"], quote=True)}" target="_blank" rel="noopener">{escape(row["legal_name"])}</a></td><td>{escape(row["description"])}</td>'
         f'<td>€{row["price"]:.2f} {escape(row["unit"])}</td></tr>'
         for row in candidate_prices
     ) or '<tr><td colspan="6">Nav publicētu cenu signālu.</td></tr>'
