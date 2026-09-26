@@ -21,7 +21,7 @@ ALLOWED_CATEGORIES = {
 
 
 def load_candidate_price_signals(path: Path) -> list[dict]:
-    """Load published lead prices without mixing them into verified stats."""
+    """Load published/indicative lead prices as separate market signals."""
     if not path.exists():
         return []
     try:
@@ -34,7 +34,6 @@ def load_candidate_price_signals(path: Path) -> list[dict]:
         if (item.get('category_code') not in ALLOWED_CATEGORIES
                 or price.get('price_status') != 'published'
                 or not isinstance(price.get('value'), (int, float))
-                or not item.get('wholesale_evidence')
                 or not item.get('official_contact', {}).get('website')):
             continue
         signals.append({
@@ -47,7 +46,9 @@ def load_candidate_price_signals(path: Path) -> list[dict]:
             'unit': price.get('unit', 'EUR/kg'),
             'date': item.get('checked_at', ''),
             'website': item.get('official_contact', {}).get('website'),
-            'reason': 'Lead/unverified or product form not yet comparable; excluded from verified price statistics.',
+            'channel': price.get('channel') or ('wholesale' if item.get('wholesale_evidence') else 'market_reference'),
+            'is_wholesale': bool(item.get('wholesale_evidence')),
+            'reason': 'Market signal shown separately; not mixed into strict verified wholesale statistics.',
         })
     return signals
 
@@ -94,7 +95,7 @@ table{{border-collapse:collapse;width:100%;background:white}} th,td{{padding:9px
 <div class="controls"><label>Product <select id="productFilter"><option value="all">All</option></select></label>
 <label>Country <select id="countryFilter"><option value="all">All</option></select></label></div>
 <section class="chart"><canvas id="priceChart"></canvas></section>
-<section class="chart"><canvas id="candidatePriceChart"></canvas><p class="muted">Published candidate price signals are shown separately and are not included in verified statistics.</p></section>
+<section class="chart"><canvas id="candidatePriceChart"></canvas><p class="muted">Published price signals are shown separately by channel; only strict verified wholesale rows enter the trend statistics.</p></section>
 <h2>Suppliers and leads</h2><div style="overflow:auto"><table><thead><tr><th>Company</th><th>Country</th><th>Type</th><th>Priority</th><th>Status</th><th>Verified</th></tr></thead><tbody id="supplierTable"></tbody></table></div>
 </main><script>
 const DATA={payload};
@@ -115,7 +116,7 @@ function render(){{const selectedProduct=product.value, selectedCountry=country.
  const datasets=[...new Set(rows.map(x=>x.category_name))].map((name,i)=>({{label:name,data:labels.map(w=>{{const a=byWeek[w].filter(x=>x.category_name===name);return a.length?a.reduce((s,x)=>s+x.avg_price_eur,0)/a.length:null}}),borderColor:['#2563eb','#dc2626','#059669','#9333ea'][i%4],tension:.25,spanGaps:true}}));
  if(chart)chart.destroy(); chart=new Chart(document.querySelector('#priceChart'),{{type:'line',data:{{labels,datasets}},options:{{responsive:true,maintainAspectRatio:false,plugins:{{title:{{display:true,text:'Average wholesale price (EUR/kg or normalized source unit)'}}}}}}}}); document.querySelector('.chart').style.height='380px';
  const leadRows=DATA.candidatePrices.filter(x=>selectedCountry==='all'||x.country_code===selectedCountry);
- if(candidateChart)candidateChart.destroy(); candidateChart=new Chart(document.querySelector('#candidatePriceChart'),{{type:'bar',data:{{labels:leadRows.map(x=>`${{x.legal_name}} (${{x.country_code}})`),datasets:[{{label:'Published lead price',data:leadRows.map(x=>x.price),backgroundColor:'#f59e0b'}}]}},options:{{responsive:true,maintainAspectRatio:false,plugins:{{title:{{display:true,text:'Published candidate price signals — excluded from verified trend'}}}},scales:{{y:{{title:{{display:true,text:'Price'}}}}}}}}}}); 
+ if(candidateChart)candidateChart.destroy(); candidateChart=new Chart(document.querySelector('#candidatePriceChart'),{{type:'bar',data:{{labels:leadRows.map(x=>`${{x.legal_name}} (${{x.country_code}})`),datasets:[{{label:'Published price signal',data:leadRows.map(x=>x.price),backgroundColor:leadRows.map(x=>x.is_wholesale?'#2563eb':'#f59e0b')}}]}},options:{{responsive:true,maintainAspectRatio:false,plugins:{{title:{{display:true,text:'Published price signals — wholesale and market reference'}}}},scales:{{y:{{title:{{display:true,text:'Price'}}}}}}}}}}); 
  document.querySelector('#supplierTable').innerHTML=DATA.suppliers.filter(x=>selectedCountry==='all'||x.country_code===selectedCountry).map(x=>`<tr><td>${{x.website?`<a href="${{x.website}}" target="_blank">${{x.legal_name}}</a>`:x.legal_name}}</td><td>${{x.country_code}}</td><td>${{x.supplier_type}}</td><td><span class="tag">${{x.priority_class}}</span></td><td>${{x.status}}</td><td>${{x.last_verified_at||'—'}}</td></tr>`).join('')||'<tr><td colspan="6" class="muted">No suppliers or leads yet.</td></tr>';
 }}
 product.onchange=country.onchange=render; render();
