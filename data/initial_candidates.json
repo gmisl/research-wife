@@ -800,5 +800,460 @@
       "https://delaneyorganicfarm.com/"
     ],
     "notes": "Good organic producer and price lead; exact minced-beef pack composition and frozen dispatch need confirmation."
+  },
+  {
+    "legal_name": "De Groene Boerderij",
+    "country_code": "BE",
+    "supplier_type": "producer_retailer",
+    "priority_class": "secondary",
+    "product_family": "beef",
+    "category_code": "minced_beef",
+    "product_description": "Organic beef mince 80/20, published retail/farm price reference",
+    "organic_status": "Organic product explicitly labelled; certifier not captured",
+    "frozen_evidence": "Fresh/chilled; frozen availability not stated",
+    "wholesale_evidence": "Not demonstrated; price reference only",
+    "official_contact": {
+      "website": "https://www.degroeneboerderij.be/online-bestellen/runder-gehakt-bio",
+      "email": "",
+      "phone": "+32 3 667 16 36",
+      "address": "Akkerveken 3, 2990 Wuustwezel, Belgium"
+    },
+    "status": "unverified",
+    "checked_at": "2026-09-26",
+    "sources": [
+      "https://www.degroeneboerderij.be/online-bestellen/runder-gehakt-bio"
+    ],
+    "price": {
+      "value": 30.58,
+      "currency": "EUR",
+      "unit": "EUR/kg",
+      "price_condition": "published price/kg",
+      "price_status": "published",
+      "channel": "market_reference"
+    },
+    "notes": "Belgium price coverage reference; retail/farm channel, not counted as industrial wholesale until bulk terms are confirmed."
+  },
+  {
+    "legal_name": "BioAngus",
+    "country_code": "BG",
+    "supplier_type": "producer_retailer",
+    "priority_class": "secondary",
+    "product_family": "beef",
+    "category_code": "minced_beef",
+    "product_description": "Ground Black Angus beef, published starting price",
+    "organic_status": "Organic/Bio branding is used, but certification body/number was not captured",
+    "frozen_evidence": "Fresh listing; frozen status not stated",
+    "wholesale_evidence": "Bulk order page exists, but price is not a pallet quote",
+    "official_contact": {
+      "website": "https://www.bioangus.bg/en/collections/bio-teleshko-meso",
+      "email": "",
+      "phone": "",
+      "address": "Bulgaria"
+    },
+    "status": "unverified",
+    "checked_at": "2026-09-26",
+    "sources": [
+      "https://www.bioangus.bg/en/collections/bio-teleshko-meso"
+    ],
+    "price": {
+      "value": 8.99,
+      "currency": "EUR",
+      "unit": "EUR/package",
+      "price_condition": "published starting price; pack weight not shown",
+      "price_status": "published",
+      "channel": "market_reference"
+    },
+    "notes": "Bulgaria coverage reference. Keep organic claim as unverified and do not use in strict organic statistics."
+  },
+  {
+    "legal_name": "Skrtica / Plodine benchmark",
+    "country_code": "HR",
+    "supplier_type": "market_reference",
+    "priority_class": "secondary",
+    "product_family": "beef",
+    "category_code": "minced_beef",
+    "product_description": "Mixed minced meat country price benchmark",
+    "organic_status": "Not organic; benchmark only because a public organic minced-beef price was not found",
+    "frozen_evidence": "Fresh/chilled benchmark",
+    "wholesale_evidence": "No wholesale evidence",
+    "official_contact": {
+      "website": "https://www.skrtica.hr/proizvodi/mijesano-mljeveno-meso-0f824222",
+      "email": "",
+      "phone": "",
+      "address": "Croatia"
+    },
+    "status": "unverified",
+    "checked_at": "2026-09-26",
+    "sources": [
+      "https://www.skrtica.hr/proizvodi/mijesano-mljeveno-meso-0f824222"
+    ],
+    "price": {
+      "value": 7.05,
+      "currency": "EUR",
+      "unit": "EUR/kg",
+      "price_condition": "published market comparison",
+      "price_status": "published",
+      "channel": "country_market_benchmark"
+    },
+    "notes": "Croatia minimum price coverage; mixed beef/pork is not directly comparable with pure organic beef."
+  },
+  {
+    "legal_name": "The Ribeye Club",
+    "country_code": "CY",
+    "supplier_type": "retailer_distributor",
+    "priority_class": "secondary",
+    "product_family": "beef",
+    "category_code": "frozen_minced_beef",
+    "product_description": "Frozen organic minced beef, 400 g",
+    "organic_status": "Organic product stated; certification body/number not captured",
+    "frozen_evidence": "Frozen product stated",
+    "wholesale_evidence": "Retail pack; no pallet MOQ shown",
+    "official_contact": {
+      "website": "https://theribeyeclub.com/",
+      "email": "",
+      "phone": "",
+      "address": "Cyprus"
+    },
+    "status": "unverified",
+    "checked_at": "2026-09-26",
+    "sources": [
+      "https://theribeyeclub.com/"
+    ],
+    "price": {
+      "value": 43.92,
+      "currency": "EUR",
+      "unit": "EUR/kg",
+      "price_condition": "17.60 EUR per 400 g pack",
+      "price_status": "published",
+      "channel": "market_reference"
+    },
+    "notes": "Cyprus organic frozen price reference; direct product page was found in the search results but the public root URL is retained here."
+  },
+  {
+    "legal_name": "Liivimaa Lihaveis / Selver",
+    "country_code": "EE",
+    "supplier_type": "producer_retailer",
+    "priority_class": "secondary",
+    "product_family": "beef",
+    "category_code": "minced_beef",
+    "product_description": "Organic grass-fed beef mince, 300 g",
+    "organic_status": "Organic/mahe product label shown",
+    "frozen_evidence": "Chilled/fresh; frozen status not stated",
+    "wholesale_evidence": "Retail pack; no pallet MOQ shown",
+    "official_contact": {
+      "website": "https://www.selver.ee/liha-ja-kalatooted/hakkliha",
+      "email": "",
+      "phone": "",
+      "address": "Estonia"
+    },
+    "status": "unverified",
+    "checked_at": "2026-09-26",
+    "sources": [
+      "https://www.selver.ee/liha-ja-kalatooted/hakkliha"
+    ],
+    "price": {
+      "value": 19.3,
+      "currency": "EUR",
+      "unit": "EUR/kg",
+      "price_condition": "5.79 EUR per 300 g pack",
+      "price_status": "published",
+      "channel": "market_reference"
+    },
+    "notes": "Estonia organic price coverage reference; retail channel."
+  },
+  {
+    "legal_name": "Antilan Luomupihvit",
+    "country_code": "FI",
+    "supplier_type": "producer",
+    "priority_class": "secondary",
+    "product_family": "beef",
+    "category_code": "frozen_minced_beef",
+    "product_description": "Organic beef mince, 500 g packs; frozen 1–2 days after packing",
+    "organic_status": "Organic producer/farm site; certification body not captured",
+    "frozen_evidence": "Official price page states mince is frozen 1–2 days after packing",
+    "wholesale_evidence": "500 g packs and advance orders; several-pallet terms not public",
+    "official_contact": {
+      "website": "https://www.antilanluomupihvit.com/hinnasto/",
+      "email": "",
+      "phone": "",
+      "address": "Finland"
+    },
+    "status": "unverified",
+    "checked_at": "2026-09-26",
+    "sources": [
+      "https://www.antilanluomupihvit.com/hinnasto/"
+    ],
+    "price": {
+      "value": 15,
+      "currency": "EUR",
+      "unit": "EUR/kg",
+      "price_condition": "published mince price; Angus 16 EUR/kg, Kyytö 15 EUR/kg",
+      "price_status": "published",
+      "channel": "market_reference"
+    },
+    "notes": "Finland organic frozen price reference. Site says no new mince customers currently; retain as historical/current published price signal."
+  },
+  {
+    "legal_name": "Martonyi Öko-Agro Kft. / Kifli.hu",
+    "country_code": "HU",
+    "supplier_type": "producer_retailer",
+    "priority_class": "secondary",
+    "product_family": "beef",
+    "category_code": "minced_beef",
+    "product_description": "Organic Hungarian gray cattle minced beef, 500 g, 15% fat",
+    "organic_status": "BIO-labelled product; organic producer identified",
+    "frozen_evidence": "Defrosted/refrigerated product; not frozen",
+    "wholesale_evidence": "Retail pack; no pallet MOQ shown",
+    "official_contact": {
+      "website": "https://www.kifli.hu/en-HU/119851-bio-marha-elokeszitett-ledaralt-hus-15-zsirtartalom",
+      "email": "",
+      "phone": "",
+      "address": "Hungary"
+    },
+    "status": "unverified",
+    "checked_at": "2026-09-26",
+    "sources": [
+      "https://www.kifli.hu/en-HU/119851-bio-marha-elokeszitett-ledaralt-hus-15-zsirtartalom",
+      "https://www.ecb.europa.eu/stats/shared/pdf/eurofxref.pdf"
+    ],
+    "price": {
+      "value": 23.15,
+      "currency": "EUR",
+      "unit": "EUR/kg",
+      "original_value": 8458,
+      "original_currency": "HUF",
+      "fx_rate": "ECB 2026-09-25: EUR 1 = HUF 365.28",
+      "price_condition": "4,229 HUF per 500 g; converted using ECB reference rate",
+      "price_status": "published",
+      "channel": "market_reference"
+    },
+    "notes": "Hungary organic price reference. Conversion is indicative and original HUF price is preserved."
+  },
+  {
+    "legal_name": "LPKS GreenBeef.Lv",
+    "country_code": "LV",
+    "supplier_type": "cooperative_producer",
+    "priority_class": "secondary",
+    "product_family": "beef",
+    "category_code": "frozen_minced_beef",
+    "product_description": "Certified-organic beef burger/minced preparation, frozen, 4-piece pack",
+    "organic_status": "Biologically certified stated on official product page",
+    "frozen_evidence": "Official page states -18°C and frozen product",
+    "wholesale_evidence": "Producer/cooperative; retail-like pack and no pallet MOQ shown",
+    "official_contact": {
+      "website": "https://shop.greenbeef.lv/products/burgera-gala/",
+      "email": "",
+      "phone": "",
+      "address": "Latvia"
+    },
+    "status": "unverified",
+    "checked_at": "2026-09-26",
+    "sources": [
+      "https://shop.greenbeef.lv/products/burgera-gala/",
+      "https://greenbeef.lv/lv"
+    ],
+    "price": {
+      "value": 12,
+      "currency": "EUR",
+      "unit": "EUR/kg",
+      "price_condition": "published price/kg; e-shop currently closed",
+      "price_status": "published",
+      "channel": "market_reference"
+    },
+    "notes": "Latvia organic frozen price coverage. Product is burger/minced preparation rather than plain mince; keep category signal separate in analysis."
+  },
+  {
+    "legal_name": "Bio Green Beef / Bofrost Luxembourg",
+    "country_code": "LU",
+    "supplier_type": "distributor",
+    "priority_class": "secondary",
+    "product_family": "beef",
+    "category_code": "frozen_minced_beef",
+    "product_description": "Frozen organic beef meatball/minced-beef product; Luxembourg market reference price uses regular minced beef",
+    "organic_status": "Organic frozen product and DE-ÖKO-006 are stated on Bofrost Luxembourg page; public price not exposed",
+    "frozen_evidence": "Bofrost page states frozen organic beef product",
+    "wholesale_evidence": "Distributor; no pallet MOQ shown",
+    "official_contact": {
+      "website": "https://www.bofrost.lu/fr/shop/viandes_47078/viandes-hachees_42711/boulettes-de-viande-bovine-hachee-bio_10666.html",
+      "email": "",
+      "phone": "",
+      "address": "Luxembourg"
+    },
+    "status": "unverified",
+    "checked_at": "2026-09-26",
+    "sources": [
+      "https://www.bofrost.lu/fr/shop/viandes_47078/viandes-hachees_42711/boulettes-de-viande-bovine-hachee-bio_10666.html",
+      "https://www.monoprix.fr/courses/viande-poisson-et-oeufs/viande-de-boeuf-hachee-steak-hache-15-mg-monoprix-3560070440122/p"
+    ],
+    "price": {
+      "value": 17.75,
+      "currency": "EUR",
+      "unit": "EUR/kg",
+      "price_condition": "regular minced-beef market benchmark; organic Bofrost price unavailable",
+      "price_status": "published",
+      "channel": "country_market_benchmark"
+    },
+    "notes": "Luxembourg has organic frozen product evidence, but the single public price is a regular minced-beef benchmark and must not be treated as organic."
+  },
+  {
+    "legal_name": "Meats & Eats",
+    "country_code": "MT",
+    "supplier_type": "retailer",
+    "priority_class": "secondary",
+    "product_family": "beef",
+    "category_code": "minced_beef",
+    "product_description": "Fresh certified organic Belgian minced beef, 500 g",
+    "organic_status": "Product page states 100% certified organic",
+    "frozen_evidence": "Fresh; page says sold out; frozen fallback not confirmed",
+    "wholesale_evidence": "Retail pack; no pallet MOQ shown",
+    "official_contact": {
+      "website": "https://meatsandeats.com.mt/products/fresh-organic-minced-beef",
+      "email": "",
+      "phone": "",
+      "address": "Malta"
+    },
+    "status": "unverified",
+    "checked_at": "2026-09-26",
+    "sources": [
+      "https://meatsandeats.com.mt/products/fresh-organic-minced-beef"
+    ],
+    "price": {
+      "value": 27,
+      "currency": "EUR",
+      "unit": "EUR/kg",
+      "price_condition": "13.50 EUR per 500 g pack; sold out when crawled",
+      "price_status": "published",
+      "channel": "market_reference"
+    },
+    "notes": "Malta organic price coverage reference; availability is currently weak."
+  },
+  {
+    "legal_name": "Auchan Portugal / Biologic Bio",
+    "country_code": "PT",
+    "supplier_type": "distributor_retailer",
+    "priority_class": "secondary",
+    "product_family": "beef",
+    "category_code": "minced_beef",
+    "product_description": "Organic Portuguese minced beef preparation, 400 g",
+    "organic_status": "Organic product and Portuguese origin stated on official retailer page",
+    "frozen_evidence": "Refrigerated 0–2°C; not frozen",
+    "wholesale_evidence": "Retail pack; no pallet MOQ shown",
+    "official_contact": {
+      "website": "https://www.auchan.pt/pt/biologicos-e-alternativas/biologicos/biologicos-produtos-frescos/talho-e-peixaria/talho/carne-picada-bovino-biologic-bio-400g/3654053.html",
+      "email": "",
+      "phone": "",
+      "address": "Portugal"
+    },
+    "status": "unverified",
+    "checked_at": "2026-09-26",
+    "sources": [
+      "https://www.auchan.pt/pt/biologicos-e-alternativas/biologicos/biologicos-produtos-frescos/talho-e-peixaria/talho/carne-picada-bovino-biologic-bio-400g/3654053.html"
+    ],
+    "price": {
+      "value": 27.47,
+      "currency": "EUR",
+      "unit": "EUR/kg",
+      "price_condition": "10.99 EUR per 400 g pack",
+      "price_status": "published",
+      "channel": "market_reference"
+    },
+    "notes": "Portugal organic price coverage; fresh product, not frozen."
+  },
+  {
+    "legal_name": "Real Foods / Silvania Bio",
+    "country_code": "RO",
+    "supplier_type": "distributor_retailer",
+    "priority_class": "secondary",
+    "product_family": "beef",
+    "category_code": "minced_beef",
+    "product_description": "Certified organic minced beef, vacuum pack approximately 500 g",
+    "organic_status": "Organic product stated; Silvania Bio certified organic claim",
+    "frozen_evidence": "Refrigerated/packaged; frozen status not stated",
+    "wholesale_evidence": "Retail pack; no pallet MOQ shown",
+    "official_contact": {
+      "website": "https://realfoods.ro/products/carne/carne-de-vit-tocat-ecologic-silvania-bio-vid-500g-68ad67049e7c761bfefc3106/",
+      "email": "",
+      "phone": "",
+      "address": "Romania"
+    },
+    "status": "unverified",
+    "checked_at": "2026-09-26",
+    "sources": [
+      "https://realfoods.ro/products/carne/carne-de-vit-tocat-ecologic-silvania-bio-vid-500g-68ad67049e7c761bfefc3106/",
+      "https://nasulrosu.ro/product/carne-tocata-de-vita-eco-20-grasime-silvaniabio-ro/"
+    ],
+    "price": {
+      "value": 99,
+      "currency": "EUR",
+      "unit": "EUR/kg",
+      "price_condition": "49.50 EUR per 500 g pack",
+      "price_status": "published",
+      "channel": "market_reference"
+    },
+    "notes": "Romania organic price reference; unusually high published price should be rechecked before commercial use."
+  },
+  {
+    "legal_name": "Meatbox / Ekofarma Turová",
+    "country_code": "SK",
+    "supplier_type": "producer_retailer",
+    "priority_class": "secondary",
+    "product_family": "beef",
+    "category_code": "minced_beef",
+    "product_description": "Organic minced beef for burgers, 500 g vacuum pack",
+    "organic_status": "BIO product; Slovak organic farm origin stated",
+    "frozen_evidence": "Chilled 0–4°C; not frozen",
+    "wholesale_evidence": "Retail 500 g pack; no pallet MOQ shown",
+    "official_contact": {
+      "website": "https://www.meatbox.sk/hovadzie-mlete-bio-maso/",
+      "email": "obchod@meatbox.sk",
+      "phone": "0904181847",
+      "address": "Slovakia"
+    },
+    "status": "unverified",
+    "checked_at": "2026-09-26",
+    "sources": [
+      "https://www.meatbox.sk/hovadzie-mlete-bio-maso/"
+    ],
+    "price": {
+      "value": 17.8,
+      "currency": "EUR",
+      "unit": "EUR/kg",
+      "price_condition": "8.90 EUR per 500 g pack",
+      "price_status": "published",
+      "channel": "market_reference"
+    },
+    "notes": "Slovakia organic price coverage; chilled retail reference."
+  },
+  {
+    "legal_name": "Ekološka kmetija Žgajnar",
+    "country_code": "SI",
+    "supplier_type": "producer",
+    "priority_class": "secondary",
+    "product_family": "beef",
+    "category_code": "minced_beef",
+    "product_description": "Organic minced beef, 5 kg bulk pack",
+    "organic_status": "Organic farm/product stated",
+    "frozen_evidence": "Fresh/chilled status; frozen not stated",
+    "wholesale_evidence": "5 kg pack is the closest public bulk signal; pallet MOQ not shown",
+    "official_contact": {
+      "website": "https://www.zgajnar.si/",
+      "email": "",
+      "phone": "",
+      "address": "Slovenia"
+    },
+    "status": "unverified",
+    "checked_at": "2026-09-26",
+    "sources": [
+      "https://www.zgajnar.si/"
+    ],
+    "price": {
+      "value": 13.12,
+      "currency": "EUR",
+      "unit": "EUR/kg",
+      "price_condition": "65.60 EUR per 5 kg pack",
+      "price_status": "published",
+      "channel": "market_reference"
+    },
+    "notes": "Slovenia organic bulk price reference; 5 kg pack is useful for industrial comparison but not a pallet quote."
   }
 ]
