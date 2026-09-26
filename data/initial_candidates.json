@@ -804,7 +804,7 @@
   {
     "legal_name": "De Groene Boerderij",
     "country_code": "BE",
-    "supplier_type": "producer_retailer",
+    "supplier_type": "producer",
     "priority_class": "secondary",
     "product_family": "beef",
     "category_code": "minced_beef",
@@ -836,7 +836,7 @@
   {
     "legal_name": "BioAngus",
     "country_code": "BG",
-    "supplier_type": "producer_retailer",
+    "supplier_type": "producer",
     "priority_class": "secondary",
     "product_family": "beef",
     "category_code": "minced_beef",
@@ -858,7 +858,7 @@
     "price": {
       "value": 8.99,
       "currency": "EUR",
-      "unit": "EUR/package",
+      "unit": "EUR/unit",
       "price_condition": "published starting price; pack weight not shown",
       "price_status": "published",
       "channel": "market_reference"
@@ -868,7 +868,7 @@
   {
     "legal_name": "Skrtica / Plodine benchmark",
     "country_code": "HR",
-    "supplier_type": "market_reference",
+    "supplier_type": "other",
     "priority_class": "secondary",
     "product_family": "beef",
     "category_code": "minced_beef",
@@ -900,7 +900,7 @@
   {
     "legal_name": "The Ribeye Club",
     "country_code": "CY",
-    "supplier_type": "retailer_distributor",
+    "supplier_type": "distributor",
     "priority_class": "secondary",
     "product_family": "beef",
     "category_code": "frozen_minced_beef",
@@ -932,7 +932,7 @@
   {
     "legal_name": "Liivimaa Lihaveis / Selver",
     "country_code": "EE",
-    "supplier_type": "producer_retailer",
+    "supplier_type": "producer",
     "priority_class": "secondary",
     "product_family": "beef",
     "category_code": "minced_beef",
@@ -996,7 +996,7 @@
   {
     "legal_name": "Martonyi Öko-Agro Kft. / Kifli.hu",
     "country_code": "HU",
-    "supplier_type": "producer_retailer",
+    "supplier_type": "producer",
     "priority_class": "secondary",
     "product_family": "beef",
     "category_code": "minced_beef",
@@ -1098,7 +1098,7 @@
   {
     "legal_name": "Meats & Eats",
     "country_code": "MT",
-    "supplier_type": "retailer",
+    "supplier_type": "distributor",
     "priority_class": "secondary",
     "product_family": "beef",
     "category_code": "minced_beef",
@@ -1130,7 +1130,7 @@
   {
     "legal_name": "Auchan Portugal / Biologic Bio",
     "country_code": "PT",
-    "supplier_type": "distributor_retailer",
+    "supplier_type": "distributor",
     "priority_class": "secondary",
     "product_family": "beef",
     "category_code": "minced_beef",
@@ -1162,7 +1162,7 @@
   {
     "legal_name": "Real Foods / Silvania Bio",
     "country_code": "RO",
-    "supplier_type": "distributor_retailer",
+    "supplier_type": "distributor",
     "priority_class": "secondary",
     "product_family": "beef",
     "category_code": "minced_beef",
@@ -1195,7 +1195,7 @@
   {
     "legal_name": "Meatbox / Ekofarma Turová",
     "country_code": "SK",
-    "supplier_type": "producer_retailer",
+    "supplier_type": "producer",
     "priority_class": "secondary",
     "product_family": "beef",
     "category_code": "minced_beef",
@@ -1363,7 +1363,7 @@
   {
     "legal_name": "Alcampo organic beef benchmark",
     "country_code": "ES",
-    "supplier_type": "distributor_retailer",
+    "supplier_type": "distributor",
     "priority_class": "secondary",
     "product_family": "beef",
     "category_code": "minced_beef",
@@ -1395,7 +1395,7 @@
   {
     "legal_name": "Leontzini Premium Meat",
     "country_code": "GR",
-    "supplier_type": "retailer",
+    "supplier_type": "distributor",
     "priority_class": "secondary",
     "product_family": "beef",
     "category_code": "minced_beef",
@@ -1459,7 +1459,7 @@
   {
     "legal_name": "Rupūs Miltai cooperative",
     "country_code": "LT",
-    "supplier_type": "cooperative_retailer",
+    "supplier_type": "cooperative",
     "priority_class": "secondary",
     "product_family": "beef",
     "category_code": "minced_beef",
@@ -1491,7 +1491,7 @@
   {
     "legal_name": "Juchowo Farm / Taste Store",
     "country_code": "PL",
-    "supplier_type": "producer_retailer",
+    "supplier_type": "producer",
     "priority_class": "secondary",
     "product_family": "beef",
     "category_code": "minced_beef",
