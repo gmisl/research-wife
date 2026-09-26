@@ -9,11 +9,15 @@ from pathlib import Path
 from collections import defaultdict
 
 from .stats import calculate_weekly_stats
-from .report import load_candidate_price_signals
+from .report import load_candidate_price_signals, load_historical_stats
 
 
 def build_email(connection: sqlite3.Connection, candidate_path: Path = Path('data/initial_candidates.json')) -> str:
-    stats = calculate_weekly_stats(connection)
+    current_stats = calculate_weekly_stats(connection)
+    historical = load_historical_stats()
+    known_keys = {(row.get('week_start'), row.get('country_code'), row.get('product_id')) for row in historical}
+    stats = [type('Stat', (), row)() for row in historical]
+    stats.extend(row for row in current_stats if (row.week_start, row.country_code, row.product_id) not in known_keys)
     candidate_prices = load_candidate_price_signals(candidate_path)
     suppliers = connection.execute("SELECT COUNT(*) FROM suppliers WHERE status <> 'rejected'").fetchone()[0]
     verified_suppliers = connection.execute("SELECT COUNT(*) FROM suppliers WHERE status = 'active'").fetchone()[0]
