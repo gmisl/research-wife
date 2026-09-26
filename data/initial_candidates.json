@@ -11,7 +11,7 @@
     "frozen_evidence": "IQF deep-frozen",
     "wholesale_evidence": "300 kg half-pallet; 570 kg pallet",
     "price": {
-      "value": 9.0,
+      "value": 9,
       "currency": "EUR",
       "unit": "EUR/kg",
       "price_condition": "HT/ex VAT; pallet quantity",
@@ -24,7 +24,11 @@
       "address": "F11 - ZI Saint Maurice, 04100 Manosque, France"
     },
     "status": "unverified",
-    "missing_fields": ["organic certification body", "certificate number", "confirmation that cooked product meets buyer's raw-minced requirement"],
+    "missing_fields": [
+      "organic certification body",
+      "certificate number",
+      "confirmation that cooked product meets buyer's raw-minced requirement"
+    ],
     "checked_at": "2026-09-22",
     "sources": [
       "https://store.actimeat.com/en/produit/cooked-organic-beef-25-fat/",
@@ -82,5 +86,593 @@
       "https://gronagardar.se/en/products/notfarsbox?variant=56325368021332"
     ],
     "notes": "Promising frozen organic bulk comparison lead, but not yet verified as multi-pallet industrial wholesale."
+  },
+  {
+    "legal_name": "Good Herdsmen Ltd / ABP Food Group",
+    "country_code": "IE",
+    "supplier_type": "producer_processor",
+    "priority_class": "primary",
+    "product_family": "beef",
+    "category_code": "frozen_minced_beef_blocks",
+    "product_description": "Organic Irish beef for manufacturing; frozen minced specifications to be confirmed",
+    "organic_status": "Official site states organic beef; certifier/operator number needs registry confirmation",
+    "frozen_evidence": "Manufacturing supply is confirmed, but exact frozen minced block SKU is not public",
+    "wholesale_evidence": "Manufacturing and European customer supply stated; pallet MOQ not public",
+    "official_contact": {
+      "website": "https://www.goodherdsmen.ie/",
+      "email": "info@goodherdsmen.ie",
+      "phone": "+353 52 744 5500",
+      "address": "Clogheen Road, Cahir, County Tipperary, Ireland"
+    },
+    "status": "unverified",
+    "missing_fields": [
+      "exact frozen minced block SKU",
+      "multi-pallet/MOQ confirmation",
+      "organic certificate/operator lookup",
+      "wholesale quote"
+    ],
+    "checked_at": "2026-09-24",
+    "sources": [
+      "https://www.goodherdsmen.ie/quality/product-areas/",
+      "https://www.goodherdsmen.ie/contact/"
+    ],
+    "notes": "High-priority producer lead; exclude from verified counts until product and pallet terms are confirmed."
+  },
+  {
+    "legal_name": "Friland A/S / Danish Crown",
+    "country_code": "DK",
+    "supplier_type": "producer_processor",
+    "priority_class": "primary",
+    "product_family": "beef",
+    "category_code": "frozen_minced_beef_blocks",
+    "product_description": "Organic beef for international B2B supply; frozen minced block specification to be confirmed",
+    "organic_status": "Official B2B page confirms Friland organic meat business; certificate lookup not captured",
+    "frozen_evidence": "International export capability is confirmed, but exact frozen minced block SKU is not public",
+    "wholesale_evidence": "Official B2B business area; pallet MOQ and pack format not public",
+    "official_contact": {
+      "website": "https://www.danishcrown.com/global/our-brands/friland/about-friland/business-areas-b2b/",
+      "email": "frilandinfo@friland.dk",
+      "phone": "+45 8919 2760",
+      "address": "Danish Crown Vej 1, DK-8940 Randers, Denmark"
+    },
+    "status": "unverified",
+    "missing_fields": [
+      "exact frozen minced block SKU",
+      "multi-pallet/MOQ confirmation",
+      "organic certificate/operator lookup",
+      "wholesale quote"
+    ],
+    "checked_at": "2026-09-24",
+    "sources": [
+      "https://www.danishcrown.com/global/our-brands/friland/about-friland/business-areas-b2b/",
+      "https://www.danishcrown.com/global/our-brands/friland/contact/"
+    ],
+    "notes": "High-priority producer lead; scale alone is not product verification."
+  },
+  {
+    "legal_name": "Vion Food Group / De Groene Weg",
+    "country_code": "NL",
+    "supplier_type": "producer_processor",
+    "priority_class": "primary",
+    "product_family": "beef",
+    "category_code": "frozen_minced_beef_blocks",
+    "product_description": "De Groene Weg is identified by Vion as an organic-meat subsidiary; operator/certificate lookup not captured",
+    "organic_status": "Vion food-service materials mention fresh/frozen meat, but not an organic frozen minced block SKU",
+    "frozen_evidence": "Food-service/export network confirmed; pallet MOQ not public",
+    "wholesale_evidence": {
+      "website": "https://www.vionfoodgroup.com/en/brands/de-groene-weg",
+      "email": "",
+      "phone": "+31 544 473 260",
+      "address": "Den Sliem 1, 7141 JE Groenlo, Netherlands"
+    },
+    "official_contact": [
+      "organic operator number",
+      "exact frozen minced block SKU",
+      "multi-pallet/MOQ confirmation",
+      "wholesale quote"
+    ],
+    "status": "unverified",
+    "missing_fields": [
+      "https://www.vionfoodgroup.com/en/brands/de-groene-weg",
+      "https://www.vionfoodgroup.com/en/products/minced-meat"
+    ],
+    "checked_at": "2026-09-24",
+    "sources": "High-priority producer lead; no price imported."
+  },
+  {
+    "legal_name": "SA Union des Eleveurs Bio (UNEBIO)",
+    "country_code": "FR",
+    "supplier_type": "cooperative",
+    "priority_class": "primary",
+    "product_family": "beef",
+    "category_code": "frozen_minced_beef_blocks",
+    "product_description": "Official site confirms the organic bovine supply chain; exact operator number not captured",
+    "organic_status": "Frozen minced claim comes from partner evidence; current official product proof is incomplete",
+    "frozen_evidence": "Cooperative/food-service capability reported; direct pallet MOQ not public",
+    "wholesale_evidence": {
+      "website": "https://www.unebio.fr/",
+      "email": "",
+      "phone": "",
+      "address": "France"
+    },
+    "official_contact": [
+      "exact frozen minced block SKU",
+      "direct official B2B contact",
+      "organic operator number",
+      "multi-pallet/MOQ confirmation",
+      "wholesale quote"
+    ],
+    "status": "unverified",
+    "missing_fields": [
+      "https://www.unebio.fr/nos-filieres/la-filiere-bovine/",
+      "https://www.unebio.fr/"
+    ],
+    "checked_at": "2026-09-24",
+    "sources": "High-priority cooperative lead; partner claims remain unverified."
+  },
+  {
+    "legal_name": "Sonnberg Biofleisch GmbH",
+    "country_code": "AT",
+    "supplier_type": "producer_processor",
+    "priority_class": "primary",
+    "product_family": "beef",
+    "category_code": "frozen_minced_beef_blocks",
+    "product_description": "Organic producer claim and AT-BIO reference reported; public operator lookup not captured",
+    "organic_status": "Deep-frozen catering claim reported; exact current SKU not independently confirmed",
+    "frozen_evidence": "Gastronomy/catering supply reported; pallet MOQ not public",
+    "wholesale_evidence": {
+      "website": "https://biofleisch.biz/",
+      "email": "verkauf@biofleisch.biz",
+      "phone": "+43 7956 797091",
+      "address": "Austria"
+    },
+    "official_contact": [
+      "official frozen product page",
+      "multi-pallet/MOQ confirmation",
+      "certificate verification URL",
+      "wholesale quote"
+    ],
+    "status": "unverified",
+    "missing_fields": [
+      "https://biofleisch.biz/kontakt/",
+      "https://biofleisch.biz/"
+    ],
+    "checked_at": "2026-09-24",
+    "sources": "Producer lead; public evidence is insufficient for verified status."
+  },
+  {
+    "legal_name": "Biopark s.r.o.",
+    "country_code": "CZ",
+    "supplier_type": "producer_processor",
+    "priority_class": "primary",
+    "product_family": "beef",
+    "category_code": "frozen_minced_beef_blocks",
+    "product_description": "Organic beef mince for B2B/export; frozen block format to be confirmed",
+    "organic_status": "KEZ organic certification reference reported; certificate lookup not captured",
+    "frozen_evidence": "Frozen capability is implied but not explicit on the cited contact page",
+    "wholesale_evidence": "B2B/export production reported; pallet MOQ not public",
+    "official_contact": {
+      "website": "https://biohovezi.cz/",
+      "email": "biopark@biohovezi.cz",
+      "phone": "+420 412 391280",
+      "address": "Czech Republic"
+    },
+    "status": "unverified",
+    "missing_fields": [
+      "exact frozen minced block SKU",
+      "certificate verification URL",
+      "multi-pallet/MOQ confirmation",
+      "wholesale quote"
+    ],
+    "checked_at": "2026-09-24",
+    "sources": [
+      "https://biohovezi.cz/kontakt",
+      "https://biohovezi.cz/"
+    ],
+    "notes": "Producer lead retained for direct outreach."
+  },
+  {
+    "legal_name": "Biogreco",
+    "country_code": "GR",
+    "supplier_type": "producer_processor",
+    "priority_class": "primary",
+    "product_family": "chicken",
+    "category_code": "frozen_minced_chicken_blocks",
+    "product_description": "Organic chicken mince; frozen product and industrial pack format to be confirmed",
+    "organic_status": "Official site identifies certified organic chicken production; operator number needs confirmation",
+    "frozen_evidence": "Official site confirms freezing rooms and frozen-product area, but exact minced-chicken SKU is not captured",
+    "wholesale_evidence": "Own slaughter/packing/freezing facility; pallet MOQ not public",
+    "official_contact": {
+      "website": "https://www.biogreco.gr/en/frozen-products-biogreco/",
+      "email": "info@biogreco.gr",
+      "phone": "+30 27310 35667",
+      "address": "Kaminia Laconia, 23054, Greece"
+    },
+    "status": "unverified",
+    "missing_fields": [
+      "exact organic minced-chicken SKU",
+      "organic operator number",
+      "multi-pallet/MOQ confirmation",
+      "wholesale quote"
+    ],
+    "checked_at": "2026-09-24",
+    "sources": [
+      "https://www.biogreco.gr/en/frozen-products-biogreco/",
+      "https://www.biogreco.gr/en/slaughter-and-packaging/"
+    ],
+    "notes": "High-priority chicken producer lead; infrastructure is stronger than product-level evidence."
+  },
+  {
+    "legal_name": "Plukon Sieradz sp. z o.o. / Plukon Food Group",
+    "country_code": "PL",
+    "supplier_type": "producer_processor",
+    "priority_class": "primary",
+    "product_family": "chicken",
+    "category_code": "frozen_minced_chicken_blocks",
+    "product_description": "Organic chicken concept exists at group level; site-specific operator/certificate not captured",
+    "organic_status": "Frozen poultry mince is cited by Gemini, but exact official SKU is not public",
+    "frozen_evidence": "Official group serves food service and has industrial processing; pallet MOQ not public",
+    "wholesale_evidence": {
+      "website": "https://www.plukon.com/",
+      "email": "",
+      "phone": "",
+      "address": "Poland / EU group"
+    },
+    "official_contact": [
+      "exact organic frozen minced-chicken SKU",
+      "site-specific certificate/operator number",
+      "direct Polish B2B contact",
+      "multi-pallet/MOQ confirmation",
+      "wholesale quote"
+    ],
+    "status": "unverified",
+    "missing_fields": [
+      "https://www.plukon.com/products/chicken-products/",
+      "https://www.plukon.com/"
+    ],
+    "checked_at": "2026-09-24",
+    "sources": "High-priority industrial lead, but product verification remains incomplete."
+  },
+  {
+    "legal_name": "Freiländer Bio Geflügel GmbH",
+    "country_code": "DE",
+    "supplier_type": "producer_processor",
+    "priority_class": "primary",
+    "product_family": "chicken",
+    "category_code": "frozen_minced_chicken_blocks",
+    "product_description": "Official site shows EU organic certification mark; operator number needs confirmation",
+    "organic_status": "Cited product listing says poultry mince is deep-frozen; official trade page confirms organic poultry processing",
+    "frozen_evidence": "Official trade page offers partner supply and processed products; multi-pallet MOQ not public",
+    "wholesale_evidence": {
+      "website": "https://www.freilaender.de/fuer-partner/fuer-den-handel/",
+      "email": "info@freilaender.de",
+      "phone": "+49 8133 9962-0",
+      "address": "Gewerbering 5, 85777 Fahrenzhausen, Germany"
+    },
+    "official_contact": [
+      "current official frozen minced SKU",
+      "multi-pallet/MOQ confirmation",
+      "certificate/operator lookup",
+      "wholesale quote"
+    ],
+    "status": "unverified",
+    "missing_fields": [
+      "https://www.freilaender.de/fuer-partner/fuer-den-handel/",
+      "https://www.bio123.de/produkt/freilander-bio-geflugel/geflugelhackfleisch-aus-pute-und-huhn-zum-braten-tiefgefroren"
+    ],
+    "checked_at": "2026-09-24",
+    "sources": "Strong chicken lead, but not yet confirmed as several-pallet industrial block supply."
+  },
+  {
+    "legal_name": "Bodin Bio",
+    "country_code": "FR",
+    "supplier_type": "producer",
+    "priority_class": "primary",
+    "product_family": "chicken",
+    "category_code": "frozen_minced_chicken_blocks",
+    "product_description": "Organic minced poultry; frozen bulk format to be confirmed",
+    "organic_status": "FR-BIO reference reported; certificate/operator lookup not captured",
+    "frozen_evidence": "Frozen bulk format is explicitly unconfirmed",
+    "wholesale_evidence": "B2B processor lead; pallet MOQ not public",
+    "official_contact": {
+      "website": "https://www.bodinbio.fr/",
+      "email": "",
+      "phone": "",
+      "address": "France"
+    },
+    "status": "unverified",
+    "missing_fields": [
+      "exact frozen minced-chicken SKU",
+      "official B2B contact",
+      "certificate verification URL",
+      "multi-pallet/MOQ confirmation",
+      "wholesale quote"
+    ],
+    "checked_at": "2026-09-24",
+    "sources": [
+      "https://www.bodinbio.fr/",
+      "https://www.entrepreneursbio-paysdelaloire.fr/wp-content/uploads/2022/12/Guide-Mon-Bio-Pays.pdf"
+    ],
+    "notes": "Lower-priority producer lead."
+  },
+  {
+    "legal_name": "Zakład Mięsny Wasąg Sp.J.",
+    "country_code": "PL",
+    "supplier_type": "producer",
+    "priority_class": "primary",
+    "product_family": "beef",
+    "category_code": "frozen_minced_beef_blocks",
+    "product_description": "Organic minced beef; frozen industrial format to be confirmed",
+    "organic_status": "PL-EKO references reported; public certificate verification not captured",
+    "frozen_evidence": "Frozen bulk explicitly unconfirmed",
+    "wholesale_evidence": "Producer/nationwide wholesale supply reported; pallet MOQ not public",
+    "official_contact": {
+      "website": "https://www.wasag.pl/site/contact",
+      "email": "biuro@wasag.pl",
+      "phone": "+48 84 688 02 01",
+      "address": "Poland"
+    },
+    "status": "unverified",
+    "missing_fields": [
+      "exact frozen minced-beef block SKU",
+      "certificate verification URL",
+      "multi-pallet/MOQ confirmation",
+      "wholesale quote"
+    ],
+    "checked_at": "2026-09-24",
+    "sources": [
+      "https://www.wasag.pl/site/contact",
+      "https://www.wasag.pl/"
+    ],
+    "notes": "Producer lead; do not count until frozen bulk evidence is confirmed."
+  },
+  {
+    "legal_name": "Zakład Mięsny Wasąg Sp.J.",
+    "country_code": "PL",
+    "supplier_type": "producer",
+    "priority_class": "primary",
+    "product_family": "chicken",
+    "category_code": "frozen_minced_chicken_blocks",
+    "product_description": "Organic minced poultry/chicken; frozen industrial format to be confirmed",
+    "organic_status": "PL-EKO references reported; public certificate verification not captured",
+    "frozen_evidence": "Frozen bulk explicitly unconfirmed",
+    "wholesale_evidence": "Producer/nationwide wholesale supply reported; pallet MOQ not public",
+    "official_contact": {
+      "website": "https://www.wasag.pl/site/contact",
+      "email": "biuro@wasag.pl",
+      "phone": "+48 84 688 02 01",
+      "address": "Poland"
+    },
+    "status": "unverified",
+    "missing_fields": [
+      "exact frozen minced-chicken block SKU",
+      "certificate verification URL",
+      "multi-pallet/MOQ confirmation",
+      "wholesale quote"
+    ],
+    "checked_at": "2026-09-24",
+    "sources": [
+      "https://www.wasag.pl/site/contact",
+      "https://www.wasag.pl/"
+    ],
+    "notes": "Same legal supplier, separate product-family candidate."
+  },
+  {
+    "legal_name": "Fileni Alimentare S.p.A.",
+    "country_code": "IT",
+    "supplier_type": "producer_processor",
+    "priority_class": "primary",
+    "product_family": "chicken",
+    "category_code": "frozen_minced_chicken_blocks",
+    "product_description": "Organic chicken mince; frozen bulk is unconfirmed",
+    "organic_status": "Organic poultry producer; IT-BIO/CCPB reference reported, certificate lookup not captured",
+    "frozen_evidence": "Public evidence is fresh retail mince; frozen bulk block is not proven",
+    "wholesale_evidence": "Large industrial processor; public B2B channel and pallet MOQ not identified",
+    "official_contact": {
+      "website": "https://www.fileni.it/contatti/",
+      "email": "",
+      "phone": "+39 0733 606211",
+      "address": "Italy"
+    },
+    "status": "unverified",
+    "missing_fields": [
+      "exact frozen minced-chicken block SKU",
+      "certificate verification URL",
+      "direct B2B contact",
+      "multi-pallet/MOQ confirmation",
+      "wholesale quote"
+    ],
+    "checked_at": "2026-09-24",
+    "sources": [
+      "https://www.fileni.it/contatti/",
+      "https://www.fileni.it/"
+    ],
+    "notes": "Retail mince cannot be used in wholesale price statistics."
+  },
+  {
+    "legal_name": "AUGA Group AB",
+    "country_code": "LT",
+    "supplier_type": "producer",
+    "priority_class": "primary",
+    "product_family": "beef",
+    "category_code": "frozen_minced_beef_blocks",
+    "product_description": "Organic meat export lead; exact minced beef product and frozen processing capability unconfirmed",
+    "organic_status": "Organic agriculture/export claim reported; product-level operator number not captured",
+    "frozen_evidence": "No exact frozen minced-beef product evidence located",
+    "wholesale_evidence": "Large agricultural/export network reported; pallet MOQ not public",
+    "official_contact": {
+      "website": "https://auga.lt/en/contacts/",
+      "email": "info@auga.lt",
+      "phone": "+370 5 233 5340",
+      "address": "Lithuania"
+    },
+    "status": "unverified",
+    "missing_fields": [
+      "exact product proof",
+      "processor identity",
+      "certificate verification URL",
+      "multi-pallet/MOQ confirmation",
+      "wholesale quote"
+    ],
+    "checked_at": "2026-09-24",
+    "sources": [
+      "https://auga.lt/en/contacts/",
+      "https://auga.lt/en/"
+    ],
+    "notes": "Discovery-only lead; agriculture scale is not proof of minced beef supply."
+  },
+  {
+    "legal_name": "HKScan / Scan Sverige AB",
+    "country_code": "SE",
+    "supplier_type": "producer_processor",
+    "priority_class": "primary",
+    "product_family": "beef",
+    "category_code": "frozen_minced_beef_blocks",
+    "product_description": "Organic frozen beef mince; industrial block/pallet format to be confirmed",
+    "organic_status": "SE-EKO reference reported; certificate verification not captured",
+    "frozen_evidence": "Frozen organic mince reported, but public evidence is retail-sized",
+    "wholesale_evidence": "Large industrial parent; multi-pallet format not public",
+    "official_contact": {
+      "website": "https://www.scan.se/vara-produkter/produkter/ekologiska-hamburgare/",
+      "email": "",
+      "phone": "+46 771 510 510",
+      "address": "Sweden"
+    },
+    "status": "unverified",
+    "missing_fields": [
+      "bulk/block pack evidence",
+      "certificate verification URL",
+      "direct B2B contact",
+      "multi-pallet/MOQ confirmation",
+      "wholesale quote"
+    ],
+    "checked_at": "2026-09-24",
+    "sources": [
+      "https://www.scan.se/vara-produkter/produkter/ekologiska-hamburgare/"
+    ],
+    "notes": "Industrial discovery lead; retail 1 kg evidence is insufficient."
+  },
+  {
+    "legal_name": "Pirinat / Carns de Confiança S.L.",
+    "country_code": "ES",
+    "supplier_type": "producer_processor",
+    "priority_class": "primary",
+    "product_family": "beef",
+    "category_code": "frozen_minced_beef_blocks",
+    "product_description": "Organic frozen minced beef; public evidence is consumer pack sizes",
+    "organic_status": "ES-ECO/CCPAE reference reported; certificate lookup not captured",
+    "frozen_evidence": "Frozen organic mince reported; exact official product page needs confirmation",
+    "wholesale_evidence": "Bulk/pallet industrial capability not proven; consumer packs documented",
+    "official_contact": {
+      "website": "https://www.pirinat.cat/",
+      "email": "info@pirinat.cat",
+      "phone": "+34 972 73 02 56",
+      "address": "Spain"
+    },
+    "status": "unverified",
+    "missing_fields": [
+      "official frozen product SKU",
+      "bulk/block pack evidence",
+      "multi-pallet/MOQ confirmation",
+      "certificate verification URL",
+      "wholesale quote"
+    ],
+    "checked_at": "2026-09-24",
+    "sources": [
+      "https://www.pirinat.cat/"
+    ],
+    "notes": "Spanish producer lead; exclude retail prices."
+  },
+  {
+    "legal_name": "Ecoviand de Brugarolas S.L.",
+    "country_code": "ES",
+    "supplier_type": "distributor",
+    "priority_class": "secondary",
+    "product_family": "beef",
+    "category_code": "frozen_minced_beef_blocks",
+    "product_description": "Organic minced beef wholesale/distribution lead; frozen block format to be confirmed",
+    "organic_status": "ES-ECO reference reported; certificate verification not captured",
+    "frozen_evidence": "Frozen bulk product not independently proven",
+    "wholesale_evidence": "Wholesale organic meat distribution reported; pallet MOQ not public",
+    "official_contact": {
+      "website": "https://www.cestaverde.com/",
+      "email": "",
+      "phone": "",
+      "address": "Spain"
+    },
+    "status": "unverified",
+    "missing_fields": [
+      "legal/company contact verification",
+      "exact frozen minced SKU",
+      "primary producer confirmation",
+      "certificate verification URL",
+      "multi-pallet/MOQ confirmation",
+      "wholesale quote"
+    ],
+    "checked_at": "2026-09-24",
+    "sources": [
+      "https://www.cestaverde.com/"
+    ],
+    "notes": "Secondary distributor lead only."
+  },
+  {
+    "legal_name": "Cotreant Handelsgewerbe e.U.",
+    "country_code": "AT",
+    "supplier_type": "distributor",
+    "priority_class": "secondary",
+    "product_family": "beef",
+    "category_code": "frozen_minced_beef_blocks",
+    "product_description": "Organic fresh/frozen meat trading lead; minced block format to be confirmed",
+    "organic_status": "AT-BIO reference reported; certificate verification not captured",
+    "frozen_evidence": "Fresh/frozen trading stated, but no organic minced block SKU",
+    "wholesale_evidence": "Large wholesale quantities reported; product-specific pallet MOQ not public",
+    "official_contact": {
+      "website": "https://www.cotreant.at/en/",
+      "email": "",
+      "phone": "",
+      "address": "Austria"
+    },
+    "status": "unverified",
+    "missing_fields": [
+      "exact frozen minced SKU",
+      "certificate verification URL",
+      "producer identity",
+      "multi-pallet/MOQ confirmation",
+      "wholesale quote"
+    ],
+    "checked_at": "2026-09-24",
+    "sources": [
+      "https://www.cotreant.at/en/"
+    ],
+    "notes": "Secondary trader lead."
+  },
+  {
+    "legal_name": "Euroser",
+    "country_code": "FR",
+    "supplier_type": "distributor",
+    "priority_class": "secondary",
+    "product_family": "beef",
+    "category_code": "frozen_minced_beef_blocks",
+    "product_description": "Organic meat broker/trader lead; frozen minced block format to be confirmed",
+    "organic_status": "FR-BIO reference reported; certificate verification not captured",
+    "frozen_evidence": "Fresh/frozen trade mentioned, not a specific minced block",
+    "wholesale_evidence": "Brokerage/industrial supply reported; product-specific pallet MOQ not public",
+    "official_contact": {
+      "website": "https://www.euroser.fr/en/specialization-p17.html",
+      "email": "",
+      "phone": "",
+      "address": "France"
+    },
+    "status": "unverified",
+    "missing_fields": [
+      "exact frozen minced SKU",
+      "certificate verification URL",
+      "producer identity",
+      "direct contact",
+      "multi-pallet/MOQ confirmation",
+      "wholesale quote"
+    ],
+    "checked_at": "2026-09-24",
+    "sources": "Secondary broker lead; do not count as producer."
   }
 ]
