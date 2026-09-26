@@ -30,7 +30,7 @@ def build_email(connection: sqlite3.Connection, candidate_path: Path = Path('dat
         f'<td>{escape(row["legal_name"])}</td><td>{escape(row["description"])}</td>'
         f'<td>€{row["price"]:.2f} {escape(row["unit"])}</td></tr>'
         for row in candidate_prices
-    ) or '<tr><td colspan="5">No published candidate price signals.</td></tr>'
+    ) or '<tr><td colspan="6">No published candidate price signals.</td></tr>'
     weeks = sorted({row.week_start for row in stats})
     series = defaultdict(list)
     for row in stats:
@@ -59,9 +59,10 @@ def build_email(connection: sqlite3.Connection, candidate_path: Path = Path('dat
 <h3>Price movement</h3>{chart}
 <table cellpadding="8" cellspacing="0" border="1" style="border-collapse:collapse">
 <tr><th>Week</th><th>Country</th><th>Product</th><th>Average</th><th>Change</th><th>Samples</th></tr>{table}</table>
-<h3>Published candidate price signals (excluded from verified statistics)</h3>
+<h3>Published price signals (wholesale and market reference)</h3>
+<p>Price coverage: <b>{len({row['country_code'] for row in candidate_prices if row.get('country_code')})}/27 EU countries</b>. Company website links are intentionally omitted from this email; source links remain in the dashboard/data.</p>
 <table cellpadding="8" cellspacing="0" border="1" style="border-collapse:collapse">
-<tr><th>Date</th><th>Country</th><th>Supplier</th><th>Product</th><th>Price</th></tr>{lead_price_table}</table>
+<tr><th>Date</th><th>Country</th><th>Supplier/source</th><th>Product</th><th>Channel</th><th>Price</th></tr>{lead_price_table}</table>
 <p style="color:#667">Delivery costs are not added. Retail and unverified organic records are excluded from price statistics.</p>
 </body></html>'''
 
