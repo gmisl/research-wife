@@ -390,5 +390,37 @@
     "channel": "market_reference",
     "is_wholesale": true,
     "reason": "Market signal shown separately; not mixed into strict verified wholesale statistics."
+  },
+  {
+    "legal_name": "besserfleisch",
+    "country_code": "DE",
+    "category_code": "frozen_minced_beef",
+    "description": "Organic pasture-raised minced beef, 6 kg package (15 x 400 g), shock-frozen",
+    "price": 25,
+    "currency": "EUR",
+    "unit": "EUR/kg",
+    "original_value": 150,
+    "original_currency": "EUR",
+    "date": "2024-08-09",
+    "website": "https://besserfleisch.de/shop/rindfleisch/hackfleisch-aus-weidehaltung/",
+    "archive_url": "https://web.archive.org/web/20240809122910/https://besserfleisch.de/shop/rindfleisch/hackfleisch-aus-weidehaltung/",
+    "channel": "archived_market_reference",
+    "is_wholesale": false,
+    "reason": "Wayback capture: €150 incl. VAT and shipping for 6 kg; organic control numbers DE-ÖKO-009 and DE-ÖKO-037 visible. Retail/direct-farm reference, not strict wholesale."
+  },
+  {
+    "legal_name": "De Woeste Grond",
+    "country_code": "NL",
+    "category_code": "frozen_minced_beef",
+    "description": "Organic grass-fed minced beef package, historical archived product page; package weight not visible in capture",
+    "price": 45,
+    "currency": "EUR",
+    "unit": "EUR/unit",
+    "date": "2020-12-01",
+    "website": "https://www.dewoestegrond.nl/en/gehakt-pakket-85341704.html",
+    "archive_url": "https://web.archive.org/web/20201201015037/www.dewoestegrond.nl/en/gehakt-pakket-85341704.html",
+    "channel": "archived_market_reference",
+    "is_wholesale": false,
+    "reason": "Wayback capture: published product price €45.00, in stock. Historical market reference; cannot normalize to EUR/kg because archived page does not show package weight."
   }
 ]
