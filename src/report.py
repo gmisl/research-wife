@@ -12,10 +12,8 @@ from .stats import calculate_weekly_stats
 
 
 ALLOWED_CATEGORIES = {
-    'frozen_minced_beef', 'minced_beef_blocks', 'industrial_minced_beef',
-    'frozen_minced_beef_blocks', 'minced_beef', 'industrial_minced',
-    'minced_block', 'bulk_minced_beef', 'frozen_minced_chicken',
-    'frozen_minced_chicken_blocks', 'industrial_minced_chicken',
+    'minced_beef_blocks', 'industrial_minced_beef', 'minced_beef', 'industrial_minced',
+    'minced_block', 'bulk_minced_beef', 'industrial_minced_chicken',
     'bulk_minced_chicken', 'minced_chicken',
 }
 
@@ -32,6 +30,7 @@ def load_candidate_price_signals(path: Path) -> list[dict]:
     for item in candidates if isinstance(candidates, list) else []:
         price = item.get('price') or {}
         if (item.get('category_code') not in ALLOWED_CATEGORIES
+                or item.get('freshness_status') != 'fresh_evidence'
                 or price.get('price_status') != 'published'
                 or not isinstance(price.get('value'), (int, float))
                 or not item.get('official_contact', {}).get('website')):
@@ -60,7 +59,7 @@ def load_historical_candidate_price_signals(path: Path = Path('data/history/pric
         rows = json.loads(path.read_text(encoding='utf-8'))
     except (OSError, json.JSONDecodeError):
         return []
-    return rows if isinstance(rows, list) else []
+    return [row for row in rows if row.get('category_code') in ALLOWED_CATEGORIES and 'frozen' not in (row.get('description') or '').lower()] if isinstance(rows, list) else []
 
 
 def load_historical_stats(path: Path = Path('data/history/weekly_price_snapshots.json')) -> list[dict]:
@@ -71,10 +70,10 @@ def load_historical_stats(path: Path = Path('data/history/weekly_price_snapshots
         rows = json.loads(path.read_text(encoding='utf-8'))
     except (OSError, json.JSONDecodeError):
         return []
-    return rows if isinstance(rows, list) else []
+    return [row for row in rows if row.get('category_code') in ALLOWED_CATEGORIES] if isinstance(rows, list) else []
 
 
-def build_dashboard(connection: sqlite3.Connection, candidate_path: Path = Path('data/initial_candidates.json')) -> str:
+def build_dashboard(connection: sqlite3.Connection, candidate_path: Path = Path('data/active_fresh_candidates.json')) -> str:
     current_stats = [asdict(x) for x in calculate_weekly_stats(connection)]
     historical = load_historical_stats()
     known_keys = {(x.get('week_start'), x.get('country_code'), x.get('product_id')) for x in historical}
