@@ -17,6 +17,13 @@ ALLOWED_CATEGORIES = {
     'bulk_minced_chicken', 'minced_chicken',
 }
 
+FROZEN_TERMS = ('frozen', 'deep-frozen', 'shock-frozen', 'iqf', 'freezer-ready', 'tiefgefroren', 'surgelé', 'congelad', 'frost', 'saldē', 'zamrzn', 'fagyaszt', 'pakast', 'fryst')
+
+
+def is_fresh_active_row(row: dict) -> bool:
+    text = ' '.join(str(row.get(key, '')) for key in ('description', 'category_code', 'freshness_status')).lower()
+    return row.get('category_code') in ALLOWED_CATEGORIES and not any(term in text for term in FROZEN_TERMS)
+
 
 def load_candidate_price_signals(path: Path) -> list[dict]:
     """Load published/indicative lead prices as separate market signals."""
@@ -59,7 +66,7 @@ def load_historical_candidate_price_signals(path: Path = Path('data/history/pric
         rows = json.loads(path.read_text(encoding='utf-8'))
     except (OSError, json.JSONDecodeError):
         return []
-    return [row for row in rows if row.get('category_code') in ALLOWED_CATEGORIES and 'frozen' not in (row.get('description') or '').lower()] if isinstance(rows, list) else []
+    return [row for row in rows if is_fresh_active_row(row)] if isinstance(rows, list) else []
 
 
 def load_historical_stats(path: Path = Path('data/history/weekly_price_snapshots.json')) -> list[dict]:
@@ -70,7 +77,7 @@ def load_historical_stats(path: Path = Path('data/history/weekly_price_snapshots
         rows = json.loads(path.read_text(encoding='utf-8'))
     except (OSError, json.JSONDecodeError):
         return []
-    return [row for row in rows if row.get('category_code') in ALLOWED_CATEGORIES] if isinstance(rows, list) else []
+    return [row for row in rows if row.get('category_code') in ALLOWED_CATEGORIES and not any(term in (row.get('category_name') or '').lower() for term in FROZEN_TERMS)] if isinstance(rows, list) else []
 
 
 def build_dashboard(connection: sqlite3.Connection, candidate_path: Path = Path('data/active_fresh_candidates.json')) -> str:
