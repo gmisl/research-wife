@@ -1,0 +1,78 @@
+[
+  {
+    "legal_name": "Sonnberg Biofleisch GmbH",
+    "country_code": "AT",
+    "supplier_type": "producer_processor",
+    "priority_class": "primary",
+    "product_family": "beef",
+    "category_code": "minced_beef",
+    "product_description": "100% Austrian organic minced beef, fresh 300 g cup",
+    "organic_status": "Deep-frozen catering claim reported; exact current SKU not independently confirmed",
+    "frozen_evidence": "Gastronomy/catering supply reported; pallet MOQ not public",
+    "wholesale_evidence": "Gastronomy/catering supply reported; pallet MOQ not public",
+    "official_contact": {
+      "website": "https://biofleisch.biz/",
+      "email": "verkauf@biofleisch.biz",
+      "phone": "+43 7956 797091",
+      "address": "Austria"
+    },
+    "status": "unverified",
+    "missing_fields": [
+      "official frozen product page",
+      "multi-pallet/MOQ confirmation",
+      "certificate verification URL",
+      "wholesale quote"
+    ],
+    "checked_at": "2026-09-26",
+    "sources": [
+      "https://biofleisch.biz/kontakt/",
+      "https://biofleisch.biz/",
+      "https://biofleisch.biz/shop/bio-rinder-faschiertes-e300g/"
+    ],
+    "notes": "Producer lead; public evidence is insufficient for verified status. Added Austria price coverage from official product page; fresh retail pack.",
+    "price": {
+      "value": 25.97,
+      "currency": "EUR",
+      "unit": "EUR/kg",
+      "price_condition": "7.79 EUR per 300 g cup",
+      "price_status": "published",
+      "channel": "market_reference"
+    },
+    "freshness_status": "fresh_evidence",
+    "active_fresh_scope": true
+  },
+  {
+    "legal_name": "Meats & Eats",
+    "country_code": "MT",
+    "supplier_type": "distributor",
+    "priority_class": "secondary",
+    "product_family": "beef",
+    "category_code": "minced_beef",
+    "product_description": "Fresh certified organic Belgian minced beef, 500 g",
+    "organic_status": "Product page states 100% certified organic",
+    "frozen_evidence": "Fresh; page says sold out; frozen fallback not confirmed",
+    "wholesale_evidence": "Retail pack; no pallet MOQ shown",
+    "official_contact": {
+      "website": "https://meatsandeats.com.mt/products/fresh-organic-minced-beef",
+      "email": "",
+      "phone": "",
+      "address": "Malta"
+    },
+    "status": "unverified",
+    "checked_at": "2026-09-26",
+    "sources": [
+      "https://meatsandeats.com.mt/products/fresh-organic-minced-beef"
+    ],
+    "price": {
+      "value": 27,
+      "currency": "EUR",
+      "unit": "EUR/kg",
+      "price_condition": "13.50 EUR per 500 g pack; sold out when crawled",
+      "price_status": "published",
+      "channel": "market_reference"
+    },
+    "notes": "Malta organic price coverage reference; availability is currently weak.",
+    "freshness_status": "fresh_evidence",
+    "active_fresh_scope": true
+  }
+]
