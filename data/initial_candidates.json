@@ -1722,5 +1722,155 @@
       "https://www.zmb.pl/en/portfolio/minced-beef/"
     ],
     "notes": "High-volume minced-beef lead with HACCP, IFS and BRC evidence; organic availability must be confirmed."
+  },
+  {
+    "legal_name": "JP Puurvlees",
+    "country_code": "NL",
+    "supplier_type": "producer_processor",
+    "priority_class": "secondary",
+    "product_family": "beef",
+    "category_code": "frozen_minced_beef",
+    "product_description": "Organic minced beef; supplier states organic SKAL certification and chilled/frozen transport across NL and BE",
+    "organic_status": "Organic and Skal-certified supplier stated on official product page",
+    "frozen_evidence": "Official page mentions frozen transport; exact frozen SKU/pack format to confirm",
+    "wholesale_evidence": "Producer-direct supply; bulk/pallet MOQ not public",
+    "official_contact": {
+      "website": "https://jppuurvlees.nl/rundergehakt",
+      "email": "",
+      "phone": "",
+      "address": "Netherlands"
+    },
+    "status": "new",
+    "missing_fields": [
+      "multi-pallet MOQ",
+      "exact frozen pack format",
+      "certificate/operator number",
+      "wholesale quote"
+    ],
+    "checked_at": "2026-09-27",
+    "sources": [
+      "https://jppuurvlees.nl/rundergehakt",
+      "https://jppuurvlees.nl/biologisch-rundvlees"
+    ],
+    "notes": "New Dutch organic producer lead; retain until B2B volume is confirmed."
+  },
+  {
+    "legal_name": "Økogaardene",
+    "country_code": "DK",
+    "supplier_type": "producer",
+    "priority_class": "secondary",
+    "product_family": "beef",
+    "category_code": "frozen_minced_beef",
+    "product_description": "Organic minced beef, 1 kg, delivered frozen",
+    "organic_status": "Organic product stated on official site",
+    "frozen_evidence": "Official product page states delivered frozen",
+    "wholesale_evidence": "1 kg format; multi-pallet MOQ not public",
+    "official_contact": {
+      "website": "https://oekogaardene.dk/products/hakket-oksekod-1kg-oko",
+      "email": "",
+      "phone": "",
+      "address": "Denmark"
+    },
+    "status": "new",
+    "missing_fields": [
+      "multi-pallet MOQ",
+      "organic operator/certificate lookup",
+      "wholesale quote"
+    ],
+    "checked_at": "2026-09-27",
+    "sources": [
+      "https://oekogaardene.dk/products/hakket-oksekod-1kg-oko"
+    ],
+    "notes": "New Danish frozen organic mince lead."
+  },
+  {
+    "legal_name": "Kødbilen Engros",
+    "country_code": "DK",
+    "supplier_type": "wholesaler",
+    "priority_class": "primary",
+    "product_family": "beef",
+    "category_code": "frozen_minced_beef",
+    "product_description": "Organic frozen minced beef; 500 g packs with 3 kg and 10 kg volume offers",
+    "organic_status": "Organic product stated on official wholesale page",
+    "frozen_evidence": "Official page states Frost/frozen",
+    "wholesale_evidence": "Explicit wholesale page; volume discounts at 3 kg and 10 kg",
+    "official_contact": {
+      "website": "https://www.kodbilen.dk/varer/engros/",
+      "email": "",
+      "phone": "",
+      "address": "Denmark"
+    },
+    "status": "new",
+    "missing_fields": [
+      "certificate/operator number",
+      "pallet MOQ",
+      "wholesale ex-VAT quote"
+    ],
+    "checked_at": "2026-09-27",
+    "sources": [
+      "https://www.kodbilen.dk/varer/engros/",
+      "https://www.kodbilen.dk/vare/oekologisk-hakket-oksekoed-20-25-frost/"
+    ],
+    "notes": "High-priority Danish wholesale lead; exact pallet terms require direct request."
+  },
+  {
+    "legal_name": "BF-Oks",
+    "country_code": "DK",
+    "supplier_type": "producer_processor",
+    "priority_class": "primary",
+    "product_family": "beef",
+    "category_code": "frozen_minced_beef_blocks",
+    "product_description": "Organic frozen minced beef packed in cases of 10 x 1 kg",
+    "organic_status": "Organic beef stated on official product page",
+    "frozen_evidence": "Official product title states frozen",
+    "wholesale_evidence": "Case format 10 x 1 kg; pallet MOQ to confirm",
+    "official_contact": {
+      "website": "https://www.bf-oks.dk/vare/oekologisk-hakket-oksekoed-frost-2/",
+      "email": "",
+      "phone": "",
+      "address": "Denmark"
+    },
+    "status": "new",
+    "missing_fields": [
+      "pallet MOQ",
+      "certificate/operator number",
+      "wholesale price"
+    ],
+    "checked_at": "2026-09-27",
+    "sources": [
+      "https://www.bf-oks.dk/vare/oekologisk-hakket-oksekoed-frost-2/"
+    ],
+    "notes": "High-priority case-pack frozen organic mince lead."
+  },
+  {
+    "legal_name": "Mięsna Paczka",
+    "country_code": "PL",
+    "supplier_type": "producer_distributor",
+    "priority_class": "secondary",
+    "product_family": "beef",
+    "category_code": "minced_beef",
+    "product_description": "Organic minced beef from certified organic Polish farms; minimum mixed-order basket stated",
+    "organic_status": "Certified organic farming stated on official site",
+    "frozen_evidence": "Fresh product on cited page; frozen format to confirm",
+    "wholesale_evidence": "Minimum basket/order requirement; pallet MOQ not public",
+    "official_contact": {
+      "website": "https://miesnapaczka.pl/produkty/wolowina-mielona",
+      "email": "",
+      "phone": "",
+      "address": "Poland"
+    },
+    "status": "new",
+    "missing_fields": [
+      "frozen SKU",
+      "pallet MOQ",
+      "certificate/operator number",
+      "wholesale quote"
+    ],
+    "checked_at": "2026-09-27",
+    "sources": [
+      "https://miesnapaczka.pl/produkty/wolowina-mielona",
+      "https://miesnapaczka.pl/kategorie/wolowina"
+    ],
+    "notes": "New Polish certified-organic beef lead; keep separate until frozen bulk supply is confirmed."
   }
 ]
