@@ -34,7 +34,9 @@
       "https://store.actimeat.com/en/produit/cooked-organic-beef-25-fat/",
       "https://www.actimeat.com/contact-en/"
     ],
-    "notes": "Strong industrial/pallet and price evidence. Official quality pages confirm audited organic/AB handling, but certificate body/number is not public. Keep as a candidate and separate cooked product from raw minced beef statistics."
+    "notes": "Strong industrial/pallet and price evidence. Official quality pages confirm audited organic/AB handling, but certificate body/number is not public. Keep as a candidate and separate cooked product from raw minced beef statistics.",
+    "freshness_status": "frozen_excluded",
+    "active_fresh_scope": false
   },
   {
     "legal_name": "Alcass S.p.A. / Amica Natura",
@@ -60,7 +62,9 @@
       "https://www.amicanatura.it/prodotti/macinato-bovino-bio-amica-natura-vassoio-da-400-g-2/?lang=en",
       "https://www.amicanatura.it/certificazioni/"
     ],
-    "notes": "High-priority producer lead. Exclude from verified supplier counts and price statistics until pallet/MOQ and certificate number are verified."
+    "notes": "High-priority producer lead. Exclude from verified supplier counts and price statistics until pallet/MOQ and certificate number are verified.",
+    "freshness_status": "frozen_excluded",
+    "active_fresh_scope": false
   },
   {
     "legal_name": "Gröna gårdar",
@@ -85,7 +89,9 @@
     "sources": [
       "https://gronagardar.se/en/products/notfarsbox?variant=56325368021332"
     ],
-    "notes": "Promising frozen organic bulk comparison lead, but not yet verified as multi-pallet industrial wholesale."
+    "notes": "Promising frozen organic bulk comparison lead, but not yet verified as multi-pallet industrial wholesale.",
+    "freshness_status": "frozen_excluded",
+    "active_fresh_scope": false
   },
   {
     "legal_name": "Good Herdsmen Ltd / ABP Food Group",
@@ -116,7 +122,9 @@
       "https://www.goodherdsmen.ie/quality/product-areas/",
       "https://www.goodherdsmen.ie/contact/"
     ],
-    "notes": "High-priority producer lead; exclude from verified counts until product and pallet terms are confirmed."
+    "notes": "High-priority producer lead; exclude from verified counts until product and pallet terms are confirmed.",
+    "freshness_status": "frozen_excluded",
+    "active_fresh_scope": false
   },
   {
     "legal_name": "Friland A/S / Danish Crown",
@@ -147,7 +155,9 @@
       "https://www.danishcrown.com/global/our-brands/friland/about-friland/business-areas-b2b/",
       "https://www.danishcrown.com/global/our-brands/friland/contact/"
     ],
-    "notes": "High-priority producer lead; scale alone is not product verification."
+    "notes": "High-priority producer lead; scale alone is not product verification.",
+    "freshness_status": "frozen_excluded",
+    "active_fresh_scope": false
   },
   {
     "legal_name": "Vion Food Group / De Groene Weg",
@@ -178,7 +188,9 @@
       "https://www.vionfoodgroup.com/en/brands/de-groene-weg",
       "https://www.vionfoodgroup.com/en/products/minced-meat"
     ],
-    "notes": "High-priority producer lead; no price imported."
+    "notes": "High-priority producer lead; no price imported.",
+    "freshness_status": "frozen_excluded",
+    "active_fresh_scope": false
   },
   {
     "legal_name": "SA Union des Eleveurs Bio (UNEBIO)",
@@ -210,7 +222,9 @@
       "https://www.unebio.fr/nos-filieres/la-filiere-bovine/",
       "https://www.unebio.fr/"
     ],
-    "notes": "High-priority cooperative lead; partner claims remain unverified."
+    "notes": "High-priority cooperative lead; partner claims remain unverified.",
+    "freshness_status": "frozen_excluded",
+    "active_fresh_scope": false
   },
   {
     "legal_name": "Sonnberg Biofleisch GmbH",
@@ -250,7 +264,9 @@
       "price_condition": "7.79 EUR per 300 g cup",
       "price_status": "published",
       "channel": "market_reference"
-    }
+    },
+    "freshness_status": "fresh_evidence",
+    "active_fresh_scope": true
   },
   {
     "legal_name": "Biopark s.r.o.",
@@ -281,7 +297,9 @@
       "https://biohovezi.cz/kontakt",
       "https://biohovezi.cz/"
     ],
-    "notes": "Producer lead retained for direct outreach."
+    "notes": "Producer lead retained for direct outreach.",
+    "freshness_status": "frozen_excluded",
+    "active_fresh_scope": false
   },
   {
     "legal_name": "Biogreco",
@@ -312,7 +330,9 @@
       "https://www.biogreco.gr/en/frozen-products-biogreco/",
       "https://www.biogreco.gr/en/slaughter-and-packaging/"
     ],
-    "notes": "High-priority chicken producer lead; infrastructure is stronger than product-level evidence."
+    "notes": "High-priority chicken producer lead; infrastructure is stronger than product-level evidence.",
+    "freshness_status": "frozen_excluded",
+    "active_fresh_scope": false
   },
   {
     "legal_name": "Plukon Sieradz sp. z o.o. / Plukon Food Group",
@@ -344,7 +364,9 @@
       "https://www.plukon.com/products/chicken-products/",
       "https://www.plukon.com/"
     ],
-    "notes": "High-priority industrial lead, but product verification remains incomplete."
+    "notes": "High-priority industrial lead, but product verification remains incomplete.",
+    "freshness_status": "frozen_excluded",
+    "active_fresh_scope": false
   },
   {
     "legal_name": "Freiländer Bio Geflügel GmbH",
@@ -375,7 +397,9 @@
       "https://www.freilaender.de/fuer-partner/fuer-den-handel/",
       "https://www.bio123.de/produkt/freilander-bio-geflugel/geflugelhackfleisch-aus-pute-und-huhn-zum-braten-tiefgefroren"
     ],
-    "notes": "Strong chicken lead, but not yet confirmed as several-pallet industrial block supply."
+    "notes": "Strong chicken lead, but not yet confirmed as several-pallet industrial block supply.",
+    "freshness_status": "frozen_excluded",
+    "active_fresh_scope": false
   },
   {
     "legal_name": "Bodin Bio",
@@ -407,7 +431,9 @@
       "https://www.bodinbio.fr/",
       "https://www.entrepreneursbio-paysdelaloire.fr/wp-content/uploads/2022/12/Guide-Mon-Bio-Pays.pdf"
     ],
-    "notes": "Lower-priority producer lead."
+    "notes": "Lower-priority producer lead.",
+    "freshness_status": "frozen_excluded",
+    "active_fresh_scope": false
   },
   {
     "legal_name": "Zakład Mięsny Wasąg Sp.J.",
@@ -438,7 +464,9 @@
       "https://www.wasag.pl/site/contact",
       "https://www.wasag.pl/"
     ],
-    "notes": "Producer lead; do not count until frozen bulk evidence is confirmed."
+    "notes": "Producer lead; do not count until frozen bulk evidence is confirmed.",
+    "freshness_status": "frozen_excluded",
+    "active_fresh_scope": false
   },
   {
     "legal_name": "Zakład Mięsny Wasąg Sp.J.",
@@ -469,7 +497,9 @@
       "https://www.wasag.pl/site/contact",
       "https://www.wasag.pl/"
     ],
-    "notes": "Same legal supplier, separate product-family candidate."
+    "notes": "Same legal supplier, separate product-family candidate.",
+    "freshness_status": "frozen_excluded",
+    "active_fresh_scope": false
   },
   {
     "legal_name": "Fileni Alimentare S.p.A.",
@@ -501,7 +531,9 @@
       "https://www.fileni.it/contatti/",
       "https://www.fileni.it/"
     ],
-    "notes": "Retail mince cannot be used in wholesale price statistics."
+    "notes": "Retail mince cannot be used in wholesale price statistics.",
+    "freshness_status": "frozen_excluded",
+    "active_fresh_scope": false
   },
   {
     "legal_name": "AUGA Group AB",
@@ -533,7 +565,9 @@
       "https://auga.lt/en/contacts/",
       "https://auga.lt/en/"
     ],
-    "notes": "Discovery-only lead; agriculture scale is not proof of minced beef supply."
+    "notes": "Discovery-only lead; agriculture scale is not proof of minced beef supply.",
+    "freshness_status": "frozen_excluded",
+    "active_fresh_scope": false
   },
   {
     "legal_name": "HKScan / Scan Sverige AB",
@@ -564,7 +598,9 @@
     "sources": [
       "https://www.scan.se/vara-produkter/produkter/ekologiska-hamburgare/"
     ],
-    "notes": "Industrial discovery lead; retail 1 kg evidence is insufficient."
+    "notes": "Industrial discovery lead; retail 1 kg evidence is insufficient.",
+    "freshness_status": "frozen_excluded",
+    "active_fresh_scope": false
   },
   {
     "legal_name": "Pirinat / Carns de Confiança S.L.",
@@ -595,7 +631,9 @@
     "sources": [
       "https://www.pirinat.cat/"
     ],
-    "notes": "Spanish producer lead; exclude retail prices."
+    "notes": "Spanish producer lead; exclude retail prices.",
+    "freshness_status": "frozen_excluded",
+    "active_fresh_scope": false
   },
   {
     "legal_name": "Ecoviand de Brugarolas S.L.",
@@ -627,7 +665,9 @@
     "sources": [
       "https://www.cestaverde.com/"
     ],
-    "notes": "Secondary distributor lead only."
+    "notes": "Secondary distributor lead only.",
+    "freshness_status": "frozen_excluded",
+    "active_fresh_scope": false
   },
   {
     "legal_name": "Cotreant Handelsgewerbe e.U.",
@@ -658,7 +698,9 @@
     "sources": [
       "https://www.cotreant.at/en/"
     ],
-    "notes": "Secondary trader lead."
+    "notes": "Secondary trader lead.",
+    "freshness_status": "frozen_excluded",
+    "active_fresh_scope": false
   },
   {
     "legal_name": "Euroser",
@@ -690,7 +732,9 @@
     "sources": [
       "https://www.euroser.fr/en/specialization-p17.html"
     ],
-    "notes": "Secondary broker lead; do not count as producer."
+    "notes": "Secondary broker lead; do not count as producer.",
+    "freshness_status": "frozen_excluded",
+    "active_fresh_scope": false
   },
   {
     "legal_name": "Packlhof GmbH",
@@ -715,7 +759,9 @@
     "sources": [
       "https://www.bio123.de/produkt/packlhof/rinder-hackfleisch-tk-25-kg"
     ],
-    "notes": "Strong organic and frozen product evidence; B2B contact and current price still needed."
+    "notes": "Strong organic and frozen product evidence; B2B contact and current price still needed.",
+    "freshness_status": "frozen_excluded",
+    "active_fresh_scope": false
   },
   {
     "legal_name": "LFW Ludwigsluster Fleisch- und Wurstspezialitäten GmbH & Co. KG",
@@ -740,7 +786,9 @@
     "sources": [
       "https://www.bio123.de/produkt/biolust/bio-rinder-hackfleisch-tiefgefroren"
     ],
-    "notes": "Organic and frozen product evidence is strong; direct B2B contact and price still needed."
+    "notes": "Organic and frozen product evidence is strong; direct B2B contact and price still needed.",
+    "freshness_status": "frozen_excluded",
+    "active_fresh_scope": false
   },
   {
     "legal_name": "De Woeste Grond",
@@ -774,7 +822,9 @@
     "sources": [
       "https://www.dewoestegrond.nl/en/gehakt-pakket-85341704.html"
     ],
-    "notes": "Useful current organic frozen price reference; not yet an industrial multi-pallet offer."
+    "notes": "Useful current organic frozen price reference; not yet an industrial multi-pallet offer.",
+    "freshness_status": "frozen_excluded",
+    "active_fresh_scope": false
   },
   {
     "legal_name": "Delaney Organic Farm",
@@ -808,7 +858,9 @@
     "sources": [
       "https://delaneyorganicfarm.com/"
     ],
-    "notes": "Good organic producer and price lead; exact minced-beef pack composition and frozen dispatch need confirmation."
+    "notes": "Good organic producer and price lead; exact minced-beef pack composition and frozen dispatch need confirmation.",
+    "freshness_status": "frozen_excluded",
+    "active_fresh_scope": false
   },
   {
     "legal_name": "De Groene Boerderij",
@@ -840,7 +892,9 @@
       "price_status": "published",
       "channel": "market_reference"
     },
-    "notes": "Belgium price coverage reference; retail/farm channel, not counted as industrial wholesale until bulk terms are confirmed."
+    "notes": "Belgium price coverage reference; retail/farm channel, not counted as industrial wholesale until bulk terms are confirmed.",
+    "freshness_status": "frozen_excluded",
+    "active_fresh_scope": false
   },
   {
     "legal_name": "BioAngus",
@@ -872,7 +926,9 @@
       "price_status": "published",
       "channel": "market_reference"
     },
-    "notes": "Bulgaria coverage reference. Keep organic claim as unverified and do not use in strict organic statistics."
+    "notes": "Bulgaria coverage reference. Keep organic claim as unverified and do not use in strict organic statistics.",
+    "freshness_status": "frozen_excluded",
+    "active_fresh_scope": false
   },
   {
     "legal_name": "Skrtica / Plodine benchmark",
@@ -904,7 +960,9 @@
       "price_status": "published",
       "channel": "country_market_benchmark"
     },
-    "notes": "Croatia minimum price coverage; mixed beef/pork is not directly comparable with pure organic beef."
+    "notes": "Croatia minimum price coverage; mixed beef/pork is not directly comparable with pure organic beef.",
+    "freshness_status": "fresh_evidence",
+    "active_fresh_scope": true
   },
   {
     "legal_name": "The Ribeye Club",
@@ -936,7 +994,9 @@
       "price_status": "published",
       "channel": "market_reference"
     },
-    "notes": "Cyprus organic frozen price reference; direct product page was found in the search results but the public root URL is retained here."
+    "notes": "Cyprus organic frozen price reference; direct product page was found in the search results but the public root URL is retained here.",
+    "freshness_status": "frozen_excluded",
+    "active_fresh_scope": false
   },
   {
     "legal_name": "Liivimaa Lihaveis / Selver",
@@ -968,7 +1028,9 @@
       "price_status": "published",
       "channel": "market_reference"
     },
-    "notes": "Estonia organic price coverage reference; retail channel."
+    "notes": "Estonia organic price coverage reference; retail channel.",
+    "freshness_status": "frozen_excluded",
+    "active_fresh_scope": false
   },
   {
     "legal_name": "Antilan Luomupihvit",
@@ -1000,7 +1062,9 @@
       "price_status": "published",
       "channel": "market_reference"
     },
-    "notes": "Finland organic frozen price reference. Site says no new mince customers currently; retain as historical/current published price signal."
+    "notes": "Finland organic frozen price reference. Site says no new mince customers currently; retain as historical/current published price signal.",
+    "freshness_status": "frozen_excluded",
+    "active_fresh_scope": false
   },
   {
     "legal_name": "Martonyi Öko-Agro Kft. / Kifli.hu",
@@ -1036,7 +1100,9 @@
       "price_status": "published",
       "channel": "market_reference"
     },
-    "notes": "Hungary organic price reference. Conversion is indicative and original HUF price is preserved."
+    "notes": "Hungary organic price reference. Conversion is indicative and original HUF price is preserved.",
+    "freshness_status": "frozen_excluded",
+    "active_fresh_scope": false
   },
   {
     "legal_name": "LPKS GreenBeef.Lv",
@@ -1069,7 +1135,9 @@
       "price_status": "published",
       "channel": "market_reference"
     },
-    "notes": "Latvia organic frozen price coverage. Product is burger/minced preparation rather than plain mince; keep category signal separate in analysis."
+    "notes": "Latvia organic frozen price coverage. Product is burger/minced preparation rather than plain mince; keep category signal separate in analysis.",
+    "freshness_status": "frozen_excluded",
+    "active_fresh_scope": false
   },
   {
     "legal_name": "Bio Green Beef / Bofrost Luxembourg",
@@ -1102,7 +1170,9 @@
       "price_status": "published",
       "channel": "country_market_benchmark"
     },
-    "notes": "Luxembourg has organic frozen product evidence, but the single public price is a regular minced-beef benchmark and must not be treated as organic."
+    "notes": "Luxembourg has organic frozen product evidence, but the single public price is a regular minced-beef benchmark and must not be treated as organic.",
+    "freshness_status": "frozen_excluded",
+    "active_fresh_scope": false
   },
   {
     "legal_name": "Meats & Eats",
@@ -1134,7 +1204,9 @@
       "price_status": "published",
       "channel": "market_reference"
     },
-    "notes": "Malta organic price coverage reference; availability is currently weak."
+    "notes": "Malta organic price coverage reference; availability is currently weak.",
+    "freshness_status": "frozen_excluded",
+    "active_fresh_scope": false
   },
   {
     "legal_name": "Auchan Portugal / Biologic Bio",
@@ -1166,7 +1238,9 @@
       "price_status": "published",
       "channel": "market_reference"
     },
-    "notes": "Portugal organic price coverage; fresh product, not frozen."
+    "notes": "Portugal organic price coverage; fresh product, not frozen.",
+    "freshness_status": "frozen_excluded",
+    "active_fresh_scope": false
   },
   {
     "legal_name": "Real Foods / Silvania Bio",
@@ -1199,7 +1273,9 @@
       "price_status": "published",
       "channel": "market_reference"
     },
-    "notes": "Romania organic price reference; unusually high published price should be rechecked before commercial use."
+    "notes": "Romania organic price reference; unusually high published price should be rechecked before commercial use.",
+    "freshness_status": "frozen_excluded",
+    "active_fresh_scope": false
   },
   {
     "legal_name": "Meatbox / Ekofarma Turová",
@@ -1231,7 +1307,9 @@
       "price_status": "published",
       "channel": "market_reference"
     },
-    "notes": "Slovakia organic price coverage; chilled retail reference."
+    "notes": "Slovakia organic price coverage; chilled retail reference.",
+    "freshness_status": "frozen_excluded",
+    "active_fresh_scope": false
   },
   {
     "legal_name": "Ekološka kmetija Žgajnar",
@@ -1263,7 +1341,9 @@
       "price_status": "published",
       "channel": "market_reference"
     },
-    "notes": "Slovenia organic bulk price reference; 5 kg pack is useful for industrial comparison but not a pallet quote."
+    "notes": "Slovenia organic bulk price reference; 5 kg pack is useful for industrial comparison but not a pallet quote.",
+    "freshness_status": "frozen_excluded",
+    "active_fresh_scope": false
   },
   {
     "legal_name": "Ekofarma Babiny",
@@ -1299,7 +1379,9 @@
       "price_status": "published",
       "channel": "market_reference"
     },
-    "notes": "Czech organic price coverage; original CZK retained."
+    "notes": "Czech organic price coverage; original CZK retained.",
+    "freshness_status": "fresh_evidence",
+    "active_fresh_scope": true
   },
   {
     "legal_name": "Don Carne GmbH",
@@ -1331,7 +1413,9 @@
       "price_status": "published",
       "channel": "market_reference"
     },
-    "notes": "Germany organic frozen price coverage; availability was unavailable when crawled."
+    "notes": "Germany organic frozen price coverage; availability was unavailable when crawled.",
+    "freshness_status": "frozen_excluded",
+    "active_fresh_scope": false
   },
   {
     "legal_name": "Lemming Nygaard",
@@ -1367,7 +1451,9 @@
       "price_status": "published",
       "channel": "market_reference"
     },
-    "notes": "Denmark organic price coverage; original DKK retained."
+    "notes": "Denmark organic price coverage; original DKK retained.",
+    "freshness_status": "fresh_evidence",
+    "active_fresh_scope": true
   },
   {
     "legal_name": "Alcampo organic beef benchmark",
@@ -1399,7 +1485,9 @@
       "price_status": "published",
       "channel": "market_reference"
     },
-    "notes": "Spain organic price coverage; retail reference."
+    "notes": "Spain organic price coverage; retail reference.",
+    "freshness_status": "fresh_evidence",
+    "active_fresh_scope": true
   },
   {
     "legal_name": "Leontzini Premium Meat",
@@ -1431,7 +1519,9 @@
       "price_status": "published",
       "channel": "country_market_benchmark"
     },
-    "notes": "Greece minimum price coverage; conventional benchmark, not organic."
+    "notes": "Greece minimum price coverage; conventional benchmark, not organic.",
+    "freshness_status": "fresh_evidence",
+    "active_fresh_scope": true
   },
   {
     "legal_name": "Valdicastro",
@@ -1463,7 +1553,9 @@
       "price_status": "published",
       "channel": "market_reference"
     },
-    "notes": "Italy organic price coverage with explicit organic certification evidence."
+    "notes": "Italy organic price coverage with explicit organic certification evidence.",
+    "freshness_status": "fresh_evidence",
+    "active_fresh_scope": true
   },
   {
     "legal_name": "Rupūs Miltai cooperative",
@@ -1495,7 +1587,9 @@
       "price_status": "published",
       "channel": "market_reference"
     },
-    "notes": "Lithuania organic price coverage; marketplace/farm cooperative reference."
+    "notes": "Lithuania organic price coverage; marketplace/farm cooperative reference.",
+    "freshness_status": "fresh_evidence",
+    "active_fresh_scope": true
   },
   {
     "legal_name": "Juchowo Farm / Taste Store",
@@ -1531,7 +1625,9 @@
       "price_status": "published",
       "channel": "market_reference"
     },
-    "notes": "Poland organic price coverage; preserved minced product, not a frozen industrial block."
+    "notes": "Poland organic price coverage; preserved minced product, not a frozen industrial block.",
+    "freshness_status": "frozen_excluded",
+    "active_fresh_scope": false
   },
   {
     "legal_name": "Magdakullan",
@@ -1567,7 +1663,9 @@
       "price_status": "published",
       "channel": "market_reference"
     },
-    "notes": "Sweden organic bulk price coverage; farm price list."
+    "notes": "Sweden organic bulk price coverage; farm price list.",
+    "freshness_status": "fresh_evidence",
+    "active_fresh_scope": true
   },
   {
     "legal_name": "besserfleisch",
@@ -1599,7 +1697,9 @@
       "price_status": "published",
       "channel": "market_reference"
     },
-    "notes": "Strong organic/frozen evidence. Price is a delivered consumer pack and must not be treated as ex-works wholesale."
+    "notes": "Strong organic/frozen evidence. Price is a delivered consumer pack and must not be treated as ex-works wholesale.",
+    "freshness_status": "frozen_excluded",
+    "active_fresh_scope": false
   },
   {
     "legal_name": "Bodenburg Bio Fleisch Großhandel",
@@ -1625,7 +1725,9 @@
     ],
     "organic_certification_body": "DE-ÖKO",
     "certificate_number": "DE-ÖKO-001",
-    "notes": "High-priority wholesale lead. Ask specifically for frozen organic minced beef blocks, pack size, MOQ and price."
+    "notes": "High-priority wholesale lead. Ask specifically for frozen organic minced beef blocks, pack size, MOQ and price.",
+    "freshness_status": "frozen_excluded",
+    "active_fresh_scope": false
   },
   {
     "legal_name": "MK Fleisch GmbH",
@@ -1649,7 +1751,9 @@
     "sources": [
       "https://en.mk-fleisch.com/beef-meat/"
     ],
-    "notes": "Strong industrial format lead, but organic supply must be confirmed before inclusion in organic statistics."
+    "notes": "Strong industrial format lead, but organic supply must be confirmed before inclusion in organic statistics.",
+    "freshness_status": "frozen_excluded",
+    "active_fresh_scope": false
   },
   {
     "legal_name": "PromptMeat International",
@@ -1673,7 +1777,9 @@
     "sources": [
       "https://promptmeat.com/"
     ],
-    "notes": "Useful Bulgarian wholesale lead; request organic certificate, minced beef block SKU, MOQ and price."
+    "notes": "Useful Bulgarian wholesale lead; request organic certificate, minced beef block SKU, MOQ and price.",
+    "freshness_status": "frozen_excluded",
+    "active_fresh_scope": false
   },
   {
     "legal_name": "Food Service Company",
@@ -1697,7 +1803,9 @@
     "sources": [
       "https://www.foodservice.pl/en/index.html"
     ],
-    "notes": "Strong industrial capability lead; keep separate until organic raw material and exact minced SKU are confirmed."
+    "notes": "Strong industrial capability lead; keep separate until organic raw material and exact minced SKU are confirmed.",
+    "freshness_status": "frozen_excluded",
+    "active_fresh_scope": false
   },
   {
     "legal_name": "Zakład Przemysłu Mięsnego BIERNACKI",
@@ -1721,7 +1829,9 @@
     "sources": [
       "https://www.zmb.pl/en/portfolio/minced-beef/"
     ],
-    "notes": "High-volume minced-beef lead with HACCP, IFS and BRC evidence; organic availability must be confirmed."
+    "notes": "High-volume minced-beef lead with HACCP, IFS and BRC evidence; organic availability must be confirmed.",
+    "freshness_status": "frozen_excluded",
+    "active_fresh_scope": false
   },
   {
     "legal_name": "JP Puurvlees",
@@ -1752,7 +1862,9 @@
       "https://jppuurvlees.nl/rundergehakt",
       "https://jppuurvlees.nl/biologisch-rundvlees"
     ],
-    "notes": "New Dutch organic producer lead; retain until B2B volume is confirmed."
+    "notes": "New Dutch organic producer lead; retain until B2B volume is confirmed.",
+    "freshness_status": "frozen_excluded",
+    "active_fresh_scope": false
   },
   {
     "legal_name": "Økogaardene",
@@ -1781,7 +1893,9 @@
     "sources": [
       "https://oekogaardene.dk/products/hakket-oksekod-1kg-oko"
     ],
-    "notes": "New Danish frozen organic mince lead."
+    "notes": "New Danish frozen organic mince lead.",
+    "freshness_status": "frozen_excluded",
+    "active_fresh_scope": false
   },
   {
     "legal_name": "Kødbilen Engros",
@@ -1811,7 +1925,9 @@
       "https://www.kodbilen.dk/varer/engros/",
       "https://www.kodbilen.dk/vare/oekologisk-hakket-oksekoed-20-25-frost/"
     ],
-    "notes": "High-priority Danish wholesale lead; exact pallet terms require direct request."
+    "notes": "High-priority Danish wholesale lead; exact pallet terms require direct request.",
+    "freshness_status": "frozen_excluded",
+    "active_fresh_scope": false
   },
   {
     "legal_name": "BF-Oks",
@@ -1840,7 +1956,9 @@
     "sources": [
       "https://www.bf-oks.dk/vare/oekologisk-hakket-oksekoed-frost-2/"
     ],
-    "notes": "High-priority case-pack frozen organic mince lead."
+    "notes": "High-priority case-pack frozen organic mince lead.",
+    "freshness_status": "frozen_excluded",
+    "active_fresh_scope": false
   },
   {
     "legal_name": "Mięsna Paczka",
@@ -1871,7 +1989,9 @@
       "https://miesnapaczka.pl/produkty/wolowina-mielona",
       "https://miesnapaczka.pl/kategorie/wolowina"
     ],
-    "notes": "New Polish certified-organic beef lead; keep separate until frozen bulk supply is confirmed."
+    "notes": "New Polish certified-organic beef lead; keep separate until frozen bulk supply is confirmed.",
+    "freshness_status": "frozen_excluded",
+    "active_fresh_scope": false
   },
   {
     "legal_name": "BIOFARMA Maxin",
@@ -1902,7 +2022,9 @@
       "https://www.biomasomaxin.cz/kategorie-produktu/mlete/",
       "https://www.biomasomaxin.cz/"
     ],
-    "notes": "New Czech organic producer lead. Search result shows published 205 CZK product price; pack size needs confirmation."
+    "notes": "New Czech organic producer lead. Search result shows published 205 CZK product price; pack size needs confirmation.",
+    "freshness_status": "frozen_excluded",
+    "active_fresh_scope": false
   },
   {
     "legal_name": "Farma Moulisových",
@@ -1932,7 +2054,9 @@
     "sources": [
       "https://obchod.farmamoulisovych.cz/maso/bio-hovezi-maso-mlete/"
     ],
-    "notes": "New Czech organic producer lead; page publishes 340 CZK/kg, but current pack/availability must be checked."
+    "notes": "New Czech organic producer lead; page publishes 340 CZK/kg, but current pack/availability must be checked.",
+    "freshness_status": "frozen_excluded",
+    "active_fresh_scope": false
   },
   {
     "legal_name": "Statek Winter",
@@ -1962,7 +2086,9 @@
     "sources": [
       "https://www.statekwinter.cz/prodej-masa/bio-vyzrale-hovezi-mlete-maso/"
     ],
-    "notes": "New Czech organic producer lead; published price range 140–280 CZK, exact pack/weight to confirm."
+    "notes": "New Czech organic producer lead; published price range 140–280 CZK, exact pack/weight to confirm.",
+    "freshness_status": "frozen_excluded",
+    "active_fresh_scope": false
   },
   {
     "legal_name": "Széles Hús / Bio Marha Máj",
@@ -1992,7 +2118,9 @@
     "sources": [
       "https://www.szeleshus.hu/bio-marha-maj"
     ],
-    "notes": "New Hungarian organic processor lead; page lists BIO minced beef 300 g at 3,280 HUF."
+    "notes": "New Hungarian organic processor lead; page lists BIO minced beef 300 g at 3,280 HUF.",
+    "freshness_status": "frozen_excluded",
+    "active_fresh_scope": false
   },
   {
     "legal_name": "Virágoskút Organic Farm",
@@ -2022,7 +2150,9 @@
     "sources": [
       "https://www.viragoskut.hu/bio-marha-elokeszitett-daralt-hus-5kg-felett-4553"
     ],
-    "notes": "New Hungarian bulk organic minced-beef lead; 5 kg+ offer is a strong volume signal."
+    "notes": "New Hungarian bulk organic minced-beef lead; 5 kg+ offer is a strong volume signal.",
+    "freshness_status": "frozen_excluded",
+    "active_fresh_scope": false
   },
   {
     "legal_name": "bauern.laden.ein",
@@ -2051,6 +2181,8 @@
     "sources": [
       "https://www.bauernladenein.at/produkt/1203-Rinder-Faschiertes-vom-Bio-Weideochsen"
     ],
-    "notes": "New Austrian frozen organic minced-beef lead."
+    "notes": "New Austrian frozen organic minced-beef lead.",
+    "freshness_status": "frozen_excluded",
+    "active_fresh_scope": false
   }
 ]
