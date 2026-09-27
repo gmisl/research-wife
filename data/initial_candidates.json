@@ -1872,5 +1872,185 @@
       "https://miesnapaczka.pl/kategorie/wolowina"
     ],
     "notes": "New Polish certified-organic beef lead; keep separate until frozen bulk supply is confirmed."
+  },
+  {
+    "legal_name": "BIOFARMA Maxin",
+    "country_code": "CZ",
+    "supplier_type": "producer",
+    "priority_class": "secondary",
+    "product_family": "beef",
+    "category_code": "minced_beef",
+    "product_description": "100% organic minced beef from a Czech organic farm",
+    "organic_status": "Official site identifies BIO beef from ecological farming",
+    "frozen_evidence": "Frozen format not stated; confirm availability",
+    "wholesale_evidence": "Farm producer; multi-pallet MOQ not public",
+    "official_contact": {
+      "website": "https://www.biomasomaxin.cz/kategorie-produktu/mlete/",
+      "email": "biomasomaxin@seznam.cz",
+      "phone": "+420 739 084 601",
+      "address": "Brtníky 193, 407 60 Brtníky, Czech Republic"
+    },
+    "status": "new",
+    "missing_fields": [
+      "frozen SKU",
+      "pallet MOQ",
+      "certificate/operator number",
+      "wholesale quote"
+    ],
+    "checked_at": "2026-09-27",
+    "sources": [
+      "https://www.biomasomaxin.cz/kategorie-produktu/mlete/",
+      "https://www.biomasomaxin.cz/"
+    ],
+    "notes": "New Czech organic producer lead. Search result shows published 205 CZK product price; pack size needs confirmation."
+  },
+  {
+    "legal_name": "Farma Moulisových",
+    "country_code": "CZ",
+    "supplier_type": "producer",
+    "priority_class": "secondary",
+    "product_family": "beef",
+    "category_code": "minced_beef",
+    "product_description": "Organic minced beef for grinding from a Czech farm",
+    "organic_status": "Official shop identifies BIO beef from farm",
+    "frozen_evidence": "Frozen status not stated; confirm",
+    "wholesale_evidence": "Farm producer; wholesale/pallet terms not public",
+    "official_contact": {
+      "website": "https://obchod.farmamoulisovych.cz/maso/bio-hovezi-maso-mlete/",
+      "email": "obchod@farmamoulisovych.cz",
+      "phone": "",
+      "address": "Czech Republic"
+    },
+    "status": "new",
+    "missing_fields": [
+      "frozen SKU",
+      "pallet MOQ",
+      "certificate/operator number",
+      "wholesale quote"
+    ],
+    "checked_at": "2026-09-27",
+    "sources": [
+      "https://obchod.farmamoulisovych.cz/maso/bio-hovezi-maso-mlete/"
+    ],
+    "notes": "New Czech organic producer lead; page publishes 340 CZK/kg, but current pack/availability must be checked."
+  },
+  {
+    "legal_name": "Statek Winter",
+    "country_code": "CZ",
+    "supplier_type": "producer",
+    "priority_class": "secondary",
+    "product_family": "beef",
+    "category_code": "minced_beef",
+    "product_description": "Organic matured minced beef from Czech farm",
+    "organic_status": "Official product page identifies BIO product",
+    "frozen_evidence": "Frozen status not stated; confirm",
+    "wholesale_evidence": "Farm producer; bulk terms not public",
+    "official_contact": {
+      "website": "https://www.statekwinter.cz/prodej-masa/bio-vyzrale-hovezi-mlete-maso/",
+      "email": "",
+      "phone": "",
+      "address": "Czech Republic"
+    },
+    "status": "new",
+    "missing_fields": [
+      "frozen SKU",
+      "pallet MOQ",
+      "certificate/operator number",
+      "wholesale quote"
+    ],
+    "checked_at": "2026-09-27",
+    "sources": [
+      "https://www.statekwinter.cz/prodej-masa/bio-vyzrale-hovezi-mlete-maso/"
+    ],
+    "notes": "New Czech organic producer lead; published price range 140–280 CZK, exact pack/weight to confirm."
+  },
+  {
+    "legal_name": "Széles Hús / Bio Marha Máj",
+    "country_code": "HU",
+    "supplier_type": "producer_processor",
+    "priority_class": "secondary",
+    "product_family": "beef",
+    "category_code": "minced_beef",
+    "product_description": "Organic minced beef product, listed as BIO Rinder Faschiertes 300 g",
+    "organic_status": "Official page lists BIO product",
+    "frozen_evidence": "Frozen status not stated; confirm",
+    "wholesale_evidence": "Producer/shop with direct contact; pallet MOQ not public",
+    "official_contact": {
+      "website": "https://www.szeleshus.hu/bio-marha-maj",
+      "email": "info@szeleshus.hu",
+      "phone": "+36 20 772 9322",
+      "address": "9073 Bőny, Rákóczi u. 10, Hungary"
+    },
+    "status": "new",
+    "missing_fields": [
+      "frozen SKU",
+      "pallet MOQ",
+      "certificate/operator number",
+      "wholesale quote"
+    ],
+    "checked_at": "2026-09-27",
+    "sources": [
+      "https://www.szeleshus.hu/bio-marha-maj"
+    ],
+    "notes": "New Hungarian organic processor lead; page lists BIO minced beef 300 g at 3,280 HUF."
+  },
+  {
+    "legal_name": "Virágoskút Organic Farm",
+    "country_code": "HU",
+    "supplier_type": "producer",
+    "priority_class": "secondary",
+    "product_family": "beef",
+    "category_code": "minced_beef",
+    "product_description": "Organic prepared minced beef for orders over 5 kg",
+    "organic_status": "Official page identifies BIO beef product",
+    "frozen_evidence": "Frozen status not stated; confirm",
+    "wholesale_evidence": "Product is explicitly offered for quantities over 5 kg",
+    "official_contact": {
+      "website": "https://www.viragoskut.hu/bio-marha-elokeszitett-daralt-hus-5kg-felett-4553",
+      "email": "",
+      "phone": "",
+      "address": "Hungary"
+    },
+    "status": "new",
+    "missing_fields": [
+      "frozen SKU",
+      "pallet MOQ",
+      "certificate/operator number",
+      "wholesale quote"
+    ],
+    "checked_at": "2026-09-27",
+    "sources": [
+      "https://www.viragoskut.hu/bio-marha-elokeszitett-daralt-hus-5kg-felett-4553"
+    ],
+    "notes": "New Hungarian bulk organic minced-beef lead; 5 kg+ offer is a strong volume signal."
+  },
+  {
+    "legal_name": "bauern.laden.ein",
+    "country_code": "AT",
+    "supplier_type": "distributor",
+    "priority_class": "secondary",
+    "product_family": "beef",
+    "category_code": "frozen_minced_beef",
+    "product_description": "Frozen organic minced beef from organic pasture cattle",
+    "organic_status": "Official product page identifies Bio-Weideochsen",
+    "frozen_evidence": "Official product page states deep-frozen delivery",
+    "wholesale_evidence": "Direct farm marketplace; bulk/pallet MOQ not public",
+    "official_contact": {
+      "website": "https://www.bauernladenein.at/produkt/1203-Rinder-Faschiertes-vom-Bio-Weideochsen",
+      "email": "",
+      "phone": "",
+      "address": "Austria"
+    },
+    "status": "new",
+    "missing_fields": [
+      "pallet MOQ",
+      "certificate/operator number",
+      "wholesale quote"
+    ],
+    "checked_at": "2026-09-27",
+    "sources": [
+      "https://www.bauernladenein.at/produkt/1203-Rinder-Faschiertes-vom-Bio-Weideochsen"
+    ],
+    "notes": "New Austrian frozen organic minced-beef lead."
   }
 ]
