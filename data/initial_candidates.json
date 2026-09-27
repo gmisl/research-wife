@@ -2184,5 +2184,37 @@
     "notes": "New Austrian frozen organic minced-beef lead.",
     "freshness_status": "frozen_excluded",
     "active_fresh_scope": false
+  },
+  {
+    "legal_name": "IVLB / Bio Green Beef",
+    "country_code": "LU",
+    "supplier_type": "cooperative",
+    "priority_class": "primary",
+    "product_family": "beef",
+    "category_code": "minced_beef",
+    "product_description": "Luxembourg organic beef supply chain; fresh minced-beef format and wholesale quantities to confirm",
+    "organic_status": "Official IVLB site states EU-organic production and Bio Green Beef/Bio-Maufel labels; certificate/operator details to verify",
+    "wholesale_evidence": "Cooperative representing 20 Luxembourg organic farms; direct butcher/market channels stated; pallet/MOQ not public",
+    "official_contact": {
+      "website": "https://ivlb.lu/en/",
+      "email": "info@ivlb.lu",
+      "phone": "+352 621 742 250",
+      "address": "4, Rue d’Ansembourg, L-7423 Dondelange, Luxembourg"
+    },
+    "status": "new",
+    "missing_fields": [
+      "fresh minced-beef SKU",
+      "pallet/MOQ",
+      "price",
+      "certificate/operator number"
+    ],
+    "checked_at": "2026-09-27",
+    "sources": [
+      "https://ivlb.lu/en/",
+      "https://ivlb.lu/en/eis-labelen/"
+    ],
+    "notes": "Organic Luxembourg cooperative lead. Kept outside active fresh-minced report until exact fresh minced SKU and commercial quantity are confirmed.",
+    "freshness_status": "needs_recheck",
+    "active_fresh_scope": false
   }
 ]
