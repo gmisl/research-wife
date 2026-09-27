@@ -12,7 +12,7 @@ from .stats import calculate_weekly_stats
 from .report import load_candidate_price_signals, load_historical_stats, load_historical_candidate_price_signals
 
 
-def build_email(connection: sqlite3.Connection, candidate_path: Path = Path('data/initial_candidates.json')) -> str:
+def build_email(connection: sqlite3.Connection, candidate_path: Path = Path('data/active_fresh_candidates.json')) -> str:
     current_stats = calculate_weekly_stats(connection)
     historical = load_historical_stats()
     known_keys = {(row.get('week_start'), row.get('country_code'), row.get('product_id')) for row in historical}
