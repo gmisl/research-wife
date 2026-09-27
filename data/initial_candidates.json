@@ -1845,7 +1845,7 @@
   {
     "legal_name": "Mięsna Paczka",
     "country_code": "PL",
-    "supplier_type": "producer_distributor",
+    "supplier_type": "distributor",
     "priority_class": "secondary",
     "product_family": "beef",
     "category_code": "minced_beef",
