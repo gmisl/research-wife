@@ -432,7 +432,7 @@
       "https://www.entrepreneursbio-paysdelaloire.fr/wp-content/uploads/2022/12/Guide-Mon-Bio-Pays.pdf"
     ],
     "notes": "Lower-priority producer lead.",
-    "freshness_status": "frozen_excluded",
+    "freshness_status": "needs_recheck",
     "active_fresh_scope": false
   },
   {
@@ -465,7 +465,7 @@
       "https://www.wasag.pl/"
     ],
     "notes": "Producer lead; do not count until frozen bulk evidence is confirmed.",
-    "freshness_status": "frozen_excluded",
+    "freshness_status": "needs_recheck",
     "active_fresh_scope": false
   },
   {
@@ -498,7 +498,7 @@
       "https://www.wasag.pl/"
     ],
     "notes": "Same legal supplier, separate product-family candidate.",
-    "freshness_status": "frozen_excluded",
+    "freshness_status": "needs_recheck",
     "active_fresh_scope": false
   },
   {
@@ -532,8 +532,8 @@
       "https://www.fileni.it/"
     ],
     "notes": "Retail mince cannot be used in wholesale price statistics.",
-    "freshness_status": "frozen_excluded",
-    "active_fresh_scope": false
+    "freshness_status": "fresh_evidence",
+    "active_fresh_scope": true
   },
   {
     "legal_name": "AUGA Group AB",
@@ -893,8 +893,8 @@
       "channel": "market_reference"
     },
     "notes": "Belgium price coverage reference; retail/farm channel, not counted as industrial wholesale until bulk terms are confirmed.",
-    "freshness_status": "needs_recheck",
-    "active_fresh_scope": false
+    "freshness_status": "fresh_evidence",
+    "active_fresh_scope": true
   },
   {
     "legal_name": "BioAngus",
@@ -927,8 +927,8 @@
       "channel": "market_reference"
     },
     "notes": "Bulgaria coverage reference. Keep organic claim as unverified and do not use in strict organic statistics.",
-    "freshness_status": "needs_recheck",
-    "active_fresh_scope": false
+    "freshness_status": "fresh_evidence",
+    "active_fresh_scope": true
   },
   {
     "legal_name": "Skrtica / Plodine benchmark",
@@ -961,8 +961,8 @@
       "channel": "country_market_benchmark"
     },
     "notes": "Croatia minimum price coverage; mixed beef/pork is not directly comparable with pure organic beef.",
-    "freshness_status": "needs_recheck",
-    "active_fresh_scope": false
+    "freshness_status": "fresh_evidence",
+    "active_fresh_scope": true
   },
   {
     "legal_name": "The Ribeye Club",
@@ -1029,8 +1029,8 @@
       "channel": "market_reference"
     },
     "notes": "Estonia organic price coverage reference; retail channel.",
-    "freshness_status": "needs_recheck",
-    "active_fresh_scope": false
+    "freshness_status": "fresh_evidence",
+    "active_fresh_scope": true
   },
   {
     "legal_name": "Antilan Luomupihvit",
@@ -1101,8 +1101,8 @@
       "channel": "market_reference"
     },
     "notes": "Hungary organic price reference. Conversion is indicative and original HUF price is preserved.",
-    "freshness_status": "frozen_excluded",
-    "active_fresh_scope": false
+    "freshness_status": "fresh_evidence",
+    "active_fresh_scope": true
   },
   {
     "legal_name": "LPKS GreenBeef.Lv",
@@ -1239,8 +1239,8 @@
       "channel": "market_reference"
     },
     "notes": "Portugal organic price coverage; fresh product, not frozen.",
-    "freshness_status": "frozen_excluded",
-    "active_fresh_scope": false
+    "freshness_status": "fresh_evidence",
+    "active_fresh_scope": true
   },
   {
     "legal_name": "Real Foods / Silvania Bio",
@@ -1274,8 +1274,8 @@
       "channel": "market_reference"
     },
     "notes": "Romania organic price reference; unusually high published price should be rechecked before commercial use.",
-    "freshness_status": "needs_recheck",
-    "active_fresh_scope": false
+    "freshness_status": "fresh_evidence",
+    "active_fresh_scope": true
   },
   {
     "legal_name": "Meatbox / Ekofarma Turová",
@@ -1308,8 +1308,8 @@
       "channel": "market_reference"
     },
     "notes": "Slovakia organic price coverage; chilled retail reference.",
-    "freshness_status": "frozen_excluded",
-    "active_fresh_scope": false
+    "freshness_status": "fresh_evidence",
+    "active_fresh_scope": true
   },
   {
     "legal_name": "Ekološka kmetija Žgajnar",
@@ -1342,8 +1342,8 @@
       "channel": "market_reference"
     },
     "notes": "Slovenia organic bulk price reference; 5 kg pack is useful for industrial comparison but not a pallet quote.",
-    "freshness_status": "needs_recheck",
-    "active_fresh_scope": false
+    "freshness_status": "fresh_evidence",
+    "active_fresh_scope": true
   },
   {
     "legal_name": "Ekofarma Babiny",
@@ -1380,8 +1380,8 @@
       "channel": "market_reference"
     },
     "notes": "Czech organic price coverage; original CZK retained.",
-    "freshness_status": "needs_recheck",
-    "active_fresh_scope": false
+    "freshness_status": "fresh_evidence",
+    "active_fresh_scope": true
   },
   {
     "legal_name": "Don Carne GmbH",
@@ -1452,8 +1452,8 @@
       "channel": "market_reference"
     },
     "notes": "Denmark organic price coverage; original DKK retained.",
-    "freshness_status": "needs_recheck",
-    "active_fresh_scope": false
+    "freshness_status": "fresh_evidence",
+    "active_fresh_scope": true
   },
   {
     "legal_name": "Alcampo organic beef benchmark",
@@ -1486,8 +1486,8 @@
       "channel": "market_reference"
     },
     "notes": "Spain organic price coverage; retail reference.",
-    "freshness_status": "needs_recheck",
-    "active_fresh_scope": false
+    "freshness_status": "fresh_evidence",
+    "active_fresh_scope": true
   },
   {
     "legal_name": "Leontzini Premium Meat",
@@ -1520,8 +1520,8 @@
       "channel": "country_market_benchmark"
     },
     "notes": "Greece minimum price coverage; conventional benchmark, not organic.",
-    "freshness_status": "needs_recheck",
-    "active_fresh_scope": false
+    "freshness_status": "fresh_evidence",
+    "active_fresh_scope": true
   },
   {
     "legal_name": "Valdicastro",
@@ -1554,8 +1554,8 @@
       "channel": "market_reference"
     },
     "notes": "Italy organic price coverage with explicit organic certification evidence.",
-    "freshness_status": "needs_recheck",
-    "active_fresh_scope": false
+    "freshness_status": "fresh_evidence",
+    "active_fresh_scope": true
   },
   {
     "legal_name": "Rupūs Miltai cooperative",
@@ -1588,8 +1588,8 @@
       "channel": "market_reference"
     },
     "notes": "Lithuania organic price coverage; marketplace/farm cooperative reference.",
-    "freshness_status": "needs_recheck",
-    "active_fresh_scope": false
+    "freshness_status": "fresh_evidence",
+    "active_fresh_scope": true
   },
   {
     "legal_name": "Juchowo Farm / Taste Store",
@@ -1626,7 +1626,7 @@
       "channel": "market_reference"
     },
     "notes": "Poland organic price coverage; preserved minced product, not a frozen industrial block.",
-    "freshness_status": "frozen_excluded",
+    "freshness_status": "needs_recheck",
     "active_fresh_scope": false
   },
   {
@@ -1664,8 +1664,8 @@
       "channel": "market_reference"
     },
     "notes": "Sweden organic bulk price coverage; farm price list.",
-    "freshness_status": "needs_recheck",
-    "active_fresh_scope": false
+    "freshness_status": "fresh_evidence",
+    "active_fresh_scope": true
   },
   {
     "legal_name": "besserfleisch",
@@ -1726,7 +1726,7 @@
     "organic_certification_body": "DE-ÖKO",
     "certificate_number": "DE-ÖKO-001",
     "notes": "High-priority wholesale lead. Ask specifically for frozen organic minced beef blocks, pack size, MOQ and price.",
-    "freshness_status": "needs_recheck",
+    "freshness_status": "frozen_excluded",
     "active_fresh_scope": false
   },
   {
@@ -1990,8 +1990,8 @@
       "https://miesnapaczka.pl/kategorie/wolowina"
     ],
     "notes": "New Polish certified-organic beef lead; keep separate until frozen bulk supply is confirmed.",
-    "freshness_status": "needs_recheck",
-    "active_fresh_scope": false
+    "freshness_status": "fresh_evidence",
+    "active_fresh_scope": true
   },
   {
     "legal_name": "BIOFARMA Maxin",
