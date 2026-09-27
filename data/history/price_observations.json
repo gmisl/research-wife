@@ -1,5 +1,20 @@
 [
   {
+    "legal_name": "Antilan Luomupihvit",
+    "country_code": "FI",
+    "category_code": "frozen_minced_beef",
+    "description": "Organic beef mince, 500 g packs; page states mince is frozen 1–2 days after packing; Angus, fat under 7%",
+    "price": 12.8,
+    "currency": "EUR",
+    "unit": "EUR/kg",
+    "date": "2020-09-19",
+    "website": "https://www.antilanluomupihvit.com/hinnasto/",
+    "archive_url": "https://web.archive.org/web/20200919124255/https://www.antilanluomupihvit.com/hinnasto/",
+    "channel": "archived_market_reference",
+    "is_wholesale": false,
+    "reason": "Wayback capture updated 2020-09-18: published €12.80/kg; direct organic farm price, 500 g packs. Not strict wholesale."
+  },
+  {
     "legal_name": "De Woeste Grond",
     "country_code": "NL",
     "category_code": "frozen_minced_beef",
@@ -422,20 +437,5 @@
     "channel": "market_reference",
     "is_wholesale": true,
     "reason": "Market signal shown separately; not mixed into strict verified wholesale statistics."
-  },
-  {
-    "legal_name": "Antilan Luomupihvit",
-    "country_code": "FI",
-    "category_code": "frozen_minced_beef",
-    "description": "Organic beef mince, 500 g packs; page states mince is frozen 1–2 days after packing; Angus, fat under 7%",
-    "price": 12.8,
-    "currency": "EUR",
-    "unit": "EUR/kg",
-    "date": "2020-09-19",
-    "website": "https://www.antilanluomupihvit.com/hinnasto/",
-    "archive_url": "https://web.archive.org/web/20200919124255/https://www.antilanluomupihvit.com/hinnasto/",
-    "channel": "archived_market_reference",
-    "is_wholesale": false,
-    "reason": "Wayback capture updated 2020-09-18: published €12.80/kg; direct organic farm price, 500 g packs. Not strict wholesale."
   }
 ]
