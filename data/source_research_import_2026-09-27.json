@@ -1,0 +1,506 @@
+{
+  "imported_at": "2026-09-27",
+  "source_document": "https://docs.google.com/document/d/1wdva4AfdJw-AKLLIBemQp6lacYl0ljzn/edit?usp=drivesdk&ouid=111242959520437734118&rtpof=true&sd=true",
+  "source_type": "user_provided_docx_research",
+  "scope_note": "Historical/source research import. Not active in fresh-only reports until official product, freshness, organic certification and commercial-volume evidence are independently checked.",
+  "validation_rules": [
+    "Only fresh/chilled products may enter active scope.",
+    "Frozen products are archived only.",
+    "Prices are not wholesale statistics until the exact source URL and supplier-country link are verified.",
+    "Certification codes/operator IDs are claims from the document and require registry confirmation."
+  ],
+  "country_price_rows": [
+    {
+      "country_code": "AT",
+      "supplier_or_reference": "Bioweidebeef farms / Gurkerl",
+      "category_code": "frozen_minced_beef",
+      "reported_price_eur_per_kg": 22.28,
+      "unit": "EUR/kg",
+      "price_classification": "market_reference",
+      "reported_certification": "AT-BIO-501 (AT 5072857 EG)",
+      "status": "needs_recheck",
+      "active_fresh_scope": false
+    },
+    {
+      "country_code": "BE",
+      "supplier_or_reference": "Biofresh Belgium NV / Viangro",
+      "category_code": "industrial_minced_beef",
+      "reported_price_eur_per_kg": 15.8,
+      "unit": "EUR/kg",
+      "price_classification": "wholesale",
+      "reported_certification": "BE-BIO-01 (Afsca Validated)",
+      "status": "needs_recheck",
+      "active_fresh_scope": false
+    },
+    {
+      "country_code": "BG",
+      "supplier_or_reference": "Tandem-Popovo / Meat (R)evolution",
+      "category_code": "minced_beef_blocks",
+      "reported_price_eur_per_kg": 11.5,
+      "unit": "EUR/kg",
+      "price_classification": "wholesale_benchmark",
+      "reported_certification": "BG-BIO-02 (EU Export Approved)",
+      "status": "needs_recheck",
+      "active_fresh_scope": false
+    },
+    {
+      "country_code": "CY",
+      "supplier_or_reference": "Riverland Bio Farm",
+      "category_code": "bulk_minced_chicken",
+      "reported_price_eur_per_kg": 18.5,
+      "unit": "EUR/kg",
+      "price_classification": "market_reference",
+      "reported_certification": "CY-BIO-001",
+      "status": "needs_recheck",
+      "active_fresh_scope": false
+    },
+    {
+      "country_code": "CZ",
+      "supplier_or_reference": "Bidfood Kralupy s.r.o. / Biofarm Sasov",
+      "category_code": "frozen_minced_beef",
+      "reported_price_eur_per_kg": 15.2,
+      "unit": "EUR/kg",
+      "price_classification": "wholesale",
+      "reported_certification": "CZ-BIO-001",
+      "status": "needs_recheck",
+      "active_fresh_scope": false
+    },
+    {
+      "country_code": "DE",
+      "supplier_or_reference": "LindenGut Demeter Betrieb",
+      "category_code": "frozen_minced_beef_blocks",
+      "reported_price_eur_per_kg": 19.9,
+      "unit": "EUR/kg",
+      "price_classification": "market_reference",
+      "reported_certification": "DE-ÖKO-007",
+      "status": "needs_recheck",
+      "active_fresh_scope": false
+    },
+    {
+      "country_code": "DK",
+      "supplier_or_reference": "Friland A/S (Danish Crown)",
+      "category_code": "industrial_minced_beef",
+      "reported_price_eur_per_kg": 11.8,
+      "unit": "EUR/kg",
+      "price_classification": "wholesale",
+      "reported_certification": "DK-ØKO-100 (DC Foodservice)",
+      "status": "needs_recheck",
+      "active_fresh_scope": false
+    },
+    {
+      "country_code": "EE",
+      "supplier_or_reference": "SirLoin OÜ / Liivimaa Lihaveis",
+      "category_code": "frozen_minced_beef",
+      "reported_price_eur_per_kg": 13.9,
+      "unit": "EUR/kg",
+      "price_classification": "wholesale",
+      "reported_certification": "EE-ÖKO-02",
+      "status": "needs_recheck",
+      "active_fresh_scope": false
+    },
+    {
+      "country_code": "FI",
+      "supplier_or_reference": "Björkkulla Highland / Snellman",
+      "category_code": "bulk_minced_beef",
+      "reported_price_eur_per_kg": 16,
+      "unit": "EUR/kg",
+      "price_classification": "wholesale",
+      "reported_certification": "FI-EKO-201",
+      "status": "needs_recheck",
+      "active_fresh_scope": false
+    },
+    {
+      "country_code": "FR",
+      "supplier_or_reference": "UNEBIO / ELIVIA",
+      "category_code": "frozen_minced_beef_blocks",
+      "reported_price_eur_per_kg": 13.5,
+      "unit": "EUR/kg",
+      "price_classification": "wholesale",
+      "reported_certification": "FR-BIO-01 (Culture Viande)",
+      "status": "needs_recheck",
+      "active_fresh_scope": false
+    },
+    {
+      "country_code": "GR",
+      "supplier_or_reference": "BioGreco Laconia",
+      "category_code": "frozen_minced_chicken",
+      "reported_price_eur_per_kg": 19.9,
+      "unit": "EUR/kg",
+      "price_classification": "market_reference",
+      "reported_certification": "GR-BIO-03",
+      "status": "needs_recheck",
+      "active_fresh_scope": false
+    },
+    {
+      "country_code": "HR",
+      "supplier_or_reference": "Eko Mesnica Babriga / Bio Panona",
+      "category_code": "minced_beef",
+      "reported_price_eur_per_kg": 14.2,
+      "unit": "EUR/kg",
+      "price_classification": "market_reference",
+      "reported_certification": "HR-EKO-07",
+      "status": "needs_recheck",
+      "active_fresh_scope": false
+    },
+    {
+      "country_code": "HU",
+      "supplier_or_reference": "Martonyi Öko-Agro Kft. / Kifli",
+      "category_code": "minced_beef",
+      "reported_price_eur_per_kg": 21.4,
+      "unit": "EUR/kg",
+      "price_classification": "market_reference",
+      "reported_certification": "HU-ÖKO-01",
+      "status": "needs_recheck",
+      "active_fresh_scope": false
+    },
+    {
+      "country_code": "IE",
+      "supplier_or_reference": "Good Herdsmen Ltd",
+      "category_code": "industrial_minced_beef",
+      "reported_price_eur_per_kg": 12.5,
+      "unit": "EUR/kg",
+      "price_classification": "wholesale",
+      "reported_certification": "IE-ORG-01 (DAFM Registered)",
+      "status": "needs_recheck",
+      "active_fresh_scope": false
+    },
+    {
+      "country_code": "IT",
+      "supplier_or_reference": "Fileni Alimentari SpA",
+      "category_code": "frozen_minced_chicken",
+      "reported_price_eur_per_kg": 12.46,
+      "unit": "EUR/kg",
+      "price_classification": "market_reference",
+      "reported_certification": "IT-BIO-009",
+      "status": "needs_recheck",
+      "active_fresh_scope": false
+    },
+    {
+      "country_code": "LT",
+      "supplier_or_reference": "Kinderio Limuzinai",
+      "category_code": "minced_beef",
+      "reported_price_eur_per_kg": 20,
+      "unit": "EUR/kg",
+      "price_classification": "market_reference",
+      "reported_certification": "LT-EKO-001",
+      "status": "needs_recheck",
+      "active_fresh_scope": false
+    },
+    {
+      "country_code": "LU",
+      "supplier_or_reference": "BIOG / Toodlermillen",
+      "category_code": "minced_beef",
+      "reported_price_eur_per_kg": 18.5,
+      "unit": "EUR/kg",
+      "price_classification": "market_reference",
+      "reported_certification": "LU-BIO-05",
+      "status": "needs_recheck",
+      "active_fresh_scope": false
+    },
+    {
+      "country_code": "LV",
+      "supplier_or_reference": "SIA Lāses AM / Brūzilu Liellops",
+      "category_code": "minced_beef",
+      "reported_price_eur_per_kg": 11,
+      "unit": "EUR/kg",
+      "price_classification": "market_reference",
+      "reported_certification": "LV-BIO-01",
+      "status": "needs_recheck",
+      "active_fresh_scope": false
+    },
+    {
+      "country_code": "MT",
+      "supplier_or_reference": "Mediterranean Organic Imports",
+      "category_code": "frozen_minced_beef",
+      "reported_price_eur_per_kg": 16.8,
+      "unit": "EUR/kg",
+      "price_classification": "country_benchmark",
+      "reported_certification": "Import Parity Assessment",
+      "status": "needs_recheck",
+      "active_fresh_scope": false
+    },
+    {
+      "country_code": "NL",
+      "supplier_or_reference": "De Groene Weg (Vion Group)",
+      "category_code": "industrial_minced_beef",
+      "reported_price_eur_per_kg": 12.9,
+      "unit": "EUR/kg",
+      "price_classification": "wholesale",
+      "reported_certification": "NL-BIO-01 (Skal 001205)",
+      "status": "needs_recheck",
+      "active_fresh_scope": false
+    },
+    {
+      "country_code": "PL",
+      "supplier_or_reference": "Zakład Mięsny Wasąg",
+      "category_code": "minced_beef",
+      "reported_price_eur_per_kg": 19.2,
+      "unit": "EUR/kg",
+      "price_classification": "market_reference",
+      "reported_certification": "PL-EKO-01",
+      "status": "needs_recheck",
+      "active_fresh_scope": false
+    },
+    {
+      "country_code": "PT",
+      "supplier_or_reference": "Biobardo / Carnes do Campo",
+      "category_code": "frozen_minced_beef",
+      "reported_price_eur_per_kg": 15.4,
+      "unit": "EUR/kg",
+      "price_classification": "market_reference",
+      "reported_certification": "PT-BIO-03",
+      "status": "needs_recheck",
+      "active_fresh_scope": false
+    },
+    {
+      "country_code": "RO",
+      "supplier_or_reference": "Karpaten Meat Group",
+      "category_code": "minced_beef_blocks",
+      "reported_price_eur_per_kg": 11.2,
+      "unit": "EUR/kg",
+      "price_classification": "wholesale",
+      "reported_certification": "RO-ECO-008",
+      "status": "needs_recheck",
+      "active_fresh_scope": false
+    },
+    {
+      "country_code": "SE",
+      "supplier_or_reference": "Gröna Gårdar / KRAV Producers",
+      "category_code": "bulk_minced_beef",
+      "reported_price_eur_per_kg": 12.7,
+      "unit": "EUR/kg",
+      "price_classification": "wholesale",
+      "reported_certification": "SE-EKO-01",
+      "status": "needs_recheck",
+      "active_fresh_scope": false
+    },
+    {
+      "country_code": "SI",
+      "supplier_or_reference": "Ekodar (KZ Šaleška dolina)",
+      "category_code": "minced_beef",
+      "reported_price_eur_per_kg": 14.8,
+      "unit": "EUR/kg",
+      "price_classification": "market_reference",
+      "reported_certification": "SI-EKO-002",
+      "status": "needs_recheck",
+      "active_fresh_scope": false
+    },
+    {
+      "country_code": "SK",
+      "supplier_or_reference": "Farma Turová / MEATBOX",
+      "category_code": "minced_beef",
+      "reported_price_eur_per_kg": 16.9,
+      "unit": "EUR/kg",
+      "price_classification": "market_reference",
+      "reported_certification": "SK-BIO-002",
+      "status": "needs_recheck",
+      "active_fresh_scope": false
+    },
+    {
+      "country_code": "ES",
+      "supplier_or_reference": "Ternera Valle de Aísa / Campos Bio",
+      "category_code": "bulk_minced_beef",
+      "reported_price_eur_per_kg": 14.2,
+      "unit": "EUR/kg",
+      "price_classification": "wholesale",
+      "reported_certification": "ES-ECO-019-CT / COPAE",
+      "status": "needs_recheck",
+      "active_fresh_scope": false
+    }
+  ],
+  "industrial_leads": [
+    {
+      "legal_name": "Friland A/S (Danish Crown)",
+      "country_code": "DK",
+      "supplier_type": "primary_processor",
+      "category_code": "industrial_minced_beef",
+      "packaging": "20 kg poly-cartons; contact-plate frozen",
+      "moq": "3000 kg",
+      "source_status": "active_in_source",
+      "active_fresh_scope": false,
+      "status": "needs_recheck"
+    },
+    {
+      "legal_name": "ELIVIA / UNEBIO",
+      "country_code": "FR",
+      "supplier_type": "primary_processor",
+      "category_code": "frozen_minced_beef_blocks",
+      "packaging": "10–25 kg blocks; industrial blast frozen",
+      "moq": "10000 kg",
+      "source_status": "active_in_source",
+      "active_fresh_scope": false,
+      "status": "needs_recheck"
+    },
+    {
+      "legal_name": "De Groene Weg (Vion)",
+      "country_code": "NL",
+      "supplier_type": "primary_processor",
+      "category_code": "industrial_minced_beef",
+      "packaging": "industrial visual-lean blocks; deep frozen",
+      "moq": "750 kg",
+      "source_status": "active_in_source",
+      "active_fresh_scope": false,
+      "status": "needs_recheck"
+    },
+    {
+      "legal_name": "Zakład Mięsny Wasąg",
+      "country_code": "PL",
+      "supplier_type": "integrated_processor",
+      "category_code": "minced_beef_blocks",
+      "packaging": "vacuum industrial/MAP trays; chilled/frozen",
+      "moq": "500 kg",
+      "source_status": "active_in_source",
+      "active_fresh_scope": false,
+      "status": "needs_recheck"
+    },
+    {
+      "legal_name": "Fileni Alimentari SpA",
+      "country_code": "IT",
+      "supplier_type": "integrated_poultry_processor",
+      "category_code": "frozen_minced_chicken",
+      "packaging": "240 g–5 kg sealed pouches",
+      "moq": "600 kg",
+      "source_status": "active_in_source",
+      "active_fresh_scope": false,
+      "status": "needs_recheck"
+    },
+    {
+      "legal_name": "Biofresh Belgium NV",
+      "country_code": "BE",
+      "supplier_type": "wholesaler_distributor",
+      "category_code": "industrial_minced_beef",
+      "packaging": "food-service gastro packs; chilled/frozen",
+      "moq": "500 EUR spend",
+      "source_status": "active_in_source",
+      "active_fresh_scope": false,
+      "status": "needs_recheck"
+    },
+    {
+      "legal_name": "F.H.U. Green Trading",
+      "country_code": "PL",
+      "supplier_type": "export_meat_broker",
+      "category_code": "frozen_minced_beef_blocks",
+      "packaging": "containerized pallet lots",
+      "moq": "5000 kg",
+      "source_status": "active_in_source",
+      "active_fresh_scope": false,
+      "status": "needs_recheck"
+    },
+    {
+      "legal_name": "CB Viandes Distri",
+      "country_code": "FR",
+      "supplier_type": "meat_broker",
+      "category_code": "industrial_minced_beef",
+      "packaging": "standard export cartons; frozen",
+      "moq": "single pallet/FTL",
+      "source_status": "active_in_source",
+      "active_fresh_scope": false,
+      "status": "needs_recheck"
+    },
+    {
+      "legal_name": "Avimosa Group",
+      "country_code": "ES",
+      "supplier_type": "poultry_processor",
+      "category_code": "bulk_minced_chicken",
+      "packaging": "poly-block; deep frozen",
+      "moq": "500 kg",
+      "source_status": "unverified_in_source",
+      "active_fresh_scope": false,
+      "status": "needs_recheck"
+    },
+    {
+      "legal_name": "Bioweidebeef farms",
+      "country_code": "AT",
+      "supplier_type": "farm_master_butcher",
+      "category_code": "frozen_minced_beef",
+      "packaging": "250 g vacuum packs; static frozen",
+      "moq": "20–50 kg",
+      "source_status": "active_in_source",
+      "active_fresh_scope": false,
+      "status": "needs_recheck"
+    },
+    {
+      "legal_name": "Farma Turová (MEATBOX)",
+      "country_code": "SK",
+      "supplier_type": "farm_local_slaughter",
+      "category_code": "minced_beef",
+      "packaging": "500 g vacuum packs; chilled/static frozen",
+      "moq": "retail threshold",
+      "source_status": "active_in_source",
+      "active_fresh_scope": false,
+      "status": "needs_recheck"
+    },
+    {
+      "legal_name": "Kinderio Limuzinai",
+      "country_code": "LT",
+      "supplier_type": "farm_processor",
+      "category_code": "minced_beef",
+      "packaging": "1 kg vacuum packs; chilled fresh",
+      "moq": "10 kg",
+      "source_status": "active_in_source",
+      "active_fresh_scope": false,
+      "status": "needs_recheck"
+    },
+    {
+      "legal_name": "Riverland Bio Farm",
+      "country_code": "CY",
+      "supplier_type": "direct_mixed_producer",
+      "category_code": "bulk_minced_chicken",
+      "packaging": "fresh/frozen direct farm packaging",
+      "moq": "direct allocations",
+      "source_status": "active_in_source",
+      "active_fresh_scope": false,
+      "status": "needs_recheck"
+    },
+    {
+      "legal_name": "Bio-Rindverarbeitung Nord",
+      "country_code": "DE",
+      "supplier_type": "specialized_deboning_plant",
+      "category_code": "industrial_minced",
+      "packaging": "15 kg poly-block; contact frozen",
+      "moq": "1000 kg",
+      "source_status": "inactive_in_source",
+      "active_fresh_scope": false,
+      "status": "needs_recheck"
+    },
+    {
+      "legal_name": "Danubia Bio Meats Kft.",
+      "country_code": "HU",
+      "supplier_type": "commercial_meat_trader",
+      "category_code": "minced_beef_blocks",
+      "packaging": "20 kg cartons; frozen",
+      "moq": "2500 kg",
+      "source_status": "lost_certification_in_source",
+      "active_fresh_scope": false,
+      "status": "needs_recheck"
+    }
+  ],
+  "document_claimed_aggregates": {
+    "organic_minced_beef_all_channels": {
+      "sample_count": 24,
+      "min_eur_kg": 11,
+      "max_eur_kg": 27.9,
+      "mean_eur_kg": 16.48,
+      "median_eur_kg": 15.6
+    },
+    "verified_industrial_wholesale": {
+      "sample_count": 10,
+      "min_eur_kg": 11,
+      "max_eur_kg": 16,
+      "mean_eur_kg": 13.08,
+      "median_eur_kg": 12.8
+    },
+    "organic_minced_chicken_all_channels": {
+      "sample_count": 3,
+      "min_eur_kg": 12.46,
+      "max_eur_kg": 21.2,
+      "mean_eur_kg": 17.85,
+      "median_eur_kg": 19.9
+    }
+  },
+  "notes": [
+    "The document is mainly about frozen minced meat, while the active project scope is now fresh only.",
+    "The document contains valuable leads and price hypotheses but some rows lack direct product-page proof.",
+    "Use it for candidate discovery and verification queues, not as verified fact."
+  ]
+}
