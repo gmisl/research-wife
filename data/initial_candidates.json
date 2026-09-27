@@ -532,8 +532,8 @@
       "https://www.fileni.it/"
     ],
     "notes": "Retail mince cannot be used in wholesale price statistics.",
-    "freshness_status": "fresh_evidence",
-    "active_fresh_scope": true
+    "freshness_status": "needs_recheck",
+    "active_fresh_scope": false
   },
   {
     "legal_name": "AUGA Group AB",
@@ -927,8 +927,8 @@
       "channel": "market_reference"
     },
     "notes": "Bulgaria coverage reference. Keep organic claim as unverified and do not use in strict organic statistics.",
-    "freshness_status": "fresh_evidence",
-    "active_fresh_scope": true
+    "freshness_status": "needs_recheck",
+    "active_fresh_scope": false
   },
   {
     "legal_name": "Skrtica / Plodine benchmark",
@@ -1029,8 +1029,8 @@
       "channel": "market_reference"
     },
     "notes": "Estonia organic price coverage reference; retail channel.",
-    "freshness_status": "fresh_evidence",
-    "active_fresh_scope": true
+    "freshness_status": "needs_recheck",
+    "active_fresh_scope": false
   },
   {
     "legal_name": "Antilan Luomupihvit",
@@ -1274,8 +1274,8 @@
       "channel": "market_reference"
     },
     "notes": "Romania organic price reference; unusually high published price should be rechecked before commercial use.",
-    "freshness_status": "fresh_evidence",
-    "active_fresh_scope": true
+    "freshness_status": "needs_recheck",
+    "active_fresh_scope": false
   },
   {
     "legal_name": "Meatbox / Ekofarma Turová",
@@ -1380,8 +1380,8 @@
       "channel": "market_reference"
     },
     "notes": "Czech organic price coverage; original CZK retained.",
-    "freshness_status": "fresh_evidence",
-    "active_fresh_scope": true
+    "freshness_status": "needs_recheck",
+    "active_fresh_scope": false
   },
   {
     "legal_name": "Don Carne GmbH",
@@ -1452,8 +1452,8 @@
       "channel": "market_reference"
     },
     "notes": "Denmark organic price coverage; original DKK retained.",
-    "freshness_status": "fresh_evidence",
-    "active_fresh_scope": true
+    "freshness_status": "needs_recheck",
+    "active_fresh_scope": false
   },
   {
     "legal_name": "Alcampo organic beef benchmark",
@@ -1486,8 +1486,8 @@
       "channel": "market_reference"
     },
     "notes": "Spain organic price coverage; retail reference.",
-    "freshness_status": "fresh_evidence",
-    "active_fresh_scope": true
+    "freshness_status": "needs_recheck",
+    "active_fresh_scope": false
   },
   {
     "legal_name": "Leontzini Premium Meat",
@@ -1520,8 +1520,8 @@
       "channel": "country_market_benchmark"
     },
     "notes": "Greece minimum price coverage; conventional benchmark, not organic.",
-    "freshness_status": "fresh_evidence",
-    "active_fresh_scope": true
+    "freshness_status": "needs_recheck",
+    "active_fresh_scope": false
   },
   {
     "legal_name": "Valdicastro",
@@ -1554,8 +1554,8 @@
       "channel": "market_reference"
     },
     "notes": "Italy organic price coverage with explicit organic certification evidence.",
-    "freshness_status": "fresh_evidence",
-    "active_fresh_scope": true
+    "freshness_status": "needs_recheck",
+    "active_fresh_scope": false
   },
   {
     "legal_name": "Rupūs Miltai cooperative",
@@ -1588,8 +1588,8 @@
       "channel": "market_reference"
     },
     "notes": "Lithuania organic price coverage; marketplace/farm cooperative reference.",
-    "freshness_status": "fresh_evidence",
-    "active_fresh_scope": true
+    "freshness_status": "needs_recheck",
+    "active_fresh_scope": false
   },
   {
     "legal_name": "Juchowo Farm / Taste Store",
@@ -1664,8 +1664,8 @@
       "channel": "market_reference"
     },
     "notes": "Sweden organic bulk price coverage; farm price list.",
-    "freshness_status": "fresh_evidence",
-    "active_fresh_scope": true
+    "freshness_status": "needs_recheck",
+    "active_fresh_scope": false
   },
   {
     "legal_name": "besserfleisch",
@@ -1990,8 +1990,8 @@
       "https://miesnapaczka.pl/kategorie/wolowina"
     ],
     "notes": "New Polish certified-organic beef lead; keep separate until frozen bulk supply is confirmed.",
-    "freshness_status": "fresh_evidence",
-    "active_fresh_scope": true
+    "freshness_status": "needs_recheck",
+    "active_fresh_scope": false
   },
   {
     "legal_name": "BIOFARMA Maxin",
