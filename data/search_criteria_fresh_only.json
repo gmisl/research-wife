@@ -1,0 +1,202 @@
+{
+  "version": "2026-09-27",
+  "project": "organic_eu_fresh_meat_supplier_research",
+  "scope": {
+    "countries": [
+      "AT",
+      "BE",
+      "BG",
+      "HR",
+      "CY",
+      "CZ",
+      "DK",
+      "EE",
+      "FI",
+      "FR",
+      "DE",
+      "GR",
+      "HU",
+      "IE",
+      "IT",
+      "LV",
+      "LT",
+      "LU",
+      "MT",
+      "NL",
+      "PL",
+      "PT",
+      "RO",
+      "SK",
+      "SI",
+      "ES",
+      "SE"
+    ],
+    "product_families": [
+      "beef",
+      "chicken"
+    ],
+    "freshness": "fresh_only",
+    "exclude_frozen": true,
+    "organic_required": true,
+    "target_suppliers_per_country": 5
+  },
+  "allowed_categories": {
+    "beef": [
+      "minced_beef",
+      "industrial_minced",
+      "minced_block",
+      "bulk_minced_beef"
+    ],
+    "chicken": [
+      "minced_chicken",
+      "industrial_minced_chicken",
+      "bulk_minced_chicken"
+    ]
+  },
+  "supplier_requirements": {
+    "preferred_types": [
+      "producer",
+      "processor",
+      "producer_processor",
+      "cooperative"
+    ],
+    "acceptable_types": [
+      "distributor",
+      "wholesaler",
+      "exporter"
+    ],
+    "bulk_priority": true,
+    "minimum_scale_signal": [
+      "multiple_pallets",
+      "pallet",
+      "bulk",
+      "industrial",
+      "food_service",
+      "wholesale",
+      "MOQ",
+      "case_pack"
+    ],
+    "official_company_contact_required": true,
+    "official_website_required": true
+  },
+  "fresh_product_evidence": {
+    "required": true,
+    "accepted_signals": [
+      "fresh",
+      "chilled",
+      "refrigerated",
+      "never frozen",
+      "fresh minced",
+      "freshly minced",
+      "frisch",
+      "gekühlt",
+      "frais",
+      "réfrigéré",
+      "fresco",
+      "refrigerato",
+      "fresco",
+      "fresca",
+      "świeże",
+      "schłodzone",
+      "friss",
+      "hűtött",
+      "čerstvé",
+      "čerstvé",
+      "vėsia",
+      "svaiga",
+      "atdzesēta"
+    ],
+    "reject_signals": [
+      "frozen",
+      "deep-frozen",
+      "IQF",
+      "block frozen",
+      "surgelé",
+      "congelado",
+      "tiefgefroren",
+      "gefroren",
+      "mražené",
+      "mrazené",
+      "fagyasztott",
+      "frost",
+      "pakastettu",
+      "zamrznjeno",
+      "zamrznuto",
+      "saldēta",
+      "saldēts"
+    ],
+    "unknown_status": "needs_recheck"
+  },
+  "organic_evidence": {
+    "required": true,
+    "accepted": [
+      "EU organic logo",
+      "national organic control code",
+      "certification body",
+      "official organic product claim"
+    ],
+    "certificate_verification_preferred": true
+  },
+  "price_rules": {
+    "collect": true,
+    "fresh_only": true,
+    "prefer": [
+      "EUR/kg",
+      "EUR/tonne",
+      "EUR/pallet"
+    ],
+    "keep_original_currency": true,
+    "delivery_cost_included": false,
+    "separate_channels": [
+      "wholesale",
+      "food_service",
+      "market_reference",
+      "retail"
+    ],
+    "strict_statistics_only": [
+      "is_wholesale=1",
+      "freshness=fresh",
+      "organic_status=organic",
+      "country_code_not_null"
+    ]
+  },
+  "exclusions": [
+    "frozen_only",
+    "retail_only",
+    "non_organic",
+    "steaks_or_whole_cuts",
+    "unverifiable_company",
+    "private_contact_only"
+  ],
+  "history": {
+    "keep_old_frozen_records": true,
+    "mark_old_frozen_records": "excluded_from_active_fresh_reports",
+    "price_window_start": "2020-01-01",
+    "price_window_end": "today",
+    "weekly_check": true
+  },
+  "output": {
+    "supplier_status": [
+      "new",
+      "active",
+      "needs_recheck",
+      "inactive",
+      "lost_certification",
+      "unverified"
+    ],
+    "required_source_fields": [
+      "company_website",
+      "exact_product_url",
+      "price_source_url",
+      "retrieved_at"
+    ],
+    "country_json_fields": [
+      "country",
+      "product",
+      "suppliers",
+      "prices",
+      "data_sources",
+      "market_notes"
+    ]
+  }
+}
