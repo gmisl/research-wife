@@ -189,7 +189,7 @@
       "https://www.vionfoodgroup.com/en/products/minced-meat"
     ],
     "notes": "High-priority producer lead; no price imported.",
-    "freshness_status": "frozen_excluded",
+    "freshness_status": "needs_recheck",
     "active_fresh_scope": false
   },
   {
@@ -223,7 +223,7 @@
       "https://www.unebio.fr/"
     ],
     "notes": "High-priority cooperative lead; partner claims remain unverified.",
-    "freshness_status": "frozen_excluded",
+    "freshness_status": "needs_recheck",
     "active_fresh_scope": false
   },
   {
@@ -365,7 +365,7 @@
       "https://www.plukon.com/"
     ],
     "notes": "High-priority industrial lead, but product verification remains incomplete.",
-    "freshness_status": "frozen_excluded",
+    "freshness_status": "needs_recheck",
     "active_fresh_scope": false
   },
   {
@@ -398,7 +398,7 @@
       "https://www.bio123.de/produkt/freilander-bio-geflugel/geflugelhackfleisch-aus-pute-und-huhn-zum-braten-tiefgefroren"
     ],
     "notes": "Strong chicken lead, but not yet confirmed as several-pallet industrial block supply.",
-    "freshness_status": "frozen_excluded",
+    "freshness_status": "needs_recheck",
     "active_fresh_scope": false
   },
   {
@@ -859,7 +859,7 @@
       "https://delaneyorganicfarm.com/"
     ],
     "notes": "Good organic producer and price lead; exact minced-beef pack composition and frozen dispatch need confirmation.",
-    "freshness_status": "frozen_excluded",
+    "freshness_status": "needs_recheck",
     "active_fresh_scope": false
   },
   {
@@ -893,7 +893,7 @@
       "channel": "market_reference"
     },
     "notes": "Belgium price coverage reference; retail/farm channel, not counted as industrial wholesale until bulk terms are confirmed.",
-    "freshness_status": "frozen_excluded",
+    "freshness_status": "needs_recheck",
     "active_fresh_scope": false
   },
   {
@@ -927,7 +927,7 @@
       "channel": "market_reference"
     },
     "notes": "Bulgaria coverage reference. Keep organic claim as unverified and do not use in strict organic statistics.",
-    "freshness_status": "frozen_excluded",
+    "freshness_status": "needs_recheck",
     "active_fresh_scope": false
   },
   {
@@ -961,8 +961,8 @@
       "channel": "country_market_benchmark"
     },
     "notes": "Croatia minimum price coverage; mixed beef/pork is not directly comparable with pure organic beef.",
-    "freshness_status": "fresh_evidence",
-    "active_fresh_scope": true
+    "freshness_status": "needs_recheck",
+    "active_fresh_scope": false
   },
   {
     "legal_name": "The Ribeye Club",
@@ -1029,7 +1029,7 @@
       "channel": "market_reference"
     },
     "notes": "Estonia organic price coverage reference; retail channel.",
-    "freshness_status": "frozen_excluded",
+    "freshness_status": "needs_recheck",
     "active_fresh_scope": false
   },
   {
@@ -1205,8 +1205,8 @@
       "channel": "market_reference"
     },
     "notes": "Malta organic price coverage reference; availability is currently weak.",
-    "freshness_status": "frozen_excluded",
-    "active_fresh_scope": false
+    "freshness_status": "fresh_evidence",
+    "active_fresh_scope": true
   },
   {
     "legal_name": "Auchan Portugal / Biologic Bio",
@@ -1274,7 +1274,7 @@
       "channel": "market_reference"
     },
     "notes": "Romania organic price reference; unusually high published price should be rechecked before commercial use.",
-    "freshness_status": "frozen_excluded",
+    "freshness_status": "needs_recheck",
     "active_fresh_scope": false
   },
   {
@@ -1342,7 +1342,7 @@
       "channel": "market_reference"
     },
     "notes": "Slovenia organic bulk price reference; 5 kg pack is useful for industrial comparison but not a pallet quote.",
-    "freshness_status": "frozen_excluded",
+    "freshness_status": "needs_recheck",
     "active_fresh_scope": false
   },
   {
@@ -1380,8 +1380,8 @@
       "channel": "market_reference"
     },
     "notes": "Czech organic price coverage; original CZK retained.",
-    "freshness_status": "fresh_evidence",
-    "active_fresh_scope": true
+    "freshness_status": "needs_recheck",
+    "active_fresh_scope": false
   },
   {
     "legal_name": "Don Carne GmbH",
@@ -1452,8 +1452,8 @@
       "channel": "market_reference"
     },
     "notes": "Denmark organic price coverage; original DKK retained.",
-    "freshness_status": "fresh_evidence",
-    "active_fresh_scope": true
+    "freshness_status": "needs_recheck",
+    "active_fresh_scope": false
   },
   {
     "legal_name": "Alcampo organic beef benchmark",
@@ -1486,8 +1486,8 @@
       "channel": "market_reference"
     },
     "notes": "Spain organic price coverage; retail reference.",
-    "freshness_status": "fresh_evidence",
-    "active_fresh_scope": true
+    "freshness_status": "needs_recheck",
+    "active_fresh_scope": false
   },
   {
     "legal_name": "Leontzini Premium Meat",
@@ -1520,8 +1520,8 @@
       "channel": "country_market_benchmark"
     },
     "notes": "Greece minimum price coverage; conventional benchmark, not organic.",
-    "freshness_status": "fresh_evidence",
-    "active_fresh_scope": true
+    "freshness_status": "needs_recheck",
+    "active_fresh_scope": false
   },
   {
     "legal_name": "Valdicastro",
@@ -1554,8 +1554,8 @@
       "channel": "market_reference"
     },
     "notes": "Italy organic price coverage with explicit organic certification evidence.",
-    "freshness_status": "fresh_evidence",
-    "active_fresh_scope": true
+    "freshness_status": "needs_recheck",
+    "active_fresh_scope": false
   },
   {
     "legal_name": "Rupūs Miltai cooperative",
@@ -1588,8 +1588,8 @@
       "channel": "market_reference"
     },
     "notes": "Lithuania organic price coverage; marketplace/farm cooperative reference.",
-    "freshness_status": "fresh_evidence",
-    "active_fresh_scope": true
+    "freshness_status": "needs_recheck",
+    "active_fresh_scope": false
   },
   {
     "legal_name": "Juchowo Farm / Taste Store",
@@ -1664,8 +1664,8 @@
       "channel": "market_reference"
     },
     "notes": "Sweden organic bulk price coverage; farm price list.",
-    "freshness_status": "fresh_evidence",
-    "active_fresh_scope": true
+    "freshness_status": "needs_recheck",
+    "active_fresh_scope": false
   },
   {
     "legal_name": "besserfleisch",
@@ -1726,7 +1726,7 @@
     "organic_certification_body": "DE-ÖKO",
     "certificate_number": "DE-ÖKO-001",
     "notes": "High-priority wholesale lead. Ask specifically for frozen organic minced beef blocks, pack size, MOQ and price.",
-    "freshness_status": "frozen_excluded",
+    "freshness_status": "needs_recheck",
     "active_fresh_scope": false
   },
   {
@@ -1990,7 +1990,7 @@
       "https://miesnapaczka.pl/kategorie/wolowina"
     ],
     "notes": "New Polish certified-organic beef lead; keep separate until frozen bulk supply is confirmed.",
-    "freshness_status": "frozen_excluded",
+    "freshness_status": "needs_recheck",
     "active_fresh_scope": false
   },
   {
@@ -2023,7 +2023,7 @@
       "https://www.biomasomaxin.cz/"
     ],
     "notes": "New Czech organic producer lead. Search result shows published 205 CZK product price; pack size needs confirmation.",
-    "freshness_status": "frozen_excluded",
+    "freshness_status": "needs_recheck",
     "active_fresh_scope": false
   },
   {
@@ -2055,7 +2055,7 @@
       "https://obchod.farmamoulisovych.cz/maso/bio-hovezi-maso-mlete/"
     ],
     "notes": "New Czech organic producer lead; page publishes 340 CZK/kg, but current pack/availability must be checked.",
-    "freshness_status": "frozen_excluded",
+    "freshness_status": "needs_recheck",
     "active_fresh_scope": false
   },
   {
@@ -2087,7 +2087,7 @@
       "https://www.statekwinter.cz/prodej-masa/bio-vyzrale-hovezi-mlete-maso/"
     ],
     "notes": "New Czech organic producer lead; published price range 140–280 CZK, exact pack/weight to confirm.",
-    "freshness_status": "frozen_excluded",
+    "freshness_status": "needs_recheck",
     "active_fresh_scope": false
   },
   {
@@ -2119,7 +2119,7 @@
       "https://www.szeleshus.hu/bio-marha-maj"
     ],
     "notes": "New Hungarian organic processor lead; page lists BIO minced beef 300 g at 3,280 HUF.",
-    "freshness_status": "frozen_excluded",
+    "freshness_status": "needs_recheck",
     "active_fresh_scope": false
   },
   {
@@ -2151,7 +2151,7 @@
       "https://www.viragoskut.hu/bio-marha-elokeszitett-daralt-hus-5kg-felett-4553"
     ],
     "notes": "New Hungarian bulk organic minced-beef lead; 5 kg+ offer is a strong volume signal.",
-    "freshness_status": "frozen_excluded",
+    "freshness_status": "needs_recheck",
     "active_fresh_scope": false
   },
   {
