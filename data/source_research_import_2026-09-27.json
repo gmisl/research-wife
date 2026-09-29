@@ -499,8 +499,24 @@
     }
   },
   "notes": [
+    "Attachment checked on 2026-09-29: 101 paragraphs and 6 tables.",
     "The document is mainly about frozen minced meat, while the active project scope is now fresh only.",
     "The document contains valuable leads and price hypotheses but some rows lack direct product-page proof.",
-    "Use it for candidate discovery and verification queues, not as verified fact."
-  ]
+    "Use it for candidate discovery and verification queues, not as verified fact.",
+    "Fresh/chilled leads from the document remain needs_recheck until official product, certification and multi-pallet evidence are found."
+  ],
+  "source_attachment_filename": "01-EU-Organic-Meat-Research.docx",
+  "source_read_at": "2026-09-29",
+  "source_document_note": "This import is based on the user-provided DOCX attachment. The earlier Google Docs URL is retained only as a prior source reference.",
+  "document_structure_checked": {
+    "paragraphs": 101,
+    "tables": 6,
+    "checked_against_active_scope": true
+  },
+  "scope_decision": {
+    "active_scope": "fresh_chilled_only",
+    "frozen_records": "archive_excluded",
+    "organic_claims": "not_verified_until_operator_or_certificate_registry_is independently checked",
+    "prices": "not used in active statistics until exact source page, product state, supplier-country link and volume terms are checked"
+  }
 }
