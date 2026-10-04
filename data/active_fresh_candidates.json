@@ -1,5 +1,39 @@
 [
   {
+    "legal_name": "Fitmeat GmbH",
+    "country_code": "AT",
+    "supplier_type": "processor",
+    "priority_class": "secondary",
+    "product_family": "beef",
+    "category_code": "minced_beef",
+    "product_description": "BIO Faschiertes vom Rind, fresh Austrian organic minced beef, ca. 1 kg",
+    "organic_status": "Product page states BIO minced beef; official certificate still needs registry check",
+    "frozen_evidence": "Fresh/chilled evidence; not frozen in active scope",
+    "wholesale_evidence": "No pallet/MOQ shown; B2C/B2B service signals only",
+    "official_contact": {
+      "website": "https://www.fitmeat.at/shop/bio-fleisch/bio-faschiertes-vom-rind",
+      "email": "mail@fitmeat.at",
+      "phone": "+43 660 226 22 22",
+      "address": "Unteralberting 4, 4870 Vöcklamarkt, Austria"
+    },
+    "status": "unverified",
+    "checked_at": "2026-10-04",
+    "sources": [
+      "https://www.fitmeat.at/shop/bio-fleisch/bio-faschiertes-vom-rind"
+    ],
+    "price": {
+      "value": 29.9,
+      "currency": "EUR",
+      "unit": "EUR/kg",
+      "price_condition": "29.90 EUR/kg, ca. 1 kg pack",
+      "price_status": "published",
+      "channel": "market_reference"
+    },
+    "notes": "Page states fresh, not frozen, chilled delivery and Austrian origin. Useful Austria price signal; not industrial verified.",
+    "freshness_status": "fresh_evidence",
+    "active_fresh_scope": true
+  },
+  {
     "legal_name": "Sonnberg Biofleisch GmbH",
     "country_code": "AT",
     "supplier_type": "producer_processor",
@@ -76,36 +110,280 @@
     "active_fresh_scope": true
   },
   {
-    "legal_name": "Skrtica / Plodine benchmark",
-    "country_code": "HR",
-    "supplier_type": "other",
+    "legal_name": "Bioangus",
+    "country_code": "BG",
+    "supplier_type": "producer",
+    "priority_class": "primary",
+    "product_family": "beef",
+    "category_code": "minced_beef",
+    "product_description": "Fresh Black Angus beef mince, 0.5 kg / 1 kg / 4 kg / 8 kg options",
+    "organic_status": "Page claims organic quality; certificate body not captured",
+    "frozen_evidence": "Fresh/chilled evidence; not frozen in active scope",
+    "wholesale_evidence": "Bulk menu includes 4 kg and 8 kg options and separate wholesale/carcass request link",
+    "official_contact": {
+      "website": "https://www.bioangus.bg/products/500-teleshka-kaima-blek-angus-s-podpravki",
+      "email": "",
+      "phone": "+359886292996",
+      "address": "Sandanski, Bulgaria"
+    },
+    "status": "unverified",
+    "checked_at": "2026-10-04",
+    "sources": [
+      "https://www.bioangus.bg/products/500-teleshka-kaima-blek-angus-s-podpravki"
+    ],
+    "price": {
+      "value": 17.98,
+      "currency": "EUR",
+      "unit": "EUR/kg",
+      "price_condition": "17.98 EUR/kg shown on product page",
+      "price_status": "published",
+      "channel": "market_reference"
+    },
+    "notes": "Fresh chilled beef mince, delivered at -1 to +4 C; organic claim needs independent certificate confirmation.",
+    "freshness_status": "fresh_evidence",
+    "active_fresh_scope": true
+  },
+  {
+    "legal_name": "Horňácká ekofarma s.r.o. / Scuk.cz",
+    "country_code": "CZ",
+    "supplier_type": "producer",
     "priority_class": "secondary",
     "product_family": "beef",
     "category_code": "minced_beef",
-    "product_description": "Mixed minced meat country price benchmark",
-    "organic_status": "Not organic; benchmark only because a public organic minced-beef price was not found",
-    "frozen_evidence": "Fresh/chilled benchmark",
-    "wholesale_evidence": "No wholesale evidence",
+    "product_description": "BIO Fitness grass-fed hovězí mleté maso, min. 300 g",
+    "organic_status": "Product and seller marked BIO; certification body not captured",
+    "frozen_evidence": "Fresh/chilled evidence; not frozen in active scope",
+    "wholesale_evidence": "Not demonstrated; market/reference price only",
     "official_contact": {
-      "website": "https://www.skrtica.hr/proizvodi/mijesano-mljeveno-meso-0f824222",
+      "website": "https://www.scuk.cz/hovezi-maso/p/ZRP8AWYq",
       "email": "",
       "phone": "",
-      "address": "Croatia"
+      "address": "Malá Vrbka 24, 696 73 Malá Vrbka, Czechia"
     },
     "status": "unverified",
-    "checked_at": "2026-09-26",
+    "checked_at": "2026-10-04",
     "sources": [
-      "https://www.skrtica.hr/proizvodi/mijesano-mljeveno-meso-0f824222"
+      "https://www.scuk.cz/hovezi-maso/p/ZRP8AWYq"
     ],
     "price": {
-      "value": 7.05,
+      "value": 22.65,
       "currency": "EUR",
       "unit": "EUR/kg",
-      "price_condition": "published market comparison",
+      "original_value": 550,
+      "original_currency": "CZK",
+      "fx_rate": "Approx. 24.28 CZK/EUR used for weekly comparison",
+      "price_condition": "165 CZK per 300 g; 550 CZK/kg",
       "price_status": "published",
-      "channel": "country_market_benchmark"
+      "channel": "market_reference"
     },
-    "notes": "Croatia minimum price coverage; mixed beef/pork is not directly comparable with pure organic beef.",
+    "notes": "Chilled storage 0-7 C, Czech origin, own breeding yes. EUR conversion kept indicative.",
+    "freshness_status": "fresh_evidence",
+    "active_fresh_scope": true
+  },
+  {
+    "legal_name": "Josef’s Bio",
+    "country_code": "DE",
+    "supplier_type": "processor",
+    "priority_class": "secondary",
+    "product_family": "beef",
+    "category_code": "minced_beef",
+    "product_description": "Bio Rinder Hackfleisch 500 g, chilled/vacuum packed",
+    "organic_status": "Product states 100% organic quality; certification DE-ÖKO-037",
+    "frozen_evidence": "Fresh/chilled evidence; not frozen in active scope",
+    "wholesale_evidence": "Business customer section exists; no pallet/MOQ on product page",
+    "official_contact": {
+      "website": "https://josefsbio.de/products/rinder-hackfleisch-500g-2",
+      "email": "info@josefsbio.de",
+      "phone": "+49 69 41 67 49 40",
+      "address": "Frankfurt / Alsbach-Hähnlein, Germany"
+    },
+    "status": "unverified",
+    "checked_at": "2026-10-04",
+    "sources": [
+      "https://josefsbio.de/products/rinder-hackfleisch-500g-2"
+    ],
+    "price": {
+      "value": 27.98,
+      "currency": "EUR",
+      "unit": "EUR/kg",
+      "price_condition": "13.99 EUR per 500 g; 27.98 EUR/kg",
+      "price_status": "published",
+      "channel": "market_reference"
+    },
+    "notes": "Page states usually freshly prepared and chilled express delivery; may be deep-frozen in some cases, so needs recheck before wholesale use.",
+    "freshness_status": "fresh_evidence",
+    "active_fresh_scope": true,
+    "organic_certification_body": "DE-ÖKO-037"
+  },
+  {
+    "legal_name": "Liivimaa Lihaveis / Toiduhind.ee benchmark",
+    "country_code": "EE",
+    "supplier_type": "producer",
+    "priority_class": "secondary",
+    "product_family": "beef",
+    "category_code": "minced_beef",
+    "product_description": "Mahe rohumaaveise hakkliha, 300 g",
+    "organic_status": "Product marked mahe (organic); producer Liivimaa Lihaveis",
+    "frozen_evidence": "Fresh/chilled evidence; not frozen in active scope",
+    "wholesale_evidence": "No wholesale evidence; retailer/price comparison signal",
+    "official_contact": {
+      "website": "https://toiduhind.ee/toode/liivimaa-lihaveis-mahe-rohumaaveise-hakkliha-300g",
+      "email": "",
+      "phone": "",
+      "address": "Estonia"
+    },
+    "status": "unverified",
+    "checked_at": "2026-10-04",
+    "sources": [
+      "https://toiduhind.ee/toode/liivimaa-lihaveis-mahe-rohumaaveise-hakkliha-300g",
+      "https://www.rimi.ee/epood/en/products/meat-and-fish-products/minced-meat/minced-beef/mahe-rohum-veise-h-liha-liivima-lihaveis-300g/p/4005161"
+    ],
+    "price": {
+      "value": 19.3,
+      "currency": "EUR",
+      "unit": "EUR/kg",
+      "price_condition": "5.79 EUR per 300 g at Barbora; 19.30 EUR/kg, prices updated 2026-09-26",
+      "price_status": "published",
+      "channel": "price_index"
+    },
+    "notes": "Price comparison source; Rimi product page confirms organic/Estonian product but was out of stock.",
+    "freshness_status": "fresh_evidence",
+    "active_fresh_scope": true
+  },
+  {
+    "legal_name": "Ecobovis",
+    "country_code": "ES",
+    "supplier_type": "producer",
+    "priority_class": "primary",
+    "product_family": "beef",
+    "category_code": "minced_beef",
+    "product_description": "Carne picada ternera ECO, 1 kg",
+    "organic_status": "Product tagged eco/ecológica in grass-fed eco beef category",
+    "frozen_evidence": "Fresh/chilled evidence; not frozen in active scope",
+    "wholesale_evidence": "No pallet/MOQ shown; producer direct sales",
+    "official_contact": {
+      "website": "https://ecobovis.es/producto/carne_picada_ecologica-2/",
+      "email": "info@ecobovis.com",
+      "phone": "+34 650 707 772",
+      "address": "Spain"
+    },
+    "status": "unverified",
+    "checked_at": "2026-10-04",
+    "sources": [
+      "https://ecobovis.es/producto/carne_picada_ecologica-2/"
+    ],
+    "price": {
+      "value": 21.5,
+      "currency": "EUR",
+      "unit": "EUR/kg",
+      "price_condition": "21.50 EUR per 1 kg pack",
+      "price_status": "published",
+      "channel": "market_reference"
+    },
+    "notes": "Stock available on product page; exact certification body still needs registry check.",
+    "freshness_status": "fresh_evidence",
+    "active_fresh_scope": true
+  },
+  {
+    "legal_name": "S-kaupat / Atria Luomu",
+    "country_code": "FI",
+    "supplier_type": "distributor",
+    "priority_class": "secondary",
+    "product_family": "beef",
+    "category_code": "minced_beef",
+    "product_description": "Atria Luomu Nauta Jauheliha 12%, 400 g",
+    "organic_status": "EU organic/luomu product shown in S-kaupat listing",
+    "frozen_evidence": "Fresh/chilled evidence; not frozen in active scope",
+    "wholesale_evidence": "Not demonstrated; market/reference price only",
+    "official_contact": {
+      "website": "https://www.s-kaupat.fi/tuotteet/liha-ja-kasviproteiinit/jauheliha/naudan-jauheliha",
+      "email": "",
+      "phone": "",
+      "address": ""
+    },
+    "status": "unverified",
+    "checked_at": "2026-10-04",
+    "sources": [
+      "https://www.s-kaupat.fi/tuotteet/liha-ja-kasviproteiinit/jauheliha/naudan-jauheliha"
+    ],
+    "price": {
+      "value": 21.63,
+      "currency": "EUR",
+      "unit": "EUR/kg",
+      "price_condition": "8.65 EUR per 400 g; 21.63 EUR/kg",
+      "price_status": "published",
+      "channel": "market_reference"
+    },
+    "notes": "Retail market reference; product listing includes luomu minced beef and €/kg.",
+    "freshness_status": "fresh_evidence",
+    "active_fresh_scope": true
+  },
+  {
+    "legal_name": "La Ferme Biologique de Normandie - EARL des Capucines",
+    "country_code": "FR",
+    "supplier_type": "producer",
+    "priority_class": "primary",
+    "product_family": "beef",
+    "category_code": "minced_beef",
+    "product_description": "Haché de boeuf d'herbe bio, 4 steaks, 500 g, 15% fat",
+    "organic_status": "Page states certified organic by FR-BIO-01 / Label AB",
+    "frozen_evidence": "Fresh/chilled evidence; not frozen in active scope",
+    "wholesale_evidence": "No pallet/MOQ shown; producer direct sales and larger packs exist",
+    "official_contact": {
+      "website": "https://viande-bio-de-normandie.fr/boeuf-francais-a-griller/135-preparation-hachee-500g.html",
+      "email": "contact@viande-bio-de-normandie.fr",
+      "phone": "+33 1 75 86 41 91",
+      "address": "18 rue des Capucines, 78300 Poissy, France"
+    },
+    "status": "unverified",
+    "checked_at": "2026-10-04",
+    "sources": [
+      "https://viande-bio-de-normandie.fr/boeuf-francais-a-griller/135-preparation-hachee-500g.html"
+    ],
+    "price": {
+      "value": 29.95,
+      "currency": "EUR",
+      "unit": "EUR/kg",
+      "price_condition": "14.98 EUR per 500 g; page states 29.95 EUR/kg",
+      "price_status": "published",
+      "channel": "market_reference"
+    },
+    "notes": "Fresh product, vacuum packed, 10 days refrigerated, can be frozen after delivery.",
+    "freshness_status": "fresh_evidence",
+    "active_fresh_scope": true,
+    "organic_certification_body": "FR-BIO-01"
+  },
+  {
+    "legal_name": "Siakos.gr",
+    "country_code": "GR",
+    "supplier_type": "processor",
+    "priority_class": "secondary",
+    "product_family": "beef",
+    "category_code": "minced_beef",
+    "product_description": "Κιμάς Άπαχος από Βιολογική Μοσχίδα Ελλάδος",
+    "organic_status": "Organic beef category; product listed as biological Greek heifer mince",
+    "frozen_evidence": "Fresh/chilled evidence; not frozen in active scope",
+    "wholesale_evidence": "Horeca/wholesale department link shown; no MOQ captured",
+    "official_contact": {
+      "website": "https://siakos.gr/collections/viologiko-moschari",
+      "email": "info@siakos.gr",
+      "phone": "+30 2102401190",
+      "address": "Leoforos Ionias 42, Acharnes, Greece"
+    },
+    "status": "unverified",
+    "checked_at": "2026-10-04",
+    "sources": [
+      "https://siakos.gr/collections/viologiko-moschari"
+    ],
+    "price": {
+      "value": 22.68,
+      "currency": "EUR",
+      "unit": "EUR/kg",
+      "price_condition": "22.68 EUR/kg on organic beef collection listing",
+      "price_status": "published",
+      "channel": "market_reference"
+    },
+    "notes": "Collection shows multiple organic mince products and prices/kg; exact product page should be opened next run.",
     "freshness_status": "fresh_evidence",
     "active_fresh_scope": true
   },
@@ -148,6 +426,177 @@
     "active_fresh_scope": true
   },
   {
+    "legal_name": "OrganicMeat.ie / Coolanowle Organic Farm",
+    "country_code": "IE",
+    "supplier_type": "producer",
+    "priority_class": "primary",
+    "product_family": "beef",
+    "category_code": "minced_beef",
+    "product_description": "Organic Steak Mince, 500 g or 1 kg vacuum packs",
+    "organic_status": "Organic beef from Coolanowle organic farm; certifications page linked",
+    "frozen_evidence": "Fresh/chilled evidence; not frozen in active scope",
+    "wholesale_evidence": "No pallet/MOQ shown; producer direct, delivery and market collection",
+    "official_contact": {
+      "website": "https://organicmeat.ie/product/organic-steak-mince/",
+      "email": "",
+      "phone": "",
+      "address": "Coolanowle, Ballickmoyler, Co. Laois, Ireland"
+    },
+    "status": "unverified",
+    "checked_at": "2026-10-04",
+    "sources": [
+      "https://organicmeat.ie/product/organic-steak-mince/"
+    ],
+    "price": {
+      "value": 19.8,
+      "currency": "EUR",
+      "unit": "EUR/kg",
+      "price_condition": "9.90 EUR per 500 g; 19.80 EUR per 1 kg",
+      "price_status": "published",
+      "channel": "market_reference"
+    },
+    "notes": "Best within 3 days; suitable for immediate freezing; fresh producer lead.",
+    "freshness_status": "fresh_evidence",
+    "active_fresh_scope": true
+  },
+  {
+    "legal_name": "Azienda Agricola Boccea / Oasi Solaria",
+    "country_code": "IT",
+    "supplier_type": "producer",
+    "priority_class": "primary",
+    "product_family": "beef",
+    "category_code": "minced_beef",
+    "product_description": "Macinato scelto BIO, 500 g",
+    "organic_status": "Page states organic certification by C.C.P.B. and biodynamic certification by Demeter",
+    "frozen_evidence": "Fresh/chilled evidence; not frozen in active scope",
+    "wholesale_evidence": "No public pallet/MOQ; producer direct sales",
+    "official_contact": {
+      "website": "https://www.agricolaboccea.it/negozio/carne-bovina/pacco-macinato-scelto/",
+      "email": "",
+      "phone": "+39 06 61597316",
+      "address": "Via di Boccea 1321, 00166 Roma, Italy"
+    },
+    "status": "unverified",
+    "checked_at": "2026-10-04",
+    "sources": [
+      "https://www.agricolaboccea.it/negozio/carne-bovina/pacco-macinato-scelto/"
+    ],
+    "price": {
+      "value": 18,
+      "currency": "EUR",
+      "unit": "EUR/kg",
+      "price_condition": "9.00 EUR per 500 g; 18.00 EUR/kg",
+      "price_status": "published",
+      "channel": "market_reference"
+    },
+    "notes": "Fresh vacuum-packed product, 0-4 C storage; direct producer.",
+    "freshness_status": "fresh_evidence",
+    "active_fresh_scope": true,
+    "organic_certification_body": "C.C.P.B.; Demeter"
+  },
+  {
+    "legal_name": "UAB Horeca LT / MeatShop.lt",
+    "country_code": "LT",
+    "supplier_type": "wholesaler",
+    "priority_class": "secondary",
+    "product_family": "beef",
+    "category_code": "minced_beef",
+    "product_description": "Ekologiška malta jautiena, approx. 1 kg",
+    "organic_status": "Product states BIO certificate and organic product = yes",
+    "frozen_evidence": "Fresh/chilled evidence; not frozen in active scope",
+    "wholesale_evidence": "Company describes wholesale and retail meat trade; no pallet MOQ shown",
+    "official_contact": {
+      "website": "https://meatshop.lt/produktas/ekologiska-malta-jautiena-%EF%BD%9E1-kg/",
+      "email": "info@meatshop.lt",
+      "phone": "+370 624 12001",
+      "address": "Lithuania"
+    },
+    "status": "unverified",
+    "checked_at": "2026-10-04",
+    "sources": [
+      "https://meatshop.lt/produktas/ekologiska-malta-jautiena-%EF%BD%9E1-kg/"
+    ],
+    "price": {
+      "value": 12.99,
+      "currency": "EUR",
+      "unit": "EUR/kg",
+      "price_condition": "12.99 EUR, minimum weight 1 kg",
+      "price_status": "published",
+      "channel": "market_reference"
+    },
+    "notes": "Chilled product, vacuum pack, shelf life 10 days; origin LT/LV/EE.",
+    "freshness_status": "fresh_evidence",
+    "active_fresh_scope": true
+  },
+  {
+    "legal_name": "Boucherie traiteur Niessen / Luxcaddy",
+    "country_code": "LU",
+    "supplier_type": "processor",
+    "priority_class": "secondary",
+    "product_family": "beef",
+    "category_code": "minced_beef",
+    "product_description": "Haché pur boeuf nature bio, 400 g",
+    "organic_status": "Luxcaddy listing marks product as Bio and Made in Lux",
+    "frozen_evidence": "Fresh/chilled evidence; not frozen in active scope",
+    "wholesale_evidence": "No wholesale evidence; retail marketplace reference",
+    "official_contact": {
+      "website": "https://luxcaddy.lu/fr/products/30195/hache-pur-boeuf-nature-bio",
+      "email": "",
+      "phone": "",
+      "address": "Luxembourg"
+    },
+    "status": "unverified",
+    "checked_at": "2026-10-04",
+    "sources": [
+      "https://luxcaddy.lu/fr/products/30195/hache-pur-boeuf-nature-bio"
+    ],
+    "price": {
+      "value": 18.18,
+      "currency": "EUR",
+      "unit": "EUR/kg",
+      "price_condition": "7.27 EUR per 400 g; 18.18 EUR/kg; out of stock when crawled",
+      "price_status": "published",
+      "channel": "market_reference"
+    },
+    "notes": "Fresh butcher product; out of stock at crawl time, still useful as Luxembourg price signal.",
+    "freshness_status": "fresh_evidence",
+    "active_fresh_scope": true
+  },
+  {
+    "legal_name": "Hailanderi.lv",
+    "country_code": "LV",
+    "supplier_type": "producer",
+    "priority_class": "primary",
+    "product_family": "beef",
+    "category_code": "minced_beef",
+    "product_description": "Liellopa maltā gaļa, 500 g or 1 kg vacuum pack",
+    "organic_status": "Product URL/category indicates Latvian fresh meat cuts - BIO; certificate body not captured",
+    "frozen_evidence": "Fresh/chilled evidence; not frozen in active scope",
+    "wholesale_evidence": "No pallet/MOQ shown; 1 kg pack and producer lead",
+    "official_contact": {
+      "website": "https://www.hailanderi.lv/galas-sortiments/item/latvija-audzetas-svaigas-galas-griezumi--bio/nogatavinata-liellopu-galas-kotlesu-masa/",
+      "email": "",
+      "phone": "",
+      "address": "Latvia"
+    },
+    "status": "unverified",
+    "checked_at": "2026-10-04",
+    "sources": [
+      "https://www.hailanderi.lv/galas-sortiments/item/latvija-audzetas-svaigas-galas-griezumi--bio/nogatavinata-liellopu-galas-kotlesu-masa/"
+    ],
+    "price": {
+      "value": 11.9,
+      "currency": "EUR",
+      "unit": "EUR/kg",
+      "price_condition": "11.90 EUR/kg; 500 g or 1 kg vacuum pack",
+      "price_status": "published",
+      "channel": "market_reference"
+    },
+    "notes": "Fresh storage +4..+6 C; page says can be frozen. Certificate verification needed.",
+    "freshness_status": "fresh_evidence",
+    "active_fresh_scope": true
+  },
+  {
     "legal_name": "Meats & Eats",
     "country_code": "MT",
     "supplier_type": "distributor",
@@ -178,6 +627,77 @@
       "channel": "market_reference"
     },
     "notes": "Malta organic price coverage reference; availability is currently weak.",
+    "freshness_status": "fresh_evidence",
+    "active_fresh_scope": true
+  },
+  {
+    "legal_name": "Supermarktscanner.nl / Dutch retail benchmark",
+    "country_code": "NL",
+    "supplier_type": "other",
+    "priority_class": "secondary",
+    "product_family": "beef",
+    "category_code": "minced_beef",
+    "product_description": "BIO biologisch rundergehakt, 400 g retail benchmark",
+    "organic_status": "Price comparison lists organic beef mince products from major Dutch supermarkets",
+    "frozen_evidence": "Fresh/chilled evidence; not frozen in active scope",
+    "wholesale_evidence": "No wholesale evidence; price-index/market benchmark only",
+    "official_contact": {
+      "website": "https://www.supermarktscanner.nl/product-vergelijken/bio%20gehakt",
+      "email": "",
+      "phone": "",
+      "address": "Netherlands"
+    },
+    "status": "unverified",
+    "checked_at": "2026-10-04",
+    "sources": [
+      "https://www.supermarktscanner.nl/product-vergelijken/bio%20gehakt"
+    ],
+    "price": {
+      "value": 13.73,
+      "currency": "EUR",
+      "unit": "EUR/kg",
+      "price_condition": "Lowest organic beef mince signal shown at 13.73 EUR/kg",
+      "price_status": "published",
+      "channel": "price_index"
+    },
+    "notes": "Useful price-history source; not a supplier candidate for bulk procurement.",
+    "freshness_status": "fresh_evidence",
+    "active_fresh_scope": true
+  },
+  {
+    "legal_name": "Rolmięs / Ekoj.pl",
+    "country_code": "PL",
+    "supplier_type": "producer",
+    "priority_class": "secondary",
+    "product_family": "beef",
+    "category_code": "minced_beef",
+    "product_description": "Mięso mielone wołowe EKO Rolmięs, approx. 0.5 kg",
+    "organic_status": "Product and page state EKO/certified ecological beef",
+    "frozen_evidence": "Fresh/chilled evidence; not frozen in active scope",
+    "wholesale_evidence": "No pallet/MOQ shown; fresh delivery cycle and producer identified",
+    "official_contact": {
+      "website": "https://ekoj.pl/produkt/7880/mieso-mielone-wolowe-eko-rolmies.html",
+      "email": "",
+      "phone": "+48 665 443 565",
+      "address": "Poland"
+    },
+    "status": "unverified",
+    "checked_at": "2026-10-04",
+    "sources": [
+      "https://ekoj.pl/produkt/7880/mieso-mielone-wolowe-eko-rolmies.html"
+    ],
+    "price": {
+      "value": 28.04,
+      "currency": "EUR",
+      "unit": "EUR/kg",
+      "original_value": 120,
+      "original_currency": "PLN",
+      "fx_rate": "Approx. 4.28 PLN/EUR used for weekly comparison",
+      "price_condition": "120.00 PLN/kg; 60.00 PLN per ~0.5 kg",
+      "price_status": "published",
+      "channel": "market_reference"
+    },
+    "notes": "Page states all meats are fresh, never frozen; vacuum pack; exact certificate image needs follow-up.",
     "freshness_status": "fresh_evidence",
     "active_fresh_scope": true
   },
@@ -216,38 +736,79 @@
     "active_fresh_scope": true
   },
   {
-    "legal_name": "Meatbox / Ekofarma Turová",
-    "country_code": "SK",
-    "supplier_type": "producer",
+    "legal_name": "Nasul Roșu / SilvaniaBIO (BioForia)",
+    "country_code": "RO",
+    "supplier_type": "distributor",
     "priority_class": "secondary",
     "product_family": "beef",
     "category_code": "minced_beef",
-    "product_description": "Organic minced beef for burgers, 500 g vacuum pack",
-    "organic_status": "BIO product; Slovak organic farm origin stated",
-    "frozen_evidence": "Chilled 0–4°C; not frozen",
-    "wholesale_evidence": "Retail 500 g pack; no pallet MOQ shown",
+    "product_description": "Carne Tocată de Vită BIO, 20% fat, 450 g",
+    "organic_status": "Product states certified organic beef and BIO certificate",
+    "frozen_evidence": "Fresh/chilled evidence; not frozen in active scope",
+    "wholesale_evidence": "No pallet/MOQ shown; market price reference",
     "official_contact": {
-      "website": "https://www.meatbox.sk/hovadzie-mlete-bio-maso/",
-      "email": "obchod@meatbox.sk",
-      "phone": "0904181847",
-      "address": "Slovakia"
+      "website": "https://nasulrosu.ro/product/carne-tocata-de-vita-eco-20-grasime-silvaniabio-ro/",
+      "email": "",
+      "phone": "+40 754 211 696",
+      "address": "Romania"
     },
     "status": "unverified",
-    "checked_at": "2026-09-26",
+    "checked_at": "2026-10-04",
     "sources": [
-      "https://www.meatbox.sk/hovadzie-mlete-bio-maso/"
+      "https://nasulrosu.ro/product/carne-tocata-de-vita-eco-20-grasime-silvaniabio-ro/"
     ],
     "price": {
-      "value": 17.8,
+      "value": 27.25,
       "currency": "EUR",
       "unit": "EUR/kg",
-      "price_condition": "8.90 EUR per 500 g pack",
+      "original_value": 135.5,
+      "original_currency": "RON",
+      "fx_rate": "Approx. 4.97 RON/EUR used for weekly comparison",
+      "price_condition": "135.50 RON/kg; 60.98 RON per 450 g",
       "price_status": "published",
       "channel": "market_reference"
     },
-    "notes": "Slovakia organic price coverage; chilled retail reference.",
+    "notes": "Fresh product, MAP pack, 10-day shelf life, Romanian origin.",
     "freshness_status": "fresh_evidence",
     "active_fresh_scope": true
+  },
+  {
+    "legal_name": "Mathem / Scan Sverige AB",
+    "country_code": "SE",
+    "supplier_type": "distributor",
+    "priority_class": "secondary",
+    "product_family": "beef",
+    "category_code": "minced_beef",
+    "product_description": "Scan Nötfärs 12% EKO/KRAV, 400 g",
+    "organic_status": "Product page shows Ekologiskt, KRAV and EU Organic Farming icons",
+    "frozen_evidence": "Fresh/chilled evidence; not frozen in active scope",
+    "wholesale_evidence": "No pallet/MOQ shown; retail price reference",
+    "official_contact": {
+      "website": "https://www.mathem.se/se/products/2787-scan-notfars-12-eko-krav/",
+      "email": "",
+      "phone": "020-59 59 77",
+      "address": "Sweden"
+    },
+    "status": "unverified",
+    "checked_at": "2026-10-04",
+    "sources": [
+      "https://www.mathem.se/se/products/2787-scan-notfars-12-eko-krav/"
+    ],
+    "price": {
+      "value": 21.15,
+      "currency": "EUR",
+      "unit": "EUR/kg",
+      "original_value": 231.25,
+      "original_currency": "SEK",
+      "fx_rate": "Approx. 10.93 SEK/EUR used for weekly comparison",
+      "price_condition": "92.50 SEK per 400 g; 231.25 SEK/kg",
+      "price_status": "published",
+      "channel": "market_reference"
+    },
+    "notes": "Fresh goods guarantee 3 days; out of stock when crawled but price is visible.",
+    "freshness_status": "fresh_evidence",
+    "active_fresh_scope": true,
+    "organic_certification_body": "KRAV / EU Organic"
   },
   {
     "legal_name": "Ekološka kmetija Žgajnar",
@@ -280,6 +841,40 @@
       "channel": "market_reference"
     },
     "notes": "Slovenia organic bulk price reference; 5 kg pack is useful for industrial comparison but not a pallet quote.",
+    "freshness_status": "fresh_evidence",
+    "active_fresh_scope": true
+  },
+  {
+    "legal_name": "Meatbox / Ekofarma Turová",
+    "country_code": "SK",
+    "supplier_type": "producer",
+    "priority_class": "secondary",
+    "product_family": "beef",
+    "category_code": "minced_beef",
+    "product_description": "Organic minced beef for burgers, 500 g vacuum pack",
+    "organic_status": "BIO product; Slovak organic farm origin stated",
+    "frozen_evidence": "Chilled 0–4°C; not frozen",
+    "wholesale_evidence": "Retail 500 g pack; no pallet MOQ shown",
+    "official_contact": {
+      "website": "https://www.meatbox.sk/hovadzie-mlete-bio-maso/",
+      "email": "obchod@meatbox.sk",
+      "phone": "0904181847",
+      "address": "Slovakia"
+    },
+    "status": "unverified",
+    "checked_at": "2026-09-26",
+    "sources": [
+      "https://www.meatbox.sk/hovadzie-mlete-bio-maso/"
+    ],
+    "price": {
+      "value": 17.8,
+      "currency": "EUR",
+      "unit": "EUR/kg",
+      "price_condition": "8.90 EUR per 500 g pack",
+      "price_status": "published",
+      "channel": "market_reference"
+    },
+    "notes": "Slovakia organic price coverage; chilled retail reference.",
     "freshness_status": "fresh_evidence",
     "active_fresh_scope": true
   }
