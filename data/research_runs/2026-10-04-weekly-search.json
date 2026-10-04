@@ -1,0 +1,57 @@
+{
+  "run_date": "2026-10-04",
+  "scope": "EU organic fresh/chilled meat supplier and price search",
+  "active_candidates_after_run": 25,
+  "countries_with_active_price_signal": [
+    "AT",
+    "BE",
+    "BG",
+    "CZ",
+    "DE",
+    "EE",
+    "ES",
+    "FI",
+    "FR",
+    "GR",
+    "HU",
+    "IE",
+    "IT",
+    "LT",
+    "LU",
+    "LV",
+    "MT",
+    "NL",
+    "PL",
+    "PT",
+    "RO",
+    "SE",
+    "SI",
+    "SK"
+  ],
+  "removed_from_active": [
+    {
+      "country_code": "HR",
+      "name": "Skrtica / Plodine benchmark",
+      "reason": "Not organic; kept out of active organic fresh candidate list"
+    }
+  ],
+  "unresolved_countries": [
+    {
+      "country_code": "CY",
+      "reason": "Found organic beef mince at The Ribeye Club, but it is frozen; fresh/chilled organic mince not found this run."
+    },
+    {
+      "country_code": "DK",
+      "reason": "Found frozen organic mince and fresh non-organic/free-range mince; fresh/chilled organic mince not confirmed this run."
+    },
+    {
+      "country_code": "HR",
+      "reason": "Only non-organic minced beef benchmark found this run; no active organic fresh mince source confirmed."
+    }
+  ],
+  "notes": [
+    "Most records remain unverified leads until certification registry and bulk/MOQ evidence are confirmed.",
+    "Non-EUR prices were converted approximately for chart comparability; original values are preserved in each price object.",
+    "Retail/market references are kept separate via price.channel and should not be treated as industrial wholesale quotes."
+  ]
+}
